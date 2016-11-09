@@ -1,0 +1,5006 @@
+id,key,value,type
+26778799,highway,traffic_signals,regular
+26781898,highway,traffic_signals,regular
+137378055,created_by,JOSM,regular
+137408236,created_by,JOSM,regular
+137408656,created_by,JOSM,regular
+137409034,created_by,JOSM,regular
+137409378,created_by,JOSM,regular
+137409697,created_by,JOSM,regular
+137410018,created_by,JOSM,regular
+137410374,created_by,JOSM,regular
+137410701,created_by,JOSM,regular
+137411010,created_by,JOSM,regular
+137411318,created_by,JOSM,regular
+137411648,created_by,JOSM,regular
+137412023,created_by,JOSM,regular
+137412632,created_by,JOSM,regular
+139697526,exit_to,Paya Lebar Road;Geylang Road;Airport Road,regular
+139697526,highway,motorway_junction,regular
+139697526,name,Paya Lebar,regular
+139697526,ref,11,regular
+148981667,created_by,JOSM,regular
+148982209,created_by,JOSM,regular
+148990874,created_by,JOSM,regular
+148992646,created_by,JOSM,regular
+157992305,created_by,JOSM,regular
+158003547,created_by,JOSM,regular
+158003907,created_by,JOSM,regular
+158004297,created_by,JOSM,regular
+158015014,created_by,JOSM,regular
+158015313,created_by,JOSM,regular
+158015832,created_by,JOSM,regular
+158016216,created_by,JOSM,regular
+158042797,created_by,JOSM,regular
+158043131,created_by,JOSM,regular
+158043238,created_by,JOSM,regular
+158043337,created_by,JOSM,regular
+158043692,created_by,JOSM,regular
+158044013,created_by,JOSM,regular
+158044380,created_by,JOSM,regular
+158045363,created_by,JOSM,regular
+158045635,created_by,JOSM,regular
+158052886,created_by,JOSM,regular
+158053205,created_by,JOSM,regular
+158066942,created_by,JOSM,regular
+158068069,created_by,JOSM,regular
+172518159,created_by,JOSM,regular
+172566179,created_by,JOSM,regular
+175213763,created_by,JOSM,regular
+175226729,created_by,JOSM,regular
+175227205,created_by,JOSM,regular
+175227550,created_by,JOSM,regular
+175258680,highway,traffic_signals,regular
+175296516,created_by,JOSM,regular
+175320111,created_by,JOSM,regular
+206493462,name,Kallang,regular
+206493462,en,Kallang,name
+206493462,zh,加冷,name
+206493462,railway,station,regular
+206493462,ref,EW10,regular
+206493462,wheelchair,yes,regular
+206833803,highway,traffic_signals,regular
+207725948,name,Tampines,regular
+207725948,railway,station,regular
+207725948,ref,EW2;DT32,regular
+207725948,wheelchair,yes,regular
+208523720,name,Tiong Bahru,regular
+208523720,en,Tiong Bahru,name
+208523720,zh,中峇鲁,name
+208523720,railway,station,regular
+208523720,ref,EW17,regular
+209451044,name,Clementi,regular
+209451044,en,Clementi,name
+209451044,ta,கிளிமெண்டி,name
+209451044,zh,金文泰,name
+209451044,railway,station,regular
+209451044,ref,EW23,regular
+209451044,wheelchair,yes,regular
+211885056,created_by,JOSM,regular
+211910554,created_by,JOSM,regular
+213010628,created_by,JOSM,regular
+213026767,name,Sengkang,regular
+213026767,railway,station,regular
+213026767,ref,NE16;STC,regular
+213026767,wheelchair,yes,regular
+213126531,name,Chinatown,regular
+213126531,zh,牛车水,name
+213126531,railway,station,regular
+213126531,ref,NE4;DT19,regular
+214293094,created_by,JOSM,regular
+214293518,created_by,JOSM,regular
+214294635,created_by,JOSM,regular
+214306160,created_by,JOSM,regular
+214332458,created_by,JOSM,regular
+214332849,created_by,JOSM,regular
+214333207,created_by,JOSM,regular
+214333679,created_by,JOSM,regular
+214334045,created_by,JOSM,regular
+214334350,created_by,JOSM,regular
+214334732,created_by,JOSM,regular
+214335116,created_by,JOSM,regular
+214345145,created_by,JOSM,regular
+214345474,created_by,JOSM,regular
+214345827,created_by,JOSM,regular
+214346150,created_by,JOSM,regular
+214346487,created_by,JOSM,regular
+214346807,created_by,JOSM,regular
+214347173,created_by,JOSM,regular
+214356024,created_by,JOSM,regular
+214356423,created_by,JOSM,regular
+214356750,created_by,JOSM,regular
+214357085,created_by,JOSM,regular
+214357494,created_by,JOSM,regular
+214357841,created_by,JOSM,regular
+214358170,created_by,JOSM,regular
+214358500,created_by,JOSM,regular
+214358943,created_by,JOSM,regular
+214392694,created_by,JOSM,regular
+214393030,created_by,JOSM,regular
+214393408,created_by,JOSM,regular
+214393783,created_by,JOSM,regular
+214394196,created_by,JOSM,regular
+214394444,created_by,JOSM,regular
+214394764,created_by,JOSM,regular
+214395878,created_by,JOSM,regular
+214409889,created_by,JOSM,regular
+214410299,created_by,JOSM,regular
+214410699,created_by,JOSM,regular
+214411180,created_by,JOSM,regular
+214953139,created_by,JOSM,regular
+214953422,created_by,JOSM,regular
+214953722,created_by,JOSM,regular
+214954009,created_by,JOSM,regular
+214954296,created_by,JOSM,regular
+214954609,created_by,JOSM,regular
+214962680,created_by,JOSM,regular
+214962971,created_by,JOSM,regular
+214963304,created_by,JOSM,regular
+214963603,created_by,JOSM,regular
+214963945,created_by,JOSM,regular
+214969734,created_by,JOSM,regular
+214970170,created_by,JOSM,regular
+214977946,created_by,JOSM,regular
+214978289,created_by,JOSM,regular
+214983325,created_by,JOSM,regular
+214983646,created_by,JOSM,regular
+214986599,created_by,JOSM,regular
+214986921,created_by,JOSM,regular
+214993494,created_by,JOSM,regular
+214993794,created_by,JOSM,regular
+214994104,created_by,JOSM,regular
+214997316,created_by,JOSM,regular
+214997655,created_by,JOSM,regular
+215003690,created_by,JOSM,regular
+215004069,created_by,JOSM,regular
+215004415,created_by,JOSM,regular
+215004799,created_by,JOSM,regular
+215005128,created_by,JOSM,regular
+215012189,created_by,JOSM,regular
+215012450,created_by,JOSM,regular
+215030483,created_by,JOSM,regular
+215030804,created_by,JOSM,regular
+215031105,created_by,JOSM,regular
+215031404,created_by,JOSM,regular
+215031669,created_by,JOSM,regular
+215032326,created_by,JOSM,regular
+215280297,created_by,JOSM,regular
+215283863,created_by,JOSM,regular
+215342638,created_by,JOSM,regular
+215342975,created_by,JOSM,regular
+215343321,created_by,JOSM,regular
+215343645,created_by,JOSM,regular
+215366006,created_by,JOSM,regular
+215367400,created_by,JOSM,regular
+215367828,created_by,JOSM,regular
+215368207,created_by,JOSM,regular
+215368617,created_by,JOSM,regular
+215390994,created_by,JOSM,regular
+215391462,created_by,JOSM,regular
+215391834,created_by,JOSM,regular
+215392280,created_by,JOSM,regular
+215662400,created_by,JOSM,regular
+215662901,created_by,JOSM,regular
+215696686,created_by,JOSM,regular
+215696991,created_by,JOSM,regular
+215697318,created_by,JOSM,regular
+215704017,created_by,JOSM,regular
+217495097,created_by,JOSM,regular
+217495507,created_by,JOSM,regular
+217495872,created_by,JOSM,regular
+217764998,created_by,JOSM,regular
+217765447,created_by,JOSM,regular
+217765840,created_by,JOSM,regular
+217766150,created_by,JOSM,regular
+217766535,created_by,JOSM,regular
+217767034,created_by,JOSM,regular
+217767372,created_by,JOSM,regular
+217837724,created_by,JOSM,regular
+217838067,created_by,JOSM,regular
+217850555,created_by,JOSM,regular
+217851620,created_by,JOSM,regular
+217890452,created_by,JOSM,regular
+217890902,created_by,JOSM,regular
+217891340,created_by,JOSM,regular
+217905853,created_by,JOSM,regular
+217906837,created_by,JOSM,regular
+217907325,created_by,JOSM,regular
+217907756,created_by,JOSM,regular
+217921207,created_by,JOSM,regular
+217921636,created_by,JOSM,regular
+218075345,created_by,JOSM,regular
+218075741,created_by,JOSM,regular
+218076066,created_by,JOSM,regular
+218076404,created_by,JOSM,regular
+218076695,created_by,JOSM,regular
+218082163,created_by,JOSM,regular
+218226247,created_by,JOSM,regular
+218226810,created_by,JOSM,regular
+218227679,created_by,JOSM,regular
+218227948,created_by,JOSM,regular
+218228207,created_by,JOSM,regular
+218242163,created_by,JOSM,regular
+218364262,created_by,JOSM,regular
+218376840,created_by,JOSM,regular
+219414443,created_by,JOSM,regular
+219438544,created_by,JOSM,regular
+219438982,created_by,JOSM,regular
+219439387,created_by,JOSM,regular
+219451044,created_by,JOSM,regular
+219451483,created_by,JOSM,regular
+219510795,created_by,JOSM,regular
+219529306,created_by,JOSM,regular
+219563313,created_by,JOSM,regular
+219563813,created_by,JOSM,regular
+219564236,created_by,JOSM,regular
+219586394,created_by,JOSM,regular
+219586798,created_by,JOSM,regular
+219587220,created_by,JOSM,regular
+219587631,created_by,JOSM,regular
+219588036,created_by,JOSM,regular
+219610580,created_by,JOSM,regular
+219611076,created_by,JOSM,regular
+219699829,created_by,JOSM,regular
+219723052,created_by,JOSM,regular
+219723529,created_by,JOSM,regular
+219735078,created_by,JOSM,regular
+219735606,created_by,JOSM,regular
+220690293,created_by,JOSM,regular
+220690653,created_by,JOSM,regular
+220691005,created_by,JOSM,regular
+220713383,created_by,JOSM,regular
+220713830,created_by,JOSM,regular
+220714393,created_by,JOSM,regular
+220735244,created_by,JOSM,regular
+220735658,created_by,JOSM,regular
+220736084,created_by,JOSM,regular
+220736522,created_by,JOSM,regular
+220736943,created_by,JOSM,regular
+220741409,created_by,JOSM,regular
+220741837,created_by,JOSM,regular
+220772301,created_by,JOSM,regular
+220772700,created_by,JOSM,regular
+220886810,created_by,JOSM,regular
+220911719,created_by,JOSM,regular
+220912255,created_by,JOSM,regular
+220913683,created_by,JOSM,regular
+220914143,created_by,JOSM,regular
+220925292,created_by,JOSM,regular
+220925768,created_by,JOSM,regular
+220954715,created_by,JOSM,regular
+220955269,created_by,JOSM,regular
+220955800,created_by,JOSM,regular
+220956300,created_by,JOSM,regular
+221243858,created_by,JOSM,regular
+221244279,created_by,JOSM,regular
+221244653,created_by,JOSM,regular
+221245031,created_by,JOSM,regular
+221245445,created_by,JOSM,regular
+221246165,created_by,JOSM,regular
+221251583,created_by,JOSM,regular
+221276753,created_by,JOSM,regular
+221277203,created_by,JOSM,regular
+221277557,created_by,JOSM,regular
+221277923,created_by,JOSM,regular
+221278368,created_by,JOSM,regular
+223845452,created_by,JOSM,regular
+223845800,created_by,JOSM,regular
+223865931,created_by,JOSM,regular
+223866750,created_by,JOSM,regular
+223867334,created_by,JOSM,regular
+223868122,created_by,JOSM,regular
+223868708,created_by,JOSM,regular
+223869237,created_by,JOSM,regular
+223869713,created_by,JOSM,regular
+223870272,created_by,JOSM,regular
+223870938,created_by,JOSM,regular
+223871450,created_by,JOSM,regular
+223895174,created_by,JOSM,regular
+223895669,created_by,JOSM,regular
+223896165,created_by,JOSM,regular
+223896590,created_by,JOSM,regular
+223897172,created_by,JOSM,regular
+223897582,created_by,JOSM,regular
+223898075,created_by,JOSM,regular
+223898558,created_by,JOSM,regular
+223923703,created_by,JOSM,regular
+224101794,created_by,JOSM,regular
+224102220,created_by,JOSM,regular
+224102740,created_by,JOSM,regular
+224103183,created_by,JOSM,regular
+224109226,created_by,JOSM,regular
+224109656,created_by,JOSM,regular
+224110028,created_by,JOSM,regular
+224110348,created_by,JOSM,regular
+226158855,created_by,JOSM,regular
+226159335,created_by,JOSM,regular
+226159797,created_by,JOSM,regular
+229181869,created_by,JOSM,regular
+229213332,created_by,JOSM,regular
+229214728,created_by,JOSM,regular
+230866495,created_by,JOSM,regular
+230887524,highway,traffic_signals,regular
+232082907,highway,traffic_signals,regular
+232105792,highway,traffic_signals,regular
+233879574,highway,traffic_signals,regular
+235071929,created_by,JOSM,regular
+236473986,created_by,JOSM,regular
+236474390,created_by,JOSM,regular
+236508229,created_by,JOSM,regular
+236594836,created_by,JOSM,regular
+236595205,created_by,JOSM,regular
+236595506,created_by,JOSM,regular
+236618451,created_by,JOSM,regular
+236636833,created_by,JOSM,regular
+236727658,created_by,JOSM,regular
+236772286,created_by,JOSM,regular
+236772565,created_by,JOSM,regular
+236773106,created_by,JOSM,regular
+236820320,created_by,JOSM,regular
+236820716,created_by,JOSM,regular
+236821164,created_by,JOSM,regular
+236821691,created_by,JOSM,regular
+236822475,created_by,JOSM,regular
+236822831,created_by,JOSM,regular
+236823684,created_by,JOSM,regular
+237012269,highway,traffic_signals,regular
+237219210,created_by,JOSM,regular
+237397438,created_by,JOSM,regular
+237399323,created_by,JOSM,regular
+237492271,created_by,JOSM,regular
+239824279,created_by,JOSM,regular
+240035793,created_by,JOSM,regular
+240708026,created_by,JOSM,regular
+241595360,created_by,JOSM,regular
+241824690,created_by,JOSM,regular
+241900995,created_by,JOSM,regular
+241926325,created_by,JOSM,regular
+241978057,highway,crossing,regular
+242576329,created_by,JOSM,regular
+242589236,created_by,JOSM,regular
+242590167,created_by,JOSM,regular
+242601366,created_by,JOSM,regular
+242615085,created_by,JOSM,regular
+242615580,created_by,JOSM,regular
+242661325,created_by,JOSM,regular
+242932860,created_by,JOSM,regular
+243208136,exit_to,Ang Mo Kio Avenue 3,regular
+243208136,highway,motorway_junction,regular
+243208136,name,Ang Mo Kio Central,regular
+243208136,ref,12A,regular
+243208315,highway,traffic_signals,regular
+243213816,created_by,JOSM,regular
+243218736,created_by,JOSM,regular
+243415141,created_by,JOSM,regular
+243415187,created_by,JOSM,regular
+243421578,created_by,JOSM,regular
+243463548,created_by,JOSM,regular
+243463972,created_by,JOSM,regular
+243480908,highway,traffic_signals,regular
+243492245,highway,motorway_junction,regular
+243492245,ref,7B,regular
+243494149,highway,motorway_junction,regular
+243494149,ref,14,regular
+243508529,created_by,JOSM,regular
+243508751,created_by,JOSM,regular
+243677038,created_by,JOSM,regular
+243677073,created_by,JOSM,regular
+243678643,created_by,JOSM,regular
+243680761,created_by,JOSM,regular
+243700225,created_by,JOSM,regular
+243700320,created_by,JOSM,regular
+243704759,created_by,JOSM,regular
+243713187,created_by,JOSM,regular
+243713218,created_by,JOSM,regular
+243854277,created_by,JOSM,regular
+243855783,created_by,JOSM,regular
+243857125,created_by,JOSM,regular
+243857139,created_by,JOSM,regular
+243857152,created_by,JOSM,regular
+243857172,created_by,JOSM,regular
+243857188,created_by,JOSM,regular
+243857210,created_by,JOSM,regular
+243998746,created_by,JOSM,regular
+244000977,created_by,JOSM,regular
+244001032,created_by,JOSM,regular
+244001398,created_by,JOSM,regular
+244001809,created_by,JOSM,regular
+244131837,created_by,JOSM,regular
+244131854,created_by,JOSM,regular
+244131921,created_by,JOSM,regular
+244131937,created_by,JOSM,regular
+244131961,created_by,JOSM,regular
+244138734,created_by,JOSM,regular
+244138855,created_by,JOSM,regular
+244139519,created_by,JOSM,regular
+244139547,created_by,JOSM,regular
+244139601,created_by,JOSM,regular
+244148570,created_by,JOSM,regular
+244148592,created_by,JOSM,regular
+244148674,created_by,JOSM,regular
+244148717,created_by,JOSM,regular
+244148733,created_by,JOSM,regular
+244148786,created_by,JOSM,regular
+244148996,created_by,JOSM,regular
+244149077,created_by,JOSM,regular
+244149187,created_by,JOSM,regular
+244169758,created_by,JOSM,regular
+244170305,created_by,JOSM,regular
+244170417,highway,traffic_signals,regular
+244170547,created_by,JOSM,regular
+244316729,created_by,JOSM,regular
+244316743,created_by,JOSM,regular
+244316765,created_by,JOSM,regular
+244316782,created_by,JOSM,regular
+244322155,created_by,JOSM,regular
+244322173,created_by,JOSM,regular
+244324301,created_by,JOSM,regular
+244324355,created_by,JOSM,regular
+244325700,created_by,JOSM,regular
+244326017,highway,traffic_signals,regular
+244372743,created_by,JOSM,regular
+244375004,created_by,JOSM,regular
+244383181,created_by,JOSM,regular
+244383471,created_by,JOSM,regular
+244487203,created_by,JOSM,regular
+244487965,created_by,JOSM,regular
+244489146,created_by,JOSM,regular
+244489160,created_by,JOSM,regular
+244490592,created_by,JOSM,regular
+244490610,created_by,JOSM,regular
+244490626,created_by,JOSM,regular
+244490652,created_by,JOSM,regular
+244490671,created_by,JOSM,regular
+244490687,created_by,JOSM,regular
+244490818,created_by,JOSM,regular
+244492320,created_by,JOSM,regular
+244492349,created_by,JOSM,regular
+244492362,created_by,JOSM,regular
+244492376,created_by,JOSM,regular
+244492668,created_by,JOSM,regular
+244500510,created_by,JOSM,regular
+244500598,created_by,JOSM,regular
+244500612,created_by,JOSM,regular
+244501950,created_by,JOSM,regular
+244505612,created_by,JOSM,regular
+244505661,created_by,JOSM,regular
+244505805,created_by,JOSM,regular
+244505916,created_by,JOSM,regular
+244893832,created_by,JOSM,regular
+244893847,created_by,JOSM,regular
+244918512,created_by,JOSM,regular
+244918890,created_by,JOSM,regular
+244918956,created_by,JOSM,regular
+244921918,created_by,JOSM,regular
+244930881,created_by,JOSM,regular
+244930970,created_by,JOSM,regular
+244931057,created_by,JOSM,regular
+244931125,created_by,JOSM,regular
+244936339,created_by,JOSM,regular
+244936570,created_by,JOSM,regular
+244945088,created_by,JOSM,regular
+244945170,created_by,JOSM,regular
+244952411,created_by,JOSM,regular
+244954980,created_by,JOSM,regular
+244957698,created_by,JOSM,regular
+244963678,created_by,JOSM,regular
+244990139,created_by,JOSM,regular
+245174829,created_by,JOSM,regular
+245198517,created_by,JOSM,regular
+245242826,created_by,JOSM,regular
+245242930,created_by,JOSM,regular
+245243140,created_by,JOSM,regular
+245243505,created_by,JOSM,regular
+245373246,created_by,JOSM,regular
+245373588,created_by,JOSM,regular
+245378779,created_by,JOSM,regular
+245404171,created_by,JOSM,regular
+245568681,created_by,JOSM,regular
+245568731,created_by,JOSM,regular
+245568770,created_by,JOSM,regular
+245576362,created_by,JOSM,regular
+245586447,created_by,JOSM,regular
+245933956,created_by,JOSM,regular
+246121982,created_by,JOSM,regular
+246123165,created_by,JOSM,regular
+246125346,created_by,JOSM,regular
+246128084,created_by,JOSM,regular
+246132221,created_by,JOSM,regular
+246132273,created_by,JOSM,regular
+246134238,created_by,JOSM,regular
+246140841,created_by,JOSM,regular
+246140971,created_by,JOSM,regular
+246141099,created_by,JOSM,regular
+246141168,created_by,JOSM,regular
+246144625,created_by,JOSM,regular
+246144661,created_by,JOSM,regular
+246144977,created_by,JOSM,regular
+246158638,highway,traffic_signals,regular
+246167918,created_by,JOSM,regular
+246172463,created_by,JOSM,regular
+246175079,created_by,JOSM,regular
+246178950,created_by,JOSM,regular
+246179202,created_by,JOSM,regular
+246182064,created_by,JOSM,regular
+246293825,created_by,JOSM,regular
+246294569,created_by,JOSM,regular
+246294583,created_by,JOSM,regular
+246294767,highway,traffic_signals,regular
+246579433,created_by,JOSM,regular
+246579471,created_by,JOSM,regular
+246579656,created_by,JOSM,regular
+246579683,created_by,JOSM,regular
+246579697,created_by,JOSM,regular
+246579715,created_by,JOSM,regular
+246579898,created_by,JOSM,regular
+246579933,created_by,JOSM,regular
+246579952,created_by,JOSM,regular
+246579965,created_by,JOSM,regular
+246580175,created_by,JOSM,regular
+246580209,created_by,JOSM,regular
+246580930,created_by,JOSM,regular
+246580947,created_by,JOSM,regular
+246582232,created_by,JOSM,regular
+246621385,created_by,JOSM,regular
+246621402,created_by,JOSM,regular
+246621417,created_by,JOSM,regular
+246621430,created_by,JOSM,regular
+246629746,created_by,JOSM,regular
+246629801,created_by,JOSM,regular
+246629844,created_by,JOSM,regular
+246631564,created_by,JOSM,regular
+246752266,created_by,JOSM,regular
+246800608,created_by,JOSM,regular
+246957222,created_by,JOSM,regular
+246957279,created_by,JOSM,regular
+246967767,created_by,JOSM,regular
+246967850,created_by,JOSM,regular
+246974935,created_by,JOSM,regular
+246986638,created_by,JOSM,regular
+246986716,created_by,JOSM,regular
+246986775,created_by,JOSM,regular
+246989467,created_by,JOSM,regular
+246989568,created_by,JOSM,regular
+247008191,created_by,JOSM,regular
+247008362,created_by,JOSM,regular
+247045491,created_by,JOSM,regular
+247045545,created_by,JOSM,regular
+247183828,created_by,JOSM,regular
+247189661,created_by,JOSM,regular
+247189813,created_by,JOSM,regular
+247211796,created_by,JOSM,regular
+247430201,created_by,JOSM,regular
+247432249,created_by,JOSM,regular
+247432317,created_by,JOSM,regular
+247432334,created_by,JOSM,regular
+247640488,created_by,JOSM,regular
+247640509,created_by,JOSM,regular
+247643409,created_by,JOSM,regular
+247643441,created_by,JOSM,regular
+247643486,created_by,JOSM,regular
+247643507,created_by,JOSM,regular
+247643524,created_by,JOSM,regular
+247643957,created_by,JOSM,regular
+247644099,created_by,JOSM,regular
+247644113,created_by,JOSM,regular
+247653125,created_by,JOSM,regular
+247653139,created_by,JOSM,regular
+247653160,created_by,JOSM,regular
+247653221,created_by,JOSM,regular
+247653236,created_by,JOSM,regular
+247653257,created_by,JOSM,regular
+247655243,created_by,JOSM,regular
+247655260,created_by,JOSM,regular
+247655336,created_by,JOSM,regular
+247747906,created_by,JOSM,regular
+247747930,created_by,JOSM,regular
+247747949,created_by,JOSM,regular
+247749722,created_by,JOSM,regular
+247752800,created_by,JOSM,regular
+247752829,created_by,JOSM,regular
+247752924,created_by,JOSM,regular
+247753853,created_by,JOSM,regular
+247753868,created_by,JOSM,regular
+248011091,created_by,JOSM,regular
+248011107,created_by,JOSM,regular
+248011135,created_by,JOSM,regular
+248416516,created_by,JOSM,regular
+248416578,created_by,JOSM,regular
+248417262,created_by,JOSM,regular
+248420624,created_by,JOSM,regular
+248894463,created_by,JOSM,regular
+248897234,created_by,JOSM,regular
+248902936,created_by,JOSM,regular
+249392309,created_by,JOSM,regular
+249392396,created_by,JOSM,regular
+249393286,created_by,JOSM,regular
+249400361,created_by,JOSM,regular
+249400462,created_by,JOSM,regular
+249401368,created_by,JOSM,regular
+249401588,created_by,JOSM,regular
+249402376,created_by,JOSM,regular
+249402402,created_by,JOSM,regular
+249792104,created_by,JOSM,regular
+249797248,created_by,JOSM,regular
+249798881,created_by,JOSM,regular
+249799923,created_by,JOSM,regular
+249804210,created_by,JOSM,regular
+250074070,created_by,JOSM,regular
+250074219,created_by,JOSM,regular
+250074284,created_by,JOSM,regular
+250080530,created_by,JOSM,regular
+250080665,created_by,JOSM,regular
+250083839,created_by,JOSM,regular
+250083866,created_by,JOSM,regular
+250083956,created_by,JOSM,regular
+250084001,created_by,JOSM,regular
+250084049,created_by,JOSM,regular
+250084099,created_by,JOSM,regular
+250084171,created_by,JOSM,regular
+250084213,created_by,JOSM,regular
+250084266,created_by,JOSM,regular
+250084492,created_by,JOSM,regular
+250084540,created_by,JOSM,regular
+250084654,created_by,JOSM,regular
+250084695,created_by,JOSM,regular
+250320364,created_by,JOSM,regular
+250321301,created_by,JOSM,regular
+250321385,created_by,JOSM,regular
+250322866,created_by,JOSM,regular
+250323104,created_by,JOSM,regular
+250323207,created_by,JOSM,regular
+250323295,created_by,JOSM,regular
+250323390,created_by,JOSM,regular
+250323452,created_by,JOSM,regular
+250324122,created_by,JOSM,regular
+250324174,created_by,JOSM,regular
+250326966,created_by,JOSM,regular
+250326998,created_by,JOSM,regular
+253912901,created_by,JOSM,regular
+253912927,created_by,JOSM,regular
+253912970,created_by,JOSM,regular
+253913033,created_by,JOSM,regular
+253916889,created_by,JOSM,regular
+253923657,created_by,JOSM,regular
+253923776,created_by,JOSM,regular
+253923888,created_by,JOSM,regular
+253924036,created_by,JOSM,regular
+253924154,created_by,JOSM,regular
+254073049,created_by,JOSM,regular
+254073049,is_in,"Johor Bahru, Johor, Malaysia",regular
+254073049,name,Tanjung Pelepas,regular
+254073049,place,hamlet,regular
+254074057,created_by,JOSM,regular
+254074057,is_in,"Batu Pahat, Johor, Malaysia",regular
+254074057,country,Malaysia,is_in
+254074057,state,Johor,is_in
+254074057,name,Simpang Enam,regular
+254074057,place,hamlet,regular
+254652241,created_by,JOSM,regular
+254668819,created_by,JOSM,regular
+256107631,created_by,JOSM,regular
+256107709,created_by,JOSM,regular
+256107809,created_by,JOSM,regular
+256107862,created_by,JOSM,regular
+260320279,created_by,JOSM,regular
+260320340,created_by,JOSM,regular
+260320408,created_by,JOSM,regular
+260320556,created_by,JOSM,regular
+260320759,created_by,JOSM,regular
+260320843,created_by,JOSM,regular
+260320879,created_by,JOSM,regular
+260320967,created_by,JOSM,regular
+260321093,created_by,JOSM,regular
+260321147,created_by,JOSM,regular
+260321212,created_by,JOSM,regular
+260321379,created_by,JOSM,regular
+260321443,created_by,JOSM,regular
+260321504,created_by,JOSM,regular
+260329153,created_by,JOSM,regular
+260329170,created_by,JOSM,regular
+260329186,created_by,JOSM,regular
+260329213,created_by,JOSM,regular
+260329744,created_by,JOSM,regular
+260330464,created_by,JOSM,regular
+260704023,created_by,JOSM,regular
+260704051,created_by,JOSM,regular
+260705046,created_by,JOSM,regular
+260705466,created_by,JOSM,regular
+260705529,created_by,JOSM,regular
+260705657,created_by,JOSM,regular
+260705670,created_by,JOSM,regular
+260705688,created_by,JOSM,regular
+260705805,created_by,JOSM,regular
+260705818,created_by,JOSM,regular
+260705831,created_by,JOSM,regular
+260705850,created_by,JOSM,regular
+260705863,created_by,JOSM,regular
+260705876,created_by,JOSM,regular
+260706360,created_by,JOSM,regular
+260706374,created_by,JOSM,regular
+260706387,created_by,JOSM,regular
+260706403,created_by,JOSM,regular
+260706417,created_by,JOSM,regular
+260706430,created_by,JOSM,regular
+260706443,created_by,JOSM,regular
+260706456,created_by,JOSM,regular
+260706469,created_by,JOSM,regular
+260706823,created_by,JOSM,regular
+260706864,created_by,JOSM,regular
+260706880,created_by,JOSM,regular
+260706903,created_by,JOSM,regular
+260706922,created_by,JOSM,regular
+260706967,created_by,JOSM,regular
+260707002,created_by,JOSM,regular
+260707622,created_by,JOSM,regular
+260707637,created_by,JOSM,regular
+260783227,created_by,JOSM,regular
+290398255,highway,motorway_junction,regular
+290398255,ref,312C,regular
+305640047,dsg,STRT,gns
+305640047,uni,-107606,gns
+305640047,name,Main Strait,regular
+305640047,natural,strait,regular
+305640047,place,locality,regular
+305640047,source,GNS,regular
+319829992,created_by,JOSM,regular
+319830014,created_by,JOSM,regular
+319830039,created_by,JOSM,regular
+319830133,created_by,JOSM,regular
+319830161,created_by,JOSM,regular
+319830174,created_by,JOSM,regular
+337171064,highway,traffic_signals,regular
+337172045,created_by,JOSM,regular
+337172707,created_by,JOSM,regular
+344489773,created_by,JOSM,regular
+344751888,name,Kempas Baru,regular
+344751888,railway,station,regular
+366652998,highway,motorway_junction,regular
+366652998,ref,14,regular
+367330912,highway,turning_circle,regular
+368249892,created_by,Potlatch 0.10f,regular
+368249892,operator,7-11,regular
+368249892,shop,convenience,regular
+368261001,amenity,coffeeshop,regular
+368261001,created_by,Potlatch 0.10f,regular
+368261001,operator,NTUC Foodfare,regular
+369128171,name,NTUC Fairprice,regular
+369128171,shop,supermarket,regular
+369128171,wheelchair,yes,regular
+369132824,amenity,place_of_worship,regular
+369132824,created_by,Potlatch 0.10f,regular
+369132824,name,Church of Christ - Lavender,regular
+369132824,religion,christian,regular
+370273221,amenity,restaurant,regular
+370273221,created_by,Potlatch 0.10f,regular
+370273221,name,Bali Culture Restaurant,regular
+371383029,amenity,parking,regular
+371383029,created_by,Potlatch 0.10f,regular
+387133091,name,Mountbatten,regular
+387133091,railway,station,regular
+387133091,ref,CC7,regular
+388553160,name,Telok Blangah,regular
+388553160,railway,station,regular
+388553160,ref,CC28,regular
+391190166,name,Renjong,regular
+391190166,railway,station,regular
+391190166,ref,SW8,regular
+391291499,amenity,coffeeshop,regular
+392680156,created_by,JOSM,regular
+410458896,asset_ref,41121,regular
+410458896,highway,bus_stop,regular
+410458896,location,Adam Road,regular
+410458896,name,Singapore Bible College,regular
+410458896,route_ref,74;93;157;165;852;855,regular
+410458924,asset_ref,58201,regular
+410458924,highway,bus_stop,regular
+410458924,location,Admiralty Road East,regular
+410458924,name,Before Prison Training School,regular
+410458924,route_ref,169,regular
+410459107,asset_ref,47051,regular
+410459107,highway,bus_stop,regular
+410459107,location,Admiralty Road West,regular
+410459107,name,IM Flash Singapore,regular
+410459107,route_ref,856,regular
+410459207,asset_ref,52479,regular
+410459207,highway,bus_stop,regular
+410459207,location,Ah Hood Road,regular
+410459207,name,Opposite EASB,regular
+410459207,route_ref,139,regular
+410459272,asset_ref,95159,regular
+410459272,highway,bus_stop,regular
+410459272,location,Airport Boulevard,regular
+410459272,name,Near SATS Flight Kitchen,regular
+410459272,route_ref,24;27;34;53;858,regular
+410459332,asset_ref,71171,regular
+410459332,highway,bus_stop,regular
+410459332,location,Airport Road,regular
+410459332,name,Blk 1022,regular
+410459332,route_ref,90;93;151,regular
+410459464,asset_ref,15051,regular
+410459464,highway,bus_stop,regular
+410459464,location,Alexandra Road,regular
+410459464,name,Alexandra Point,regular
+410459464,route_ref,51;57;61;93;97;97e;100;120;166;175;408;963;963E,regular
+410459480,asset_ref,70039,regular
+410459480,highway,bus_stop,regular
+410459480,location,Aljunied Road,regular
+410459480,name,Aljunied Park,regular
+410459480,route_ref,61;62;64;65;66;100;135;154;155,regular
+410459504,asset_ref,67371,regular
+410459504,highway,bus_stop,regular
+410459504,location,Anchorvale Road,regular
+410459504,name,Blk 313 Carpark,regular
+410459504,route_ref,50;372,regular
+410459647,asset_ref,54069,regular
+410459647,highway,bus_stop,regular
+410459647,location,Ang Mo Kio Avenue 1,regular
+410459647,name,Opposite Blk 246,regular
+410459647,route_ref,132;165;166;169,regular
+410459670,asset_ref,54389,regular
+410459670,highway,bus_stop,regular
+410459670,location,Ang Mo Kio Avenue 10,regular
+410459670,name,Blk 465,regular
+410459670,route_ref,45;55;261;548;CT8,regular
+410459715,asset_ref,54269,regular
+410459715,highway,bus_stop,regular
+410459715,location,Ang Mo Kio Avenue 3,regular
+410459715,name,Opposite Ang Mo Kio Station,regular
+410459715,route_ref,1N;25;73;74;74e;76;88;132;165;261;268;CT8,regular
+410459715,shelter,yes,regular
+410459791,asset_ref,54281,regular
+410459791,highway,bus_stop,regular
+410459791,location,Ang Mo Kio Avenue 3,regular
+410459791,name,Blk 570,regular
+410459791,route_ref,25;73;74;74e;76;88;132;165;261;268;549;CT8,regular
+410459807,asset_ref,54191,regular
+410459807,highway,bus_stop,regular
+410459807,location,Ang Mo Kio Avenue 4,regular
+410459807,name,Blk 170,regular
+410459807,route_ref,1N;76;268;269;CT8,regular
+410459823,asset_ref,55119,regular
+410459823,highway,bus_stop,regular
+410459823,location,Ang Mo Kio Avenue 5,regular
+410459823,name,Blk 617,regular
+410459823,route_ref,138;269;548,regular
+410459845,asset_ref,54459,regular
+410459845,highway,bus_stop,regular
+410459845,location,Ang Mo Kio Avenue 5,regular
+410459845,name,Blk 151,regular
+410459845,route_ref,138,regular
+410459891,asset_ref,54041,regular
+410459891,highway,bus_stop,regular
+410459891,location,Ang Mo Kio Avenue 6,regular
+410459891,name,Opposite Courts Ang Mo Kio,regular
+410459891,route_ref,13;86;138;162;162M;851;852;853;853C;NR1,regular
+410459908,asset_ref,54341,regular
+410459908,highway,bus_stop,regular
+410459908,location,Ang Mo Kio Avenue 8,regular
+410459908,name,Opposite Blk 504,regular
+410459908,route_ref,50;159;265,regular
+410459973,asset_ref,54631,regular
+410459973,highway,bus_stop,regular
+410459973,location,Ang Mo Kio Industrial Park 2,regular
+410459973,name,Opposite Tyco Electronics,regular
+410459973,route_ref,268,regular
+410460001,asset_ref,55199,regular
+410460001,highway,bus_stop,regular
+410460001,location,Ang Mo Kio Street 61,regular
+410460001,name,Blk 645,regular
+410460001,route_ref,269;549,regular
+410460046,asset_ref,17141,regular
+410460046,highway,bus_stop,regular
+410460046,location,Aye,regular
+410460046,name,Clementi Stadium,regular
+410460046,route_ref,97;97e;188;196;197;198;963;963R,regular
+410460066,asset_ref,16091,regular
+410460066,highway,bus_stop,regular
+410460066,location,Aye,regular
+410460066,name,Opposite ITE Dover,regular
+410460066,route_ref,97;197;198;963;963E,regular
+410460350,asset_ref,18061,regular
+410460350,highway,bus_stop,regular
+410460350,location,Ayer Rajah Cresent,regular
+410460350,name,Blk 71,regular
+410460350,route_ref,91,regular
+410460385,asset_ref,50241,regular
+410460385,highway,bus_stop,regular
+410460385,location,Balestier Road,regular
+410460385,name,Opposite Singapore Khalsa Association,regular
+410460385,route_ref,125;130;139;145,regular
+410460609,asset_ref,62089,regular
+410460609,highway,bus_stop,regular
+410460609,location,Bartley Road,regular
+410460609,name,Bartley Christian Church,regular
+410460609,route_ref,28;93;158,regular
+410460740,asset_ref,01611,regular
+410460740,highway,bus_stop,regular
+410460740,location,Beach Road,regular
+410460740,name,Raffles Hotel,regular
+410460740,route_ref,56;57;100;107;961;961C,regular
+410460945,asset_ref,84209,regular
+410460945,highway,bus_stop,regular
+410460945,location,Bedok North Avenue 3,regular
+410460945,name,Opposite Baywater,regular
+410460945,route_ref,18;28;66;67;69;168;228;506;CT18,regular
+410461403,asset_ref,84361,regular
+410461403,highway,bus_stop,regular
+410461403,location,Bedok North Road,regular
+410461403,name,Blk 547,regular
+410461403,route_ref,45;60;87;NR7,regular
+410461543,asset_ref,84329,regular
+410461543,highway,bus_stop,regular
+410461543,location,Bedok North Road,regular
+410461543,name,Blk 414,regular
+410461543,route_ref,17;45;NR7,regular
+410461588,asset_ref,72061,regular
+410461588,highway,bus_stop,regular
+410461588,location,Bedok Reservoir Road,regular
+410461588,name,Blk 122,regular
+410461588,route_ref,2N;8;21;22;60;65;66;506;585;CT18;NR7,regular
+410461623,asset_ref,84469,regular
+410461623,highway,bus_stop,regular
+410461623,location,Bedok Reservoir Road,regular
+410461623,name,Blk 703,regular
+410461623,route_ref,5;21;22;59;65;66;228;506;CT18,regular
+410461644,asset_ref,85061,regular
+410461644,highway,bus_stop,regular
+410461644,location,Bedok Road,regular
+410461644,name,Opposite Bedok Market Place,regular
+410461644,route_ref,2;9;10;48;531,regular
+410461662,asset_ref,84101,regular
+410461662,highway,bus_stop,regular
+410461662,location,Bedok South Avenue 3,regular
+410461662,name,Opposite Blk 49,regular
+410461662,route_ref,12;38;48;506;545,regular
+410461676,asset_ref,84121,regular
+410461676,highway,bus_stop,regular
+410461676,location,Bedok South Road,regular
+410461676,name,Hitachi Chemical,regular
+410461676,route_ref,16;31;38;196;197;229,regular
+410461694,asset_ref,23351,regular
+410461694,highway,bus_stop,regular
+410461694,location,Benoi Road,regular
+410461694,name,After Gul Avenue,regular
+410461694,route_ref,257,regular
+410461762,asset_ref,23379,regular
+410461762,highway,bus_stop,regular
+410461762,location,Benoi Road,regular
+410461762,name,Hitachi Elect Devices,regular
+410461762,route_ref,192,regular
+410461776,asset_ref,53211,regular
+410461776,highway,bus_stop,regular
+410461776,location,Bishan Road,regular
+410461776,name,Opposite Raffles Institute,regular
+410461776,route_ref,13;56;57;59;88;156;NR1,regular
+410461830,asset_ref,53419,regular
+410461830,highway,bus_stop,regular
+410461830,location,Bishan Street 12,regular
+410461830,name,Blk 117,regular
+410461830,route_ref,410;588,regular
+410461844,asset_ref,53371,regular
+410461844,highway,bus_stop,regular
+410461844,location,Bishan Street 22,regular
+410461844,name,Blk 257,regular
+410461844,route_ref,13;52;54;88;162;162M;410;NR1,regular
+410461868,asset_ref,21241,regular
+410461868,highway,bus_stop,regular
+410461868,location,Boon Lay Avenue,regular
+410461868,name,Blk 220,regular
+410461868,route_ref,174;174e;198;502;502A;NR5,regular
+410461989,asset_ref,22551,regular
+410461989,highway,bus_stop,regular
+410461989,location,Boon Lay Way,regular
+410461989,name,Blk 657,regular
+410461989,route_ref,254,regular
+410462015,asset_ref,28029,regular
+410462015,highway,bus_stop,regular
+410462015,location,Boon Lay Way,regular
+410462015,name,Before Toh Tuck Avenue,regular
+410462015,route_ref,52;99;105;188;NR5,regular
+410462086,asset_ref,28021,regular
+410462086,highway,bus_stop,regular
+410462086,location,Boon Lay Way,regular
+410462086,name,After Toh Tuck Avenue,regular
+410462086,route_ref,52;99;105;188;NR5,regular
+410462106,asset_ref,51131,regular
+410462106,highway,bus_stop,regular
+410462106,location,Braddell Road,regular
+410462106,name,Opposite Braddell View,regular
+410462106,route_ref,93;156;157;163,regular
+410462121,asset_ref,66071,regular
+410462121,highway,bus_stop,regular
+410462121,location,Braddell Road,regular
+410462121,name,Opposite PUB Recreation Club,regular
+410462121,route_ref,13;28;93;153;155,regular
+410462238,asset_ref,66491,regular
+410462238,highway,bus_stop,regular
+410462238,location,Buangkok Green,regular
+410462238,name,Opposite Blk 910,regular
+410462238,route_ref,43;88;101;156;325,regular
+410462305,asset_ref,43391,regular
+410462305,highway,bus_stop,regular
+410462305,location,Bukit Batok Central,regular
+410462305,name,Bukit Batok Community Club,regular
+410462305,route_ref,173;941,regular
+410462339,asset_ref,42319,regular
+410462339,highway,bus_stop,regular
+410462339,location,Bukit Batok East Avenue 3,regular
+410462339,name,Burgundy Hill,regular
+410462339,route_ref,77;106;189;506;963;NR8,regular
+410462382,asset_ref,43511,regular
+410462382,highway,bus_stop,regular
+410462382,location,Bukit Batok East Avenue 6,regular
+410462382,name,Bukit Batok Swimming Complex,regular
+410462382,route_ref,173;189,regular
+410462397,asset_ref,43459,regular
+410462397,highway,bus_stop,regular
+410462397,location,Bukit Batok Road,regular
+410462397,name,After Pan Island Expressway,regular
+410462397,route_ref,66;157;160;174;178;180;506,regular
+410462425,asset_ref,43219,regular
+410462425,highway,bus_stop,regular
+410462425,location,Bukit Batok Street 23,regular
+410462425,name,Opposite SBS Transit West District,regular
+410462425,route_ref,189,regular
+410462471,asset_ref,43531,regular
+410462471,highway,bus_stop,regular
+410462471,location,Bukit Batok West Avenue 3,regular
+410462471,name,Blk 140,regular
+410462471,route_ref,66;157;174;174e;178;506,regular
+410462534,asset_ref,43329,regular
+410462534,highway,bus_stop,regular
+410462534,location,Bukit Batok West Avenue 6,regular
+410462534,name,Blk 146,regular
+410462534,route_ref,176;188;188R,regular
+410462572,asset_ref,44321,regular
+410462572,highway,bus_stop,regular
+410462572,location,Bukit Panjang Ring Road,regular
+410462572,name,Opposite Bangkit Station,regular
+410462572,route_ref,555;920;922;971E,regular
+410462605,asset_ref,44261,regular
+410462605,highway,bus_stop,regular
+410462605,location,Bukit Panjang Road,regular
+410462605,name,Blk 270,regular
+410462605,route_ref,171;187;190;960;963;963E;963R;966;NR3,regular
+410462627,asset_ref,42031,regular
+410462627,highway,bus_stop,regular
+410462627,location,Bukit Timah Road,regular
+410462627,name,The Tessarina,regular
+410462627,route_ref,66;67;74;77;151;154;157;170;171;174;563;852;961;961C;970,regular
+410462658,asset_ref,18121,regular
+410462658,highway,bus_stop,regular
+410462658,location,Buona Vista Flyover,regular
+410462658,name,Opposite Ayer Rajah Industrial Estate,regular
+410462658,route_ref,14;33;92;95;166;198;200,regular
+410462716,asset_ref,58109,regular
+410462716,highway,bus_stop,regular
+410462716,location,Canberra Road,regular
+410462716,name,Opposite Blk 311,regular
+410462716,route_ref,856;858;859,regular
+410462735,asset_ref,03021,regular
+410462735,highway,bus_stop,regular
+410462735,location,Cecil Street,regular
+410462735,name,Prudential Tower,regular
+410462735,route_ref,57;131;167;532;533;534;535;536;542;543;548;549;550;555;556;557;558;559;560;561;563;564;565;569;700;761;971E,regular
+410462752,asset_ref,97151,regular
+410462752,highway,bus_stop,regular
+410462752,location,Changi North Cresent,regular
+410462752,name,Opposite 3com Asia Pacific Rim,regular
+410462752,route_ref,37,regular
+410462787,asset_ref,99131,regular
+410462787,highway,bus_stop,regular
+410462787,location,Changi Village Road,regular
+410462787,name,Blk 4,regular
+410462787,route_ref,2;59;109,regular
+410462936,asset_ref,44119,regular
+410462936,highway,bus_stop,regular
+410462936,location,Choa Chu Kang Avenue 1,regular
+410462936,name,Blk 204,regular
+410462936,route_ref,172;307;982E;NR3,regular
+410462951,asset_ref,44071,regular
+410462951,highway,bus_stop,regular
+410462951,location,Choa Chu Kang Avenue 3,regular
+410462951,name,Blk 464,regular
+410462951,route_ref,172;557;975,regular
+410462999,asset_ref,44471,regular
+410462999,highway,bus_stop,regular
+410462999,location,Choa Chu Kang Central,regular
+410462999,name,Blk 234,regular
+410462999,route_ref,307,regular
+410463050,asset_ref,45299,regular
+410463050,highway,bus_stop,regular
+410463050,location,Choa Chu Kang Drive,regular
+410463050,name,Blk 702,regular
+410463050,route_ref,307;NR3,regular
+410463308,asset_ref,45389,regular
+410463308,highway,bus_stop,regular
+410463308,location,Choa Chu Kang North 7,regular
+410463308,name,Blk 619,regular
+410463308,route_ref,3N;302;556;NR3,regular
+410463345,asset_ref,31161,regular
+410463345,highway,bus_stop,regular
+410463345,location,Old Choa Chu Kang Road,regular
+410463345,name,Opposite Teen Challenge,regular
+410463345,route_ref,172;975,regular
+410463435,asset_ref,30011,regular
+410463435,highway,bus_stop,regular
+410463435,location,Old Choa Chu Kang Road,regular
+410463435,name,Tengah Air Base,regular
+410463435,route_ref,172;975,regular
+410463559,asset_ref,44459,regular
+410463559,highway,bus_stop,regular
+410463559,location,Choa Chu Kang Way,regular
+410463559,name,Blk 277,regular
+410463559,route_ref,3N;67;188;188R;300;982E,regular
+410463584,asset_ref,44129,regular
+410463584,highway,bus_stop,regular
+410463584,location,Choa Chu Kang Way,regular
+410463584,name,Opposite Blk 113,regular
+410463584,route_ref,3N;67;188;188R,regular
+410463604,asset_ref,04321,regular
+410463604,highway,bus_stop,regular
+410463604,location,Clemenceau Avenue,regular
+410463604,name,Shell House,regular
+410463604,route_ref,64;123;143,regular
+410463661,asset_ref,17371,regular
+410463661,highway,bus_stop,regular
+410463661,location,Clementi Avenue 6,regular
+410463661,name,Blk 201,regular
+410463661,route_ref,185;189,regular
+410463708,asset_ref,12081,regular
+410463708,highway,bus_stop,regular
+410463708,location,Clementi Road,regular
+410463708,name,Maju Camp,regular
+410463708,route_ref,52;61;74;74e;75;151;151e;154;184,regular
+410463732,asset_ref,16141,regular
+410463732,highway,bus_stop,regular
+410463732,location,Clementi Road,regular
+410463732,name,Tentera Diraja Mosque,regular
+410463732,route_ref,33;183;188,regular
+410463755,asset_ref,11179,regular
+410463755,highway,bus_stop,regular
+410463755,location,Commonwealth Avenue,regular
+410463755,name,Blk 8,regular
+410463755,route_ref,32;100;105;111;145;147;196;198;970;NR5,regular
+410463772,asset_ref,17181,regular
+410463772,highway,bus_stop,regular
+410463772,location,Commonwealth Avenue West,regular
+410463772,name,Opposite Blk 317,regular
+410463772,route_ref,5N;52;99;105;106;154;173;183;185;189;196;NR5;NR8,regular
+410463787,asset_ref,11449,regular
+410463787,highway,bus_stop,regular
+410463787,location,Commonwealth Drive,regular
+410463787,name,Blk 37B,regular
+410463787,route_ref,61,regular
+410463800,asset_ref,67181,regular
+410463800,highway,bus_stop,regular
+410463800,location,Compassvale Road,regular
+410463800,name,Blk 240,regular
+410463800,route_ref,27;89;89e;156;159;372;965,regular
+410463824,asset_ref,21599,regular
+410463824,highway,bus_stop,regular
+410463824,location,Corporation Drive,regular
+410463824,name,Blk 117,regular
+410463824,route_ref,30;98;98M;240;246,regular
+410463878,asset_ref,21161,regular
+410463878,highway,bus_stop,regular
+410463878,location,Corporation Road,regular
+410463878,name,Blk 220,regular
+410463878,route_ref,157;174;185,regular
+410463893,asset_ref,21719,regular
+410463893,highway,bus_stop,regular
+410463893,location,Corporation Road,regular
+410463893,name,Opposite Blk 529,regular
+410463893,route_ref,99,regular
+410463909,asset_ref,14211,regular
+410463909,highway,bus_stop,regular
+410463909,location,Depot Road,regular
+410463909,name,ISS International School,regular
+410463909,route_ref,57;175;195;408,regular
+410463922,asset_ref,19061,regular
+410463922,highway,bus_stop,regular
+410463922,location,Dover Road,regular
+410463922,name,Ayer Rajah Telecoms,regular
+410463922,route_ref,33;196,regular
+410463938,asset_ref,42059,regular
+410463938,highway,bus_stop,regular
+410463938,location,Dunearn Road,regular
+410463938,name,After Rifle Range Road,regular
+410463938,route_ref,66;67;74;77;151;154;157;170;171;174;852;961;961C;970,regular
+410463972,asset_ref,93161,regular
+410463972,highway,bus_stop,regular
+410463972,location,East Coast Park Service Road,regular
+410463972,name,Opposite Pond,regular
+410463972,route_ref,401,regular
+410464004,asset_ref,93179,regular
+410464004,highway,bus_stop,regular
+410464004,location,East Coast Park Service Road,regular
+410464004,name,Island Resort Singapore,regular
+410464004,route_ref,401,regular
+410464071,asset_ref,94099,regular
+410464071,highway,bus_stop,regular
+410464071,location,Ecp,regular
+410464071,name,After E.C. Sea Sports Club,regular
+410464071,route_ref,36,regular
+410464121,asset_ref,02011,regular
+410464121,highway,bus_stop,regular
+410464121,location,Fullerton Road,regular
+410464121,name,Victoria Concert Hall,regular
+410464121,route_ref,75;100;107;130;131;167,regular
+410464248,asset_ref,71091,regular
+410464248,highway,bus_stop,regular
+410464248,location,Eunos Link,regular
+410464248,name,Blk 637,regular
+410464248,route_ref,5;8;15;22;25;45;51;55;59;61;63;63M;65;66;93;94;854;854E,regular
+410464265,asset_ref,11119,regular
+410464265,highway,bus_stop,regular
+410464265,location,Farrer Road,regular
+410464265,name,Opposite Farrer Road Station,regular
+410464265,route_ref,5N;48;93;153;165;174;186;564;855;961;961C,regular
+410464300,asset_ref,83199,regular
+410464300,highway,bus_stop,regular
+410464300,location,Frankel Avenue,regular
+410464300,name,After Frankel Drive,regular
+410464300,route_ref,32,regular
+410464315,asset_ref,58301,regular
+410464315,highway,bus_stop,regular
+410464315,location,Gambas Avenue,regular
+410464315,name,3M Building,regular
+410464315,route_ref,965;969;NR2,regular
+410464329,asset_ref,81209,regular
+410464329,highway,bus_stop,regular
+410464329,location,Geylang East Central,regular
+410464329,name,Geylang Methodist Primary School,regular
+410464329,route_ref,80;155,regular
+410464344,asset_ref,81069,regular
+410464344,highway,bus_stop,regular
+410464344,location,Geylang Road,regular
+410464344,name,Opposite Lorong 39 Geylang,regular
+410464344,route_ref,2;13;21;26;40;51;67;853C;NR7,regular
+410464449,asset_ref,13179,regular
+410464449,highway,bus_stop,regular
+410464449,location,Grange Road,regular
+410464449,name,Opposite Lucky Tower,regular
+410464449,route_ref,75,regular
+410464479,asset_ref,24651,regular
+410464479,highway,bus_stop,regular
+410464479,location,Gul Avenue,regular
+410464479,name,Metall-Treat Industrial,regular
+410464479,route_ref,255,regular
+410464681,asset_ref,24179,regular
+410464681,highway,bus_stop,regular
+410464681,location,Gul Cresent,regular
+410464681,name,Opposite Hong Hock Hardware,regular
+410464681,route_ref,255,regular
+410464700,asset_ref,24089,regular
+410464700,highway,bus_stop,regular
+410464700,location,Gul Way,regular
+410464700,name,After Gul Avenue,regular
+410464700,route_ref,255,regular
+410464747,asset_ref,14049,regular
+410464747,highway,bus_stop,regular
+410464747,location,Henderson Road,regular
+410464747,name,Opposite Blk 55,regular
+410464747,route_ref,120;131;145;176,regular
+410464764,asset_ref,43249,regular
+410464764,highway,bus_stop,regular
+410464764,location,Hillview Avenue,regular
+410464764,name,Hillview Apartments,regular
+410464764,route_ref,173;176;177;963;963R;970,regular
+410464783,asset_ref,11381,regular
+410464783,highway,bus_stop,regular
+410464783,location,Holland Drive,regular
+410464783,name,Blk 10A,regular
+410464783,route_ref,48;74;74e;91;95;185;191;200,regular
+410464819,asset_ref,11231,regular
+410464819,highway,bus_stop,regular
+410464819,location,Holland Road,regular
+410464819,name,After Estoril Mansion,regular
+410464819,route_ref,5N;7;48;75;77;106;165;NR8,regular
+410464832,asset_ref,63289,regular
+410464832,highway,bus_stop,regular
+410464832,location,Hougang Avenue 1,regular
+410464832,name,Aljunied Community Club,regular
+410464832,route_ref,53;62;113,regular
+410464847,asset_ref,63329,regular
+410464847,highway,bus_stop,regular
+410464847,location,Hougang Avenue 2,regular
+410464847,name,Opposite Blk 627,regular
+410464847,route_ref,25;55;112;132;854,regular
+410464863,asset_ref,71051,regular
+410464863,highway,bus_stop,regular
+410464863,location,Hougang Avenue 3,regular
+410464863,name,After Kim Chuan Road,regular
+410464863,route_ref,25;45;51;55;87;151;854,regular
+410464878,asset_ref,64331,regular
+410464878,highway,bus_stop,regular
+410464878,location,Hougang Avenue 4,regular
+410464878,name,Blk 508,regular
+410464878,route_ref,72;101;116;165,regular
+410464893,asset_ref,64239,regular
+410464893,highway,bus_stop,regular
+410464893,location,Hougang Avenue 7,regular
+410464893,name,Opposite Blk 316,regular
+410464893,route_ref,87;112;151;151e,regular
+410464906,asset_ref,63399,regular
+410464906,highway,bus_stop,regular
+410464906,location,Hougang Avenue 8,regular
+410464906,name,Blk 632,regular
+410464906,route_ref,74;74e;112;147;165,regular
+410464921,asset_ref,64479,regular
+410464921,highway,bus_stop,regular
+410464921,location,Hougang Avenue 9,regular
+410464921,name,Blk 665,regular
+410464921,route_ref,72;109;112;116;159;599;NR6,regular
+410464938,asset_ref,63229,regular
+410464938,highway,bus_stop,regular
+410464938,location,Hougang Street 21,regular
+410464938,name,After Blk 207,regular
+410464938,route_ref,112;113,regular
+410464969,asset_ref,23481,regular
+410464969,highway,bus_stop,regular
+410464969,location,International Road,regular
+410464969,name,Molex,regular
+410464969,route_ref,192;252,regular
+410464985,asset_ref,23151,regular
+410464985,highway,bus_stop,regular
+410464985,location,International Road,regular
+410464985,name,Containers Printers,regular
+410464985,route_ref,252,regular
+410464998,asset_ref,25219,regular
+410464998,highway,bus_stop,regular
+410464998,location,Jalan Ahmad Ibrahim,regular
+410464998,name,Matsushita Technology,regular
+410464998,route_ref,182;182M,regular
+410465034,asset_ref,21011,regular
+410465034,highway,bus_stop,regular
+410465034,location,Jalan Ahmad Ibrahim,regular
+410465034,name,After Jurong Lake,regular
+410465034,route_ref,30;154;178,regular
+410465050,asset_ref,27099,regular
+410465050,highway,bus_stop,regular
+410465050,location,Jalan Bahar,regular
+410465050,name,Blk 271 Carpark,regular
+410465050,route_ref,172;199;405,regular
+410465063,asset_ref,31021,regular
+410465063,highway,bus_stop,regular
+410465063,location,Jalan Bahar,regular
+410465063,name,Jalan Bahar Power Station,regular
+410465063,route_ref,172;405,regular
+410465083,asset_ref,21341,regular
+410465083,highway,bus_stop,regular
+410465083,location,Jalan Boon Lay,regular
+410465083,name,Opposite Beecham Private Limited,regular
+410465083,route_ref,249,regular
+410465153,asset_ref,10061,regular
+410465153,highway,bus_stop,regular
+410465153,location,Jalan Bukit Merah,regular
+410465153,name,Blk 140,regular
+410465153,route_ref,120;147;167;196;197;961;961C,regular
+410465587,asset_ref,10109,regular
+410465587,highway,bus_stop,regular
+410465587,location,Jalan Bukit Merah,regular
+410465587,name,Opposite SPRING Singapore Building,regular
+410465587,route_ref,14;147;196;197;855;961;961C,regular
+410465870,asset_ref,21071,regular
+410465870,highway,bus_stop,regular
+410465870,location,Jalan Buroh,regular
+410465870,name,Jurong Abattoir,regular
+410465870,route_ref,79,regular
+410465926,asset_ref,42161,regular
+410465926,highway,bus_stop,regular
+410465926,location,Jalan Jurong Kechil,regular
+410465926,name,Blk 18,regular
+410465926,route_ref,3N;61;66;77;157;173;174;174e;970;985,regular
+410465968,asset_ref,68049,regular
+410465968,highway,bus_stop,regular
+410465968,location,Jalan Kayu,regular
+410465968,name,Opposite Jalan Tari Lilin,regular
+410465968,route_ref,85;86;103,regular
+410466021,asset_ref,52411,regular
+410466021,highway,bus_stop,regular
+410466021,location,Jalan Rajah,regular
+410466021,name,Blk 105,regular
+410466021,route_ref,139;565,regular
+410466067,asset_ref,52071,regular
+410466067,highway,bus_stop,regular
+410466067,location,Jalan Toa Payoh,regular
+410466067,name,Trellis Towers,regular
+410466067,route_ref,5;56;57;105;139;143;145;151;151e;153;154;506;966;985;NR1,regular
+410466127,asset_ref,82171,regular
+410466127,highway,bus_stop,regular
+410466127,location,Joo Chiat Place,regular
+410466127,name,Before Mangis Road,regular
+410466127,route_ref,33,regular
+410466189,asset_ref,24139,regular
+410466189,highway,bus_stop,regular
+410466189,location,Joo Koon Circle,regular
+410466189,name,Opposite Toyo Ink,regular
+410466189,route_ref,252,regular
+410466204,asset_ref,28451,regular
+410466204,highway,bus_stop,regular
+410466204,location,Jurong East Avenue 1,regular
+410466204,name,Parc Oasis,regular
+410466204,route_ref,5N;98;98M;99;157;185;187;198;333;334;502;NR5,regular
+410466237,asset_ref,28621,regular
+410466237,highway,bus_stop,regular
+410466237,location,Jurong East Central,regular
+410466237,name,Blk 241,regular
+410466237,route_ref,176;187;188;188R,regular
+410466311,asset_ref,23519,regular
+410466311,highway,bus_stop,regular
+410466311,location,Jurong Island Hwy,regular
+410466311,name,Singapore Refining Co.,regular
+410466327,asset_ref,21149,regular
+410466327,highway,bus_stop,regular
+410466327,location,Jurong Port Road,regular
+410466327,name,Jurong Port Workshops,regular
+410466327,route_ref,79;98,regular
+410466346,asset_ref,28111,regular
+410466346,highway,bus_stop,regular
+410466346,location,Jurong Road,regular
+410466346,name,After Bukit Batok Road,regular
+410466346,route_ref,174,regular
+410466408,asset_ref,20261,regular
+410466408,highway,bus_stop,regular
+410466408,location,Jurong Town Hall Road,regular
+410466408,name,Blk 2,regular
+410466408,route_ref,51;78;79;143;176,regular
+410466429,asset_ref,28409,regular
+410466429,highway,bus_stop,regular
+410466429,location,Jurong West Avenue 1,regular
+410466429,name,Blk 454,regular
+410466429,route_ref,99;157;185;198;335;502;542;NR5,regular
+410466462,asset_ref,22351,regular
+410466462,highway,bus_stop,regular
+410466462,location,Jurong West Avenue 4,regular
+410466462,name,Opposite Blk 717,regular
+410466462,route_ref,192;193,regular
+410466493,asset_ref,27441,regular
+410466493,highway,bus_stop,regular
+410466493,location,Jurong West Avenue 5,regular
+410466493,name,Between Blks 757/758,regular
+410466493,route_ref,181;185,regular
+410466692,asset_ref,28421,regular
+410466692,highway,bus_stop,regular
+410466692,location,Jurong West Street 52,regular
+410466692,name,Blk 517,regular
+410466692,route_ref,335,regular
+410466754,asset_ref,22509,regular
+410466754,highway,bus_stop,regular
+410466754,location,Jurong West Street 63,regular
+410466754,name,Blk 663E,regular
+410466754,route_ref,179;241;255,regular
+410466789,asset_ref,27409,regular
+410466789,highway,bus_stop,regular
+410466789,location,Jurong West Street 81,regular
+410466789,name,Blk 821,regular
+410466789,route_ref,243,regular
+410466806,asset_ref,72051,regular
+410466806,highway,bus_stop,regular
+410466806,location,Kaki Bukit Avenue 1,regular
+410466806,name,Kaki Bukit Industrial Estate,regular
+410466806,route_ref,5;15;58;59;87,regular
+410466828,asset_ref,70319,regular
+410466828,highway,bus_stop,regular
+410466828,location,Kallang Way,regular
+410466828,name,After Kallang Way 4,regular
+410466828,route_ref,125,regular
+410466848,asset_ref,21621,regular
+410466848,highway,bus_stop,regular
+410466848,location,Kang Ching Road,regular
+410466848,name,Blk 354,regular
+410466848,route_ref,240,regular
+410466863,asset_ref,14061,regular
+410466863,highway,bus_stop,regular
+410466863,location,Keppel Road,regular
+410466863,name,Opposite Former Railway Station,regular
+410466863,route_ref,10;30;57;80;97;97e;100;131;145;NR1;NR6,regular
+410466880,asset_ref,13119,regular
+410466880,highway,bus_stop,regular
+410466880,location,Kim Seng Road,regular
+410466880,name,Opposite Great World City,regular
+410466880,route_ref,5;16;75;175;195;970;NR5,regular
+410466906,asset_ref,49121,regular
+410466906,highway,bus_stop,regular
+410466906,location,Kranji Road,regular
+410466906,name,After SMRT Buses Kranji Depot,regular
+410466906,route_ref,925;925C,regular
+410466940,asset_ref,14419,regular
+410466940,highway,bus_stop,regular
+410466940,location,Labrador Villa Road,regular
+410466940,name,Carpark A,regular
+410466940,route_ref,408,regular
+410466964,asset_ref,10429,regular
+410466964,highway,bus_stop,regular
+410466964,location,Lengkok Bahru,regular
+410466964,name,Blk 54,regular
+410466964,route_ref,63;139,regular
+410466979,asset_ref,55281,regular
+410466979,highway,bus_stop,regular
+410466979,location,Lentor Avenue,regular
+410466979,name,After SLE,regular
+410466979,route_ref,39;85;858;965;969;NR1,regular
+410467051,asset_ref,55351,regular
+410467051,highway,bus_stop,regular
+410467051,location,Lentor Road,regular
+410467051,name,Opposite Fudu Walk Park/Garden,regular
+410467051,route_ref,529;825,regular
+410467064,asset_ref,32071,regular
+410467064,highway,bus_stop,regular
+410467064,location,Lim Chu Kang Road,regular
+410467064,name,After Track 13,regular
+410467064,route_ref,975,regular
+410467091,asset_ref,32041,regular
+410467091,highway,bus_stop,regular
+410467091,location,Lim Chu Kang Road,regular
+410467091,name,Opposite Lamp Post 160,regular
+410467091,route_ref,975,regular
+410467105,asset_ref,34019,regular
+410467105,highway,bus_stop,regular
+410467105,location,Lim Chu Kang Road,regular
+410467105,name,After Lim Chu Kang Lane 4,regular
+410467105,route_ref,975,regular
+410467128,asset_ref,40269,regular
+410467128,highway,bus_stop,regular
+410467128,location,Lornie Road,regular
+410467128,name,Lamp Post 57,regular
+410467128,route_ref,52;74;93;157;165;852;855,regular
+410467142,asset_ref,62229,regular
+410467142,highway,bus_stop,regular
+410467142,location,Lorong Ah Soo,regular
+410467142,name,Blk 146,regular
+410467142,route_ref,45;53;62;113,regular
+410467157,asset_ref,42241,regular
+410467157,highway,bus_stop,regular
+410467157,location,Lorong Kismis,regular
+410467157,name,After Eng Kong Place,regular
+410467157,route_ref,173,regular
+410467184,asset_ref,18301,regular
+410467184,highway,bus_stop,regular
+410467184,location,Lower Kent Ridge Road,regular
+410467184,name,Lim Seng Tjoe Building (LT 27),regular
+410467184,route_ref,95,regular
+410467207,asset_ref,98061,regular
+410467207,highway,bus_stop,regular
+410467207,location,Loyang Avenue,regular
+410467207,name,Opposite Engine Test Facility,regular
+410467207,route_ref,2;9;19;29;59;89;89e;109,regular
+410467226,asset_ref,99029,regular
+410467226,highway,bus_stop,regular
+410467226,location,Loyang Avenue,regular
+410467226,name,After Cranwell Road,regular
+410467226,route_ref,2;9;19;29;59;89;109,regular
+410467251,asset_ref,97099,regular
+410467251,highway,bus_stop,regular
+410467251,location,Loyang Way,regular
+410467251,name,After Loyang Avenue,regular
+410467251,route_ref,2;29,regular
+410467279,asset_ref,60219,regular
+410467279,highway,bus_stop,regular
+410467279,location,Macpherson Road,regular
+410467279,name,Before Siemens Centre,regular
+410467279,route_ref,8;61;64;65;66;90;125;151;154;561,regular
+410467295,asset_ref,48041,regular
+410467295,highway,bus_stop,regular
+410467295,location,Mandai Road,regular
+410467295,name,After Jalan Ulu Sembawang,regular
+410467295,route_ref,138;171,regular
+410467327,asset_ref,48051,regular
+410467327,highway,bus_stop,regular
+410467327,location,Mandai Road,regular
+410467327,name,Mandai Agrotech Park,regular
+410467327,route_ref,138;171,regular
+410467369,asset_ref,57141,regular
+410467369,highway,bus_stop,regular
+410467369,location,Mandai Road,regular
+410467369,name,Before Upper Thomson Road,regular
+410467369,route_ref,138,regular
+410467384,asset_ref,03339,regular
+410467384,highway,bus_stop,regular
+410467384,location,Marina Boulevard,regular
+410467384,name,Opposite Marina City Park,regular
+410467384,route_ref,400;402,regular
+410467559,asset_ref,92049,regular
+410467559,highway,bus_stop,regular
+410467559,location,Marine Parade Road,regular
+410467559,name,Parkway Parade,regular
+410467559,route_ref,15;31;36;43;48;76;135;196;196e;197;401;853C;966,regular
+410467573,asset_ref,92059,regular
+410467573,highway,bus_stop,regular
+410467573,location,Marine Parade Road,regular
+410467573,name,Between Blks 72/74,regular
+410467573,route_ref,15;16;31;36;43;48;76;135;196;196e;197;401;853C;966,regular
+410467595,asset_ref,46249,regular
+410467595,highway,bus_stop,regular
+410467595,location,Marsiling Lane,regular
+410467595,name,Blk 15,regular
+410467595,route_ref,903,regular
+410467640,asset_ref,46319,regular
+410467640,highway,bus_stop,regular
+410467640,location,Marsiling Road,regular
+410467640,name,Opposite Blk 18,regular
+410467640,route_ref,903,regular
+410467657,asset_ref,53149,regular
+410467657,highway,bus_stop,regular
+410467657,location,Marymount Road,regular
+410467657,name,Whitley Secondary School,regular
+410467657,route_ref,54;74;74e;588;851;852,regular
+410467674,asset_ref,07561,regular
+410467674,highway,bus_stop,regular
+410467674,location,Middle Road,regular
+410467674,name,Opposite Midlink Plaza,regular
+410467674,route_ref,56,regular
+410467702,asset_ref,12199,regular
+410467702,highway,bus_stop,regular
+410467702,location,Mount Sinai Rise,regular
+410467702,name,Opposite Village Tower,regular
+410467702,route_ref,92;560,regular
+410467742,asset_ref,91071,regular
+410467742,highway,bus_stop,regular
+410467742,location,Mountbatten Road,regular
+410467742,name,Before Tanjong Katong Road,regular
+410467742,route_ref,12;14;196,regular
+410467772,asset_ref,27209,regular
+410467772,highway,bus_stop,regular
+410467772,location,Nanyang Avenue,regular
+410467772,name,Hall 8,regular
+410467772,route_ref,199,regular
+410467814,asset_ref,27221,regular
+410467814,highway,bus_stop,regular
+410467814,location,Nanyang Drive,regular
+410467814,name,School Of CEE,regular
+410467814,route_ref,179,regular
+410467856,asset_ref,99109,regular
+410467856,highway,bus_stop,regular
+410467856,location,Netheravon Road,regular
+410467856,name,Opposite Govt Chalets,regular
+410467856,route_ref,29,regular
+410467870,asset_ref,84019,regular
+410467870,highway,bus_stop,regular
+410467870,location,New Upper Changi Road,regular
+410467870,name,Opposite Chai Chee Industrial Park,regular
+410467870,route_ref,2;7;24;25;26;28;30;30e;32;33;40;67;401;854,regular
+410467890,asset_ref,95071,regular
+410467890,highway,bus_stop,regular
+410467890,location,Nicoll Drive,regular
+410467890,name,Changi Beach Carpark 4,regular
+410467890,route_ref,9;19;89,regular
+410468046,asset_ref,50071,regular
+410468046,highway,bus_stop,regular
+410468046,location,Norfolk Road,regular
+410468046,name,Before Carlisle Road,regular
+410468046,route_ref,131;141,regular
+410468121,asset_ref,18141,regular
+410468121,highway,bus_stop,regular
+410468121,location,North Buona Vista Road,regular
+410468121,name,After Anglo-Chinese Junior College,regular
+410468121,route_ref,74;91;92;95;191;196;198;200,regular
+410468215,asset_ref,98089,regular
+410468215,highway,bus_stop,regular
+410468215,location,Old Tampines Road,regular
+410468215,name,Before Jalan Batalong,regular
+410468215,route_ref,29,regular
+410468357,asset_ref,09048,regular
+410468357,highway,bus_stop,regular
+410468357,location,Orchard Road,regular
+410468357,name,Lucky Plaza,regular
+410468357,route_ref,1N;2N;3N;4N;5N;6N;7;14;14e;16;65;106;111;123;175;502;502A;NR1;NR2;NR3;NR5;NR6;NR7;NR8,regular
+410468398,asset_ref,06049,regular
+410468398,highway,bus_stop,regular
+410468398,location,Outram Road,regular
+410468398,name,EtonHouse Pre-School,regular
+410468398,route_ref,33;63;75;851;970,regular
+410468417,asset_ref,20309,regular
+410468417,highway,bus_stop,regular
+410468417,location,Pandan Loop,regular
+410468417,name,Blk 19,regular
+410468417,route_ref,285,regular
+410468435,asset_ref,12169,regular
+410468435,highway,bus_stop,regular
+410468435,location,Pandan Valley,regular
+410468435,name,Pandan Valley,regular
+410468435,route_ref,92;560,regular
+410468462,asset_ref,15161,regular
+410468462,highway,bus_stop,regular
+410468462,location,Pasir Panjang Road,regular
+410468462,name,Pasir Panjang Centre,regular
+410468462,route_ref,10;30;30e;51;143;175;176;188,regular
+410468498,asset_ref,15209,regular
+410468498,highway,bus_stop,regular
+410468498,location,Pasir Panjang Road,regular
+410468498,name,Opposite PSA Wharves G3,regular
+410468498,route_ref,10;30;30e;51;143;175;176;188,regular
+410468530,asset_ref,77041,regular
+410468530,highway,bus_stop,regular
+410468530,location,Pasir Ris Drive 1,regular
+410468530,name,Blk 541,regular
+410468530,route_ref,39;53;81;109;518;539;NR7,regular
+410468716,asset_ref,78069,regular
+410468716,highway,bus_stop,regular
+410468716,location,Pasir Ris Drive 1,regular
+410468716,name,Blk 442,regular
+410468716,route_ref,4N;12;21;39;53;81;109;358;518;518A,regular
+410469003,asset_ref,77271,regular
+410469003,highway,bus_stop,regular
+410469003,location,Pasir Ris Drive 12,regular
+410469003,name,After Pasir Ris Street 72,regular
+410469003,route_ref,58;88;359;518;518A;538,regular
+410469335,asset_ref,77201,regular
+410469335,highway,bus_stop,regular
+410469335,location,Pasir Ris Drive 3,regular
+410469335,name,After Blk 601,regular
+410469335,route_ref,4N;58;88;358;359;518;518A;538,regular
+410469707,asset_ref,78169,regular
+410469707,highway,bus_stop,regular
+410469707,location,Pasir Ris Drive 4,regular
+410469707,name,Opposite Blk 216,regular
+410469707,route_ref,17;358;539,regular
+410470121,asset_ref,78201,regular
+410470121,highway,bus_stop,regular
+410470121,location,Pasir Ris Street 21,regular
+410470121,name,Opposite Blk 242,regular
+410470121,route_ref,3;4N,regular
+410470506,asset_ref,77139,regular
+410470506,highway,bus_stop,regular
+410470506,location,Pasir Ris Street 52,regular
+410470506,name,Blk 582,regular
+410470506,route_ref,15,regular
+410470989,asset_ref,70261,regular
+410470989,highway,bus_stop,regular
+410470989,location,Paya Lebar Road,regular
+410470989,name,Opposite Orion @ Paya Lebar,regular
+410470989,route_ref,8;22;24;28;43;70;70M;76;80;158,regular
+410471364,asset_ref,29029,regular
+410471364,highway,bus_stop,regular
+410471364,location,Penjuru Road,regular
+410471364,name,Opposite Sunlight Timber,regular
+410471364,route_ref,78;79,regular
+410471775,asset_ref,24509,regular
+410471775,highway,bus_stop,regular
+410471775,location,Pan Island Expressway,regular
+410471775,name,Opposite David Distribution,regular
+410471775,route_ref,193,regular
+410472147,asset_ref,23271,regular
+410472147,highway,bus_stop,regular
+410472147,location,Pioneer Road,regular
+410472147,name,After Benoi Sector,regular
+410472147,route_ref,254,regular
+410472191,asset_ref,22461,regular
+410472191,highway,bus_stop,regular
+410472191,location,Pioneer Road North,regular
+410472191,name,Opposite Blk 653B,regular
+410472191,route_ref,185;192;193;255;257;502;502A,regular
+410472328,asset_ref,24559,regular
+410472328,highway,bus_stop,regular
+410472328,location,Pioneer Sector 1,regular
+410472328,name,Headquarters 6 Division,regular
+410472328,route_ref,257,regular
+410472345,asset_ref,18211,regular
+410472345,highway,bus_stop,regular
+410472345,location,Portsdown Road,regular
+410472345,name,Before Jalan Hang Jebat,regular
+410472345,route_ref,191,regular
+410472364,asset_ref,61099,regular
+410472364,highway,bus_stop,regular
+410472364,location,Potong Pasir Avenue 2,regular
+410472364,name,Potong Pasir Community Club,regular
+410472364,route_ref,142,regular
+410472379,asset_ref,65231,regular
+410472379,highway,bus_stop,regular
+410472379,location,Punggol East,regular
+410472379,name,Blk 166A,regular
+410472379,route_ref,3;6N;50;83;85,regular
+410472399,asset_ref,65031,regular
+410472399,highway,bus_stop,regular
+410472399,location,Punggol Road,regular
+410472399,name,Blk 227D,regular
+410472399,route_ref,6N;82;88;163;163M;372,regular
+410472478,asset_ref,65091,regular
+410472478,highway,bus_stop,regular
+410472478,location,Punggol Road,regular
+410472478,name,Blk 301A,regular
+410472478,route_ref,84,regular
+410472607,asset_ref,21509,regular
+410472607,highway,bus_stop,regular
+410472607,location,Quality Road,regular
+410472607,name,Opposite Meiji Seika,regular
+410472607,route_ref,246,regular
+410472666,asset_ref,11069,regular
+410472666,highway,bus_stop,regular
+410472666,location,Queensway,regular
+410472666,name,Queensway Secondary School,regular
+410472666,route_ref,93;105;123;153;186;855;961;961C,regular
+410473069,asset_ref,13059,regular
+410473069,highway,bus_stop,regular
+410473069,location,River Valley Road,regular
+410473069,name,Valley Point Condominium,regular
+410473069,route_ref,14;32;65;139;970,regular
+410473623,asset_ref,04219,regular
+410473623,highway,bus_stop,regular
+410473623,location,River Valley Road,regular
+410473623,name,Opposite Clarke Quay,regular
+410473623,route_ref,32;54;195;530;NR1;NR2;NR3;NR5;NR6;NR7;NR8,regular
+410473668,asset_ref,67229,regular
+410473668,highway,bus_stop,regular
+410473668,location,Rivervale Drive,regular
+410473668,name,Blk 146A,regular
+410473668,route_ref,86,regular
+410473685,asset_ref,23641,regular
+410473685,highway,bus_stop,regular
+410473685,location,Sakra Road,regular
+410473685,name,Oronite Singapore Plant,regular
+410473779,asset_ref,15181,regular
+410473779,highway,bus_stop,regular
+410473779,location,Science Park Drive,regular
+410473779,name,PSB Singapore,regular
+410473779,route_ref,92,regular
+410473833,asset_ref,58349,regular
+410473833,highway,bus_stop,regular
+410473833,location,Sembawang Drive,regular
+410473833,name,Blk 478,regular
+410473833,route_ref,859;962,regular
+410473856,asset_ref,57059,regular
+410473856,highway,bus_stop,regular
+410473856,location,Sembawang Road,regular
+410473856,name,Opposite Sembawang Air Base,regular
+410473856,route_ref,167;169;171;980,regular
+410473902,asset_ref,57089,regular
+410473902,highway,bus_stop,regular
+410473902,location,Sembawang Road,regular
+410473902,name,Blk 713,regular
+410473902,route_ref,167;171;800;980,regular
+410473924,asset_ref,67261,regular
+410473924,highway,bus_stop,regular
+410473924,location,Sengkang East Avenue,regular
+410473924,name,Blk 203B,regular
+410473924,route_ref,27;163;163M,regular
+410474236,asset_ref,67529,regular
+410474236,highway,bus_stop,regular
+410474236,location,Sengkang East Drive,regular
+410474236,name,Opposite Blk 157A,regular
+410474236,route_ref,50;62;85,regular
+410474892,asset_ref,67129,regular
+410474892,highway,bus_stop,regular
+410474892,location,Sengkang East Way,regular
+410474892,name,Blk 137,regular
+410474892,route_ref,50;119;136;NR6,regular
+410475044,asset_ref,47111,regular
+410475044,highway,bus_stop,regular
+410475044,location,Senoko Avenue,regular
+410475044,name,Before Senoko Way,regular
+410475044,route_ref,856;981,regular
+410475093,asset_ref,47129,regular
+410475093,highway,bus_stop,regular
+410475093,location,Senoko Road,regular
+410475093,name,Lian Aik Siong Machinery,regular
+410475093,route_ref,981,regular
+410475107,asset_ref,66401,regular
+410475107,highway,bus_stop,regular
+410475107,location,Serangoon Avenue 3,regular
+410475107,name,Golden Heights,regular
+410475107,route_ref,58;105,regular
+410475170,asset_ref,66271,regular
+410475170,highway,bus_stop,regular
+410475170,location,Serangoon Garden Way,regular
+410475170,name,Serangoon Garden Circus,regular
+410475170,route_ref,73;136;315;317,regular
+410475226,asset_ref,66529,regular
+410475226,highway,bus_stop,regular
+410475226,location,Serangoon North Avenue 5,regular
+410475226,name,Blk 538,regular
+410475226,route_ref,159;315,regular
+410475265,asset_ref,23591,regular
+410475265,highway,bus_stop,regular
+410475265,location,Seraya Avenue,regular
+410475265,name,Opp Croda Singapore,regular
+410475279,asset_ref,23389,regular
+410475279,highway,bus_stop,regular
+410475279,location,Shipyard Road,regular
+410475279,name,Opposite Plant Engineering,regular
+410475279,route_ref,251,regular
+410475303,asset_ref,93119,regular
+410475303,highway,bus_stop,regular
+410475303,location,Siglap Road,regular
+410475303,name,After Elite Park Avenue,regular
+410475303,route_ref,40;401,regular
+410475321,asset_ref,96209,regular
+410475321,highway,bus_stop,regular
+410475321,location,Simei Road,regular
+410475321,name,Opposite Simei Green Condominium,regular
+410475321,route_ref,4N;5;12;20;38;NR7,regular
+410475345,asset_ref,96251,regular
+410475345,highway,bus_stop,regular
+410475345,location,Simei Street 3,regular
+410475345,name,Before Changi General Hospital,regular
+410475345,route_ref,5;9;531;NR7,regular
+410475389,asset_ref,82033,regular
+410475389,highway,bus_stop,regular
+410475389,location,Sims Avenue,regular
+410475389,name,Blk 414,regular
+410475389,route_ref,7;26;28;30;NR7,regular
+410475478,asset_ref,80289,regular
+410475478,highway,bus_stop,regular
+410475478,location,Sims Place,regular
+410475478,name,Sims Place Terminal,regular
+410475478,route_ref,64,regular
+410475497,asset_ref,53171,regular
+410475497,highway,bus_stop,regular
+410475497,location,Sin Ming Road,regular
+410475497,name,Blk 23,regular
+410475497,route_ref,130,regular
+410475512,asset_ref,11319,regular
+410475512,highway,bus_stop,regular
+410475512,location,Sixth Avenue,regular
+410475512,name,Opposite House No. 516,regular
+410475512,route_ref,77;156;970,regular
+410475773,asset_ref,05199,regular
+410475773,highway,bus_stop,regular
+410475773,location,South Bridge Road,regular
+410475773,name,Opposite Hong Lim Complex,regular
+410475773,route_ref,61;80;145;166;197,regular
+410476084,asset_ref,15121,regular
+410476084,highway,bus_stop,regular
+410476084,location,South Buona Vista Road,regular
+410476084,name,Lamp Post 49,regular
+410476084,route_ref,200,regular
+410476292,asset_ref,40201,regular
+410476292,highway,bus_stop,regular
+410476292,location,Stevens Road,regular
+410476292,name,Chelsea Garden Condominium,regular
+410476292,route_ref,105;132;190;NR2;NR3,regular
+410476430,asset_ref,11561,regular
+410476430,highway,bus_stop,regular
+410476430,location,Stirling Road,regular
+410476430,name,Blk 166,regular
+410476430,route_ref,64,regular
+410476543,asset_ref,49041,regular
+410476543,highway,bus_stop,regular
+410476543,location,Sungei Kadut Street 1,regular
+410476543,name,DHdeco Private Limited,regular
+410476543,route_ref,925,regular
+410476667,asset_ref,30099,regular
+410476667,highway,bus_stop,regular
+410476667,location,Sungei Tengah Road,regular
+410476667,name,Opposite Chengtai Nursery,regular
+410476667,route_ref,172;975,regular
+410476782,asset_ref,75311,regular
+410476782,highway,bus_stop,regular
+410476782,location,Tampines Avenue 10,regular
+410476782,name,Tampines Dormitory,regular
+410476782,route_ref,27;34;58;72;168,regular
+410477151,asset_ref,76089,regular
+410477151,highway,bus_stop,regular
+410477151,location,Tampines Avenue 2,regular
+410477151,name,The Holy Trinity Church,regular
+410477151,route_ref,2N;8;17;18;20;28;34;39;59;292;518;552,regular
+410477174,asset_ref,76289,regular
+410477174,highway,bus_stop,regular
+410477174,location,Tampines Avenue 4,regular
+410477174,name,Opposite East View Primary School,regular
+410477174,route_ref,22,regular
+410477190,asset_ref,76069,regular
+410477190,highway,bus_stop,regular
+410477190,location,Tampines Avenue 5,regular
+410477190,name,Blk 147,regular
+410477190,route_ref,10;15;20;21;23;27;31;34;39;65;67;168;292;553;NR7,regular
+410477328,asset_ref,76249,regular
+410477328,highway,bus_stop,regular
+410477328,location,Tampines Avenue 7,regular
+410477328,name,Blk 370,regular
+410477328,route_ref,3;4;9;12;17;19;21;29;34;37;39;59;81;518;NR7,regular
+410477470,asset_ref,76311,regular
+410477470,highway,bus_stop,regular
+410477470,location,Tampines Avenue 9,regular
+410477470,name,Opposite Tampines Junior College,regular
+410477470,route_ref,29;293,regular
+410477594,asset_ref,64209,regular
+410477594,highway,bus_stop,regular
+410477594,location,Tampines Road,regular
+410477594,name,After Defu Avenue 1,regular
+410477594,route_ref,53;72;81;87;112;151;151e,regular
+410477635,asset_ref,64149,regular
+410477635,highway,bus_stop,regular
+410477635,location,Tampines Road,regular
+410477635,name,Lamp Post 137,regular
+410477635,route_ref,72,regular
+410477675,asset_ref,76339,regular
+410477675,highway,bus_stop,regular
+410477675,location,Tampines Street 11,regular
+410477675,name,Blk 121,regular
+410477675,route_ref,292,regular
+410477716,asset_ref,76189,regular
+410477716,highway,bus_stop,regular
+410477716,location,Tampines Street 23,regular
+410477716,name,Opposite Blk 216,regular
+410477716,route_ref,3;291,regular
+410478070,asset_ref,76279,regular
+410478070,highway,bus_stop,regular
+410478070,location,Tampines Street 45,regular
+410478070,name,Blk 491C,regular
+410478070,route_ref,2N;28;293;552,regular
+410478242,asset_ref,75111,regular
+410478242,highway,bus_stop,regular
+410478242,location,Tampines Street 84,regular
+410478242,name,Blk 874A,regular
+410478242,route_ref,291;554,regular
+410478273,asset_ref,82089,regular
+410478273,highway,bus_stop,regular
+410478273,location,Tanjong Katong Road,regular
+410478273,name,Shell Kiosk,regular
+410478273,route_ref,30;40;43;76;135;197;853C,regular
+410478304,asset_ref,05651,regular
+410478304,highway,bus_stop,regular
+410478304,location,Tanjong Pagar Road,regular
+410478304,name,Opposite Fuji Xerox Towers,regular
+410478304,route_ref,80;145,regular
+410478359,asset_ref,90031,regular
+410478359,highway,bus_stop,regular
+410478359,location,Tanjong Rhu Road,regular
+410478359,name,Tanjong Ria Condominium,regular
+410478359,route_ref,158,regular
+410478395,asset_ref,20209,regular
+410478395,highway,bus_stop,regular
+410478395,location,Teban Gardens Road,regular
+410478395,name,Opposite Pandan Primary School,regular
+410478395,route_ref,79;143,regular
+410478587,asset_ref,14269,regular
+410478587,highway,bus_stop,regular
+410478587,location,Telok Blangah Cresent,regular
+410478587,name,Blk 10,regular
+410478587,route_ref,272,regular
+410478615,asset_ref,14119,regular
+410478615,highway,bus_stop,regular
+410478615,location,Telok Blangah Road,regular
+410478615,name,Opposite VivoCity,regular
+410478615,route_ref,10;30;30e;57;61;65;80;97;97e;100;131;143;145;166;855;NR1;NR6,regular
+410478645,asset_ref,92309,regular
+410478645,highway,bus_stop,regular
+410478645,location,Telok Kurau Road,regular
+410478645,name,East Coast Apartments,regular
+410478645,route_ref,15,regular
+410478666,asset_ref,82151,regular
+410478666,highway,bus_stop,regular
+410478666,location,Tembeling Road,regular
+410478666,name,Before Joo Chiat Place,regular
+410478666,route_ref,33,regular
+410478716,asset_ref,51031,regular
+410478716,highway,bus_stop,regular
+410478716,location,Thomson Road,regular
+410478716,name,Singapore Polo Club,regular
+410478716,route_ref,54;130;132;141;156;162;162M;166;167;851;980,regular
+410478784,asset_ref,10201,regular
+410478784,highway,bus_stop,regular
+410478784,location,Tiong Bahru Road,regular
+410478784,name,Opposite Redhill Station,regular
+410478784,route_ref,32;33;64;120;132;145;NR5,regular
+410478851,asset_ref,52231,regular
+410478851,highway,bus_stop,regular
+410478851,location,Toa Payoh Central,regular
+410478851,name,Opposite Blk 177,regular
+410478851,route_ref,56;105;153;NR1,regular
+410479080,asset_ref,52139,regular
+410479080,highway,bus_stop,regular
+410479080,location,Lorong 1 Toa Payoh,regular
+410479080,name,Oleander Towers,regular
+410479080,route_ref,59;141;231,regular
+410479689,asset_ref,52281,regular
+410479689,highway,bus_stop,regular
+410479689,location,Lorong 5 Toa Payoh,regular
+410479689,name,Blk 68,regular
+410479689,route_ref,231;235,regular
+410479732,asset_ref,52501,regular
+410479732,highway,bus_stop,regular
+410479732,location,Lorong 6 Toa Payoh,regular
+410479732,name,Toa Payoh Swimming Complex,regular
+410479732,route_ref,8;26;28;31;57;59;73;88;90;142;155;157;159;163;235;238;506,regular
+410479751,asset_ref,52489,regular
+410479751,highway,bus_stop,regular
+410479751,location,Lorong 8 Toa Payoh,regular
+410479751,name,Opposite Toa Payoh Polyclinic,regular
+410479751,route_ref,238,regular
+410480301,asset_ref,42231,regular
+410480301,highway,bus_stop,regular
+410480301,location,Toh Tuck Road,regular
+410480301,name,Opposite Canadian International School,regular
+410480301,route_ref,77;173,regular
+410480322,asset_ref,25179,regular
+410480322,highway,bus_stop,regular
+410480322,location,Tuas Avenue 1,regular
+410480322,name,Sew-Eurodrive,regular
+410480322,route_ref,192,regular
+410480339,asset_ref,26161,regular
+410480339,highway,bus_stop,regular
+410480339,location,Tuas Avenue 11,regular
+410480339,name,Metalplas Engineering,regular
+410480339,route_ref,254,regular
+410480357,asset_ref,25369,regular
+410480357,highway,bus_stop,regular
+410480357,location,Tuas Avenue 4,regular
+410480357,name,Jas Metal Coatings,regular
+410480357,route_ref,193,regular
+410480378,asset_ref,25371,regular
+410480378,highway,bus_stop,regular
+410480378,location,Tuas Avenue 9,regular
+410480378,name,Opposite Protex,regular
+410480378,route_ref,193,regular
+410480498,asset_ref,26049,regular
+410480498,highway,bus_stop,regular
+410480498,location,Tuas Cresent,regular
+410480498,name,Pan United Shipping,regular
+410480498,route_ref,254,regular
+410480575,asset_ref,24601,regular
+410480575,highway,bus_stop,regular
+410480575,location,Tuas Road,regular
+410480575,name,Calvanizing,regular
+410480575,route_ref,254,regular
+410480649,asset_ref,26409,regular
+410480649,highway,bus_stop,regular
+410480649,location,Tuas South Avenue 3,regular
+410480649,name,Multico,regular
+410480649,route_ref,182;182M,regular
+410480664,asset_ref,26321,regular
+410480664,highway,bus_stop,regular
+410480664,location,Tuas South Avenue 5,regular
+410480664,name,Between Jacuzzi/Winmac,regular
+410480664,route_ref,182;182M,regular
+410480695,asset_ref,26209,regular
+410480695,highway,bus_stop,regular
+410480695,location,Tuas West Drive,regular
+410480695,name,Opposite ISK Singapore,regular
+410480695,route_ref,193,regular
+410480711,asset_ref,71101,regular
+410480711,highway,bus_stop,regular
+410480711,location,Ubi Avenue 1,regular
+410480711,name,Blk 318,regular
+410480711,route_ref,63;63M,regular
+410480754,asset_ref,71229,regular
+410480754,highway,bus_stop,regular
+410480754,location,Ubi Road 1,regular
+410480754,name,Opposite Meiban Industrial Building,regular
+410480754,route_ref,63;63M,regular
+410481353,asset_ref,70061,regular
+410481353,highway,bus_stop,regular
+410481353,location,Upper Aljunied Road,regular
+410481353,name,Opposite Mount Vernon Crematorium,regular
+410481353,route_ref,100;135;155,regular
+410481672,asset_ref,42119,regular
+410481672,highway,bus_stop,regular
+410481672,location,Upper Bukit Timah Road,regular
+410481672,name,Southaven II,regular
+410481672,route_ref,67;75;170;171;173;184;852;961;961C,regular
+410481702,asset_ref,43081,regular
+410481702,highway,bus_stop,regular
+410481702,location,Upper Bukit Timah Road,regular
+410481702,name,Opposite Assumption Eng School,regular
+410481702,route_ref,67;75;170;171;176;178;184;961;961C;963;970,regular
+410481727,asset_ref,96061,regular
+410481727,highway,bus_stop,regular
+410481727,location,Upper Changi Road East,regular
+410481727,name,Opposite Mera Terrace Park/Garden,regular
+410481727,route_ref,2;4N;5;24,regular
+410481758,asset_ref,97209,regular
+410481758,highway,bus_stop,regular
+410481758,location,Upper Changi Road North,regular
+410481758,name,Changi Chapel Museum,regular
+410481758,route_ref,2;29,regular
+410481780,asset_ref,06171,regular
+410481780,highway,bus_stop,regular
+410481780,location,Upper Cross Street,regular
+410481780,name,Opposite Subordinate Court,regular
+410481780,route_ref,51;143;174;174e;186,regular
+410481823,asset_ref,94069,regular
+410481823,highway,bus_stop,regular
+410481823,location,Upper East Coast Road,regular
+410481823,name,Opposite Kew Green Condominium,regular
+410481823,route_ref,10;10e;13;14;43;506;531;853C,regular
+410482187,asset_ref,23081,regular
+410482187,highway,bus_stop,regular
+410482187,location,Upper Jurong Road,regular
+410482187,name,Opposite Singapore Discovery Centre,regular
+410482187,route_ref,182;182M;193,regular
+410482551,asset_ref,70289,regular
+410482551,highway,bus_stop,regular
+410482551,location,Upper Paya Lebar Road,regular
+410482551,name,Opposite Tai Seng Station,regular
+410482551,route_ref,22;24;28;43;58;62;70;70M;76;80;93;158,regular
+410482578,asset_ref,60209,regular
+410482578,highway,bus_stop,regular
+410482578,location,Upper Serangoon Road,regular
+410482578,name,Opposite Leong Bee Court,regular
+410482578,route_ref,13;107;107M;133;142;147;853;853C;NR6,regular
+410482862,asset_ref,61031,regular
+410482862,highway,bus_stop,regular
+410482862,location,Upper Serangoon Road,regular
+410482862,name,Woodleigh Station,regular
+410482862,route_ref,13;107;107M;133;147;853;853C;NR6,regular
+410483051,asset_ref,62121,regular
+410483051,highway,bus_stop,regular
+410483051,location,Upper Serangoon Road,regular
+410483051,name,After Wolskel Road,regular
+410483051,route_ref,100;107;107M;133;135;147;153;853;853C;NR6,regular
+410483219,asset_ref,56079,regular
+410483219,highway,bus_stop,regular
+410483219,location,Upper Thomson Road,regular
+410483219,name,After Old Upper Thomson Road,regular
+410483219,route_ref,138;167;169;980,regular
+410483594,asset_ref,53081,regular
+410483594,highway,bus_stop,regular
+410483594,location,Upper Thomson Road,regular
+410483594,name,Opposite Faber Garden,regular
+410483594,route_ref,132;163;165;166;167;855;980,regular
+410483636,asset_ref,53041,regular
+410483636,highway,bus_stop,regular
+410483636,location,Upper Thomson Road,regular
+410483636,name,Before Thomson Ridge,regular
+410483636,route_ref,52;132;162;162M;163;165;166;167;410;855;980,regular
+410483664,asset_ref,01019,regular
+410483664,highway,bus_stop,regular
+410483664,location,Victoria Street,regular
+410483664,name,Bras Basah Complex,regular
+410483664,route_ref,2;12;33;130;133;960;NR7,regular
+410483694,asset_ref,17349,regular
+410483694,highway,bus_stop,regular
+410483694,location,West Coast Ferry Road,regular
+410483694,name,West Coast Ferry Term,regular
+410483694,route_ref,175;176,regular
+410483719,asset_ref,16211,regular
+410483719,highway,bus_stop,regular
+410483719,location,West Coast Highway,regular
+410483719,name,Wharves Building,regular
+410483719,route_ref,175;176,regular
+410483739,asset_ref,17061,regular
+410483739,highway,bus_stop,regular
+410483739,location,West Coast Road,regular
+410483739,name,Blk 701,regular
+410483739,route_ref,30;51;78;143;285,regular
+410484104,asset_ref,17021,regular
+410484104,highway,bus_stop,regular
+410484104,location,West Coast Road,regular
+410484104,name,Waseda S Senior High School,regular
+410484104,route_ref,30;51;143;189,regular
+410484468,asset_ref,46359,regular
+410484468,highway,bus_stop,regular
+410484468,location,Woodlands Avenue 1,regular
+410484468,name,After Blk 336,regular
+410484468,route_ref,912,regular
+410484489,asset_ref,46541,regular
+410484489,highway,bus_stop,regular
+410484489,location,Woodlands Avenue 3,regular
+410484489,name,Opposite Blk 347,regular
+410484489,route_ref,187;856;925;925C;926;950;960;961;961C;963;963E;963R;966,regular
+410484512,asset_ref,46691,regular
+410484512,highway,bus_stop,regular
+410484512,location,Woodlands Avenue 4,regular
+410484512,name,Opposite 888 Plaza,regular
+410484512,route_ref,900;900A;951E;NR2,regular
+410484857,asset_ref,46641,regular
+410484857,highway,bus_stop,regular
+410484857,location,Woodlands Avenue 5,regular
+410484857,name,Blk 894C,regular
+410484857,route_ref,912;962,regular
+410485094,asset_ref,47599,regular
+410485094,highway,bus_stop,regular
+410485094,location,Woodlands Avenue 6,regular
+410485094,name,Blk 683A,regular
+410485094,route_ref,904;962;NR2,regular
+410485111,asset_ref,46281,regular
+410485111,highway,bus_stop,regular
+410485111,location,Woodlands Avenue 7,regular
+410485111,name,Blk 825,regular
+410485111,route_ref,858;900;900A;904;911;913;964;965;969;NR2,regular
+410485126,asset_ref,46479,regular
+410485126,highway,bus_stop,regular
+410485126,location,Woodlands Avenue 9,regular
+410485126,name,Blk 774,regular
+410485126,route_ref,169;858;964,regular
+410485161,asset_ref,46821,regular
+410485161,highway,bus_stop,regular
+410485161,location,Woodlands Circle,regular
+410485161,name,Blk 713,regular
+410485161,route_ref,913,regular
+410485296,asset_ref,46911,regular
+410485296,highway,bus_stop,regular
+410485296,location,Woodlands Loop,regular
+410485296,name,Opposite Blk 20,regular
+410485296,route_ref,964,regular
+410485332,asset_ref,46041,regular
+410485332,highway,bus_stop,regular
+410485332,location,Woodlands Road,regular
+410485332,name,Opposite Sri Arasakesari Temple,regular
+410485332,route_ref,160;170;170X;178,regular
+410485361,asset_ref,45051,regular
+410485361,highway,bus_stop,regular
+410485361,location,Woodlands Road,regular
+410485361,name,Digiland,regular
+410485361,route_ref,160;170;178;927;960;961;961C,regular
+410485621,asset_ref,45069,regular
+410485621,highway,bus_stop,regular
+410485621,location,Woodlands Road,regular
+410485621,name,After Mandai Estate,regular
+410485621,route_ref,160;170;178;927;960;961;961C,regular
+410486094,asset_ref,46589,regular
+410486094,highway,bus_stop,regular
+410486094,location,Woodlands Street 13,regular
+410486094,name,Blk 146,regular
+410486094,route_ref,911,regular
+410486264,asset_ref,46429,regular
+410486264,highway,bus_stop,regular
+410486264,location,Woodlands Street 83,regular
+410486264,name,Blk 856,regular
+410486264,route_ref,911,regular
+410486454,asset_ref,67019,regular
+410486454,highway,bus_stop,regular
+410486454,location,Yio Chu Kang Road,regular
+410486454,name,Opposite TAS Receiving Station,regular
+410486454,route_ref,70;70M;86;163;854,regular
+410486891,asset_ref,55109,regular
+410486891,highway,bus_stop,regular
+410486891,location,Yio Chu Kang Road,regular
+410486891,name,Serenity Park,regular
+410486891,route_ref,70;70M;86;163;854,regular
+410486964,asset_ref,63191,regular
+410486964,highway,bus_stop,regular
+410486964,location,Yio Chu Kang Road,regular
+410486964,name,After Serangoon North Avenue 1,regular
+410486964,route_ref,43;70;70M;73;76;103;109;116;147;156;NR6,regular
+410487002,asset_ref,56191,regular
+410487002,highway,bus_stop,regular
+410487002,location,Yio Chu Kang Road,regular
+410487002,name,Opposite NPB Serangoon Depot,regular
+410487002,route_ref,138;163;855,regular
+410487016,asset_ref,59059,regular
+410487016,highway,bus_stop,regular
+410487016,location,Yishun Avenue 2,regular
+410487016,name,Blk 608,regular
+410487016,route_ref,39;85;851;852;853;853C;854;854E;855;857;858;860;965;969,regular
+410487057,asset_ref,59549,regular
+410487057,highway,bus_stop,regular
+410487057,location,Yishun Avenue 3,regular
+410487057,name,Khatib Camp,regular
+410487057,route_ref,169,regular
+410487077,asset_ref,59159,regular
+410487077,highway,bus_stop,regular
+410487077,location,Yishun Avenue 5,regular
+410487077,name,Blk 151,regular
+410487077,route_ref,811,regular
+410487094,asset_ref,59181,regular
+410487094,highway,bus_stop,regular
+410487094,location,Yishun Avenue 9,regular
+410487094,name,Opposite Blk 245,regular
+410487094,route_ref,811,regular
+410487108,asset_ref,59399,regular
+410487108,highway,bus_stop,regular
+410487108,location,Yishun Ring Road,regular
+410487108,name,Opposite Blk 367,regular
+410487108,route_ref,804;806;850E;860,regular
+410487123,asset_ref,59301,regular
+410487123,highway,bus_stop,regular
+410487123,location,Yishun Ring Road,regular
+410487123,name,Blk 731,regular
+410487123,route_ref,1N;558;812;NR1,regular
+410487262,asset_ref,21751,regular
+410487262,highway,bus_stop,regular
+410487262,location,Yuan Ching Road,regular
+410487262,name,Jurong Secondary School,regular
+410487262,route_ref,154,regular
+410487304,asset_ref,84281,regular
+410487304,highway,bus_stop,regular
+410487304,location,Bedok North Road,regular
+410487304,name,Blk 180,regular
+410487304,route_ref,14;222;545,regular
+440562350,exit_to,Upper Thomson Road,regular
+440562350,highway,motorway_junction,regular
+440562350,name,Upper Thomson,regular
+440562350,ref,5,regular
+462263947,amenity,restaurant,regular
+462263947,cuisine,asian,regular
+462263947,name,Jumbo Seafood,regular
+471491430,name,Main,regular
+471491430,railway,station,regular
+471491430,ref,1,regular
+505177649,amenity,ferry_terminal,regular
+505177649,en,Pelabuhan Pulau Penyengat,name
+505177649,sign,ferry,waterway
+506678776,housenumber,610,addr
+506678815,housenumber,609,addr
+506678873,housenumber,119,addr
+506735402,city,Batam,is_in
+506735402,country,Indonesia,is_in
+506735402,state,Kepulauan Riau,is_in
+506735402,name,Bengkong,regular
+506735402,place,town,regular
+507192880,housenumber,612,addr
+508033219,housenumber,137,addr
+509905066,housenumber,2A,addr
+509905092,housenumber,4,addr
+509905105,housenumber,10A,addr
+509905118,housenumber,40,addr
+509905131,housenumber,6A,addr
+509905144,housenumber,9A,addr
+509905157,housenumber,6,addr
+509905170,housenumber,7,addr
+509905183,housenumber,20A,addr
+509905196,housenumber,33,addr
+509905209,housenumber,15,addr
+509905222,housenumber,2B,addr
+509905235,housenumber,6B,addr
+512047189,amenity,parking,regular
+512079202,name,Holiday Inn Orchard,regular
+512079202,tourism,hotel,regular
+512090776,name,"""South Most Point of Asian Continent""",regular
+512090776,tourism,attraction,regular
+512314124,amenity,restaurant,regular
+512314124,cuisine,regional,regular
+512314124,name,Nelayan Grill,regular
+514081851,building,yes,regular
+514081851,name,Golf Club House,regular
+514509263,housenumber,126,addr
+515608134,direction,clockwise,regular
+515608134,highway,mini_roundabout,regular
+518266698,housenumber,658,addr
+518266711,housenumber,661,addr
+518302672,amenity,cafe,regular
+518302672,name,PS cafe,regular
+521081063,amenity,restaurant,regular
+523569702,amenity,hospital,regular
+523569702,name,Rumah Sakit Budi Kemuliaan,regular
+529479418,exit_to,Hospital Sultanah Aminah,regular
+529479418,highway,motorway_junction,regular
+529479418,ref,14B,regular
+543955859,amenity,place_of_worship,regular
+543955859,name,Mesjid Al Muhlisin,regular
+543955859,religion,muslim,regular
+560660134,amenity,toilets,regular
+564822345,highway,motorway_junction,regular
+564822345,ref,8A,regular
+566522006,highway,motorway_junction,regular
+566522006,ref,2A,regular
+568256252,exit_to,Jurong Town Hall Road;Bukit Batok Road,regular
+568256252,highway,motorway_junction,regular
+568256252,name,Bukit Batok,regular
+568256252,ref,31,regular
+575526181,name,NTUC Fairprice,regular
+575526181,shop,supermarket,regular
+595256530,highway,traffic_signals,regular
+597073498,amenity,parking,regular
+599015159,amenity,fuel,regular
+599015159,name,SPC,regular
+601846787,name,Hotel Golden View,regular
+601846787,tourism,hotel,regular
+601855876,amenity,bank,regular
+601855876,atm,no,regular
+601855876,name,Bank Indonesia,regular
+601855876,operator,Bank Indonesia,regular
+602062265,barrier,bollard,regular
+602062265,bicycle,no,regular
+602062265,foot,yes,regular
+602165448,barrier,gate,regular
+602165448,name,Burkill Gate,regular
+602549235,amenity,parking,regular
+602892250,amenity,food_court,regular
+602892250,name,Lau Pa Sat,regular
+602892250,operator,Kopitiam,regular
+602892250,wheelchair,yes,regular
+603563141,amenity,restaurant,regular
+603563141,name,Seah Im Food Centre,regular
+610721390,amenity,fast_food,regular
+610721390,cuisine,burger,regular
+610721390,name,McDonald's,regular
+610721390,wheelchair,yes,regular
+610738130,name,Cold Storage,regular
+610738130,shop,supermarket,regular
+610738130,wheelchair,yes,regular
+617035493,amenity,place_of_worship,regular
+617035493,denomination,catholic,regular
+617035493,name,The Church of Our Lady Star of the Sea,regular
+617035493,religion,christian,regular
+617600597,asset_ref,58211,regular
+617600597,highway,bus_stop,regular
+617600597,location,Sembawang Way,regular
+617600597,name,Sembawang Station,regular
+617600597,route_ref,858;859;882;981,regular
+617988787,asset_ref,58081,regular
+617988787,highway,bus_stop,regular
+617988787,location,Sembawang Road,regular
+617988787,name,Opposite Jalan Janggus,regular
+617988787,route_ref,882,regular
+632463182,amenity,place_of_worship,regular
+632463182,name,Masjid Malabar,regular
+632463182,religion,muslim,regular
+653134902,amenity,restaurant,regular
+653134902,name,Thasevi Food Jalan Kayu Prata,regular
+663145149,amenity,restaurant,regular
+663145149,cuisine,asian,regular
+663145149,name,Rosni Cafe,regular
+663145149,wpt_description,"Open Daily for Breakfast, Lunch & Dinner.  
+Best Free Wifi Service",regular
+663145149,wpt_symbol,Restaurant,regular
+665020335,name,Somerset (NSL),regular
+665020335,railway,subway_entrance,regular
+665020335,wheelchair,yes,regular
+671202380,amenity,fire_station,regular
+671202380,name,Alexandra Fire Station,regular
+673994927,amenity,post_office,regular
+673994927,name,Alexandra,regular
+679650258,amenity,fire_station,regular
+679650258,name,Clementi Fire Station,regular
+681253965,tourism,viewpoint,regular
+687602967,amenity,pharmacy,regular
+698893790,aeroway,aerodrome,regular
+700645181,name,Badan Pemeriksa Keuangan,regular
+700645198,name,Gardu PLN Tiban Koperasi,regular
+700645218,name,Lurah Tg.Riau Office,regular
+700645241,name,Pasar Fanindo,regular
+700645258,amenity,school,regular
+700645258,name,SMUN 1,regular
+700645374,name,Tobing Masakan Batak,regular
+701939374,amenity,atm,regular
+701939374,garmin_type,0x2f06,regular
+701939374,name,"Atm Bca, Sagulung",regular
+701939374,source,Batam Mapping Project,regular
+701940769,garmin_type,0x2e04,regular
+701940769,name,Saras Super Mall,regular
+701940769,shop,mall,regular
+701940769,source,Batam Mapping Project,regular
+701949992,garmin_type,0x6411,regular
+701949992,man_made,tower,regular
+701949992,name,Free Internet Park Sagulung,regular
+701949992,source,Batam Mapping Project,regular
+701982882,garmin_type,0x3007,regular
+701982882,name,KUA Batu Aji Office,regular
+701982882,source,Batam Mapping Project,regular
+702028810,amenity,place_of_worship,regular
+702028810,garmin_type,0x6404,regular
+702028810,name,Masjid Syed Sahul Hameed,regular
+702028810,religion,muslim,regular
+702028810,source,Batam Mapping Project,regular
+702030234,garmin_type,0x6402,regular
+702030234,name,Permata Puri II,regular
+702030234,place,locality,regular
+702030234,source,Batam Mapping Project,regular
+702033674,amenity,mosque,regular
+702033674,garmin_type,0x6404,regular
+702033674,name,Masjid Baitul Maghfiroh,regular
+702033674,religion,muslim,regular
+702033674,source,Batam Mapping Project,regular
+702039346,garmin_type,0x2a12,regular
+702039346,name,Aviari Sarapan,regular
+702039346,source,Batam Mapping Project,regular
+702042818,garmin_type,0x6404,regular
+702042818,name,Masjid An Nur Villa Paradise,regular
+702042818,source,Batam Mapping Project,regular
+702072325,building,yes,regular
+702072325,garmin_type,0x6401,regular
+702072325,name,Bridge S2,regular
+702072325,source,Batam Mapping Project,regular
+702100255,garmin_type,0x6402,regular
+702100255,is_in,Batu Aji,regular
+702100255,name,Buana Raya,regular
+702100255,place,locality,regular
+702100255,source,Batam Mapping Project,regular
+702151621,garmin_type,0x2e0a,regular
+702151621,name,Warung Basah,regular
+702151621,source,Batam Mapping Project,regular
+702170400,amenity,place_of_worship,regular
+702170400,garmin_type,0x6404,regular
+702170400,name,Masjid Al Mukmin,regular
+702170400,religion,muslim,regular
+702170400,source,Batam Mapping Project,regular
+702182342,garmin_type,0x2a12,regular
+702182342,name,Rm.Padang Putra Bundo,regular
+702182342,source,Batam Mapping Project,regular
+702187068,garmin_type,0x6402,regular
+702187068,name,Taman Laguna,regular
+702187068,place,locality,regular
+702187068,source,Batam Mapping Project,regular
+702191932,amenity,atm,regular
+702191932,garmin_type,0x2f06,regular
+702191932,name,Atm Mandiri (Pel.Sagulung),regular
+702191932,source,Batam Mapping Project,regular
+702194675,amenity,mosque,regular
+702194675,garmin_type,0x6404,regular
+702194675,name,Masjid As Salam,regular
+702194675,religion,muslim,regular
+702194675,source,Batam Mapping Project,regular
+702326910,amenity,mosque,regular
+702326910,garmin_type,0x6404,regular
+702326910,religion,muslim,regular
+702326910,source,Batam Mapping Project,regular
+702327223,garmin_type,0x6404,regular
+702327223,name,Masjid,regular
+702327223,source,Batam Mapping Project,regular
+702327648,amenity,hospital,regular
+702327648,garmin_type,0x3002,regular
+702327648,name,RSUD,regular
+702327648,source,Batam Mapping Project,regular
+702328165,garmin_type,0x2c05,regular
+702328165,name,Sdn 007 ?,regular
+702328165,source,Batam Mapping Project,regular
+702328991,amenity,mosque,regular
+702328991,garmin_type,0x6404,regular
+702328991,name,Masjid Nurul Ikhsan,regular
+702328991,religion,muslim,regular
+702328991,source,Batam Mapping Project,regular
+702329004,garmin_type,0x6404,regular
+702329004,name,"Masjid Al Quba, Pjb",regular
+702329004,source,Batam Mapping Project,regular
+702329017,garmin_type,0x6404,regular
+702329017,name,Gereja Hki Sgl,regular
+702329017,source,Batam Mapping Project,regular
+702329817,garmin_type,0x6512,regular
+702329817,name,Selat Bulan,regular
+702329817,source,Batam Mapping Project,regular
+702329895,garmin_type,0x6404,regular
+702329895,name,Masjid Ar Raudah Islamic Center,regular
+702329895,source,Batam Mapping Project,regular
+702330088,garmin_type,0x6402,regular
+702330088,name,"Trikarya Alam,Pt",regular
+702330088,source,Batam Mapping Project,regular
+702331033,garmin_type,0x6402,regular
+702331033,name,Kavling Siap Bangun Dapur Duabelas,regular
+702331033,source,Batam Mapping Project,regular
+702331251,garmin_type,0x2f15,regular
+702331251,name,Indosat Gate Bukit Mata Kucing,regular
+702331251,source,Batam Mapping Project,regular
+702331548,garmin_type,0x6604,regular
+702331548,name,Pantai Teluk Senimba Marina,regular
+702331548,en,Teluk Senimba Beach,name
+702331548,source,Batam Mapping Project,regular
+702331548,tourism,beach,regular
+702332587,garmin_type,0x2d0a,regular
+702332587,name,Lapangan Bola Tg.Riau,regular
+702332587,source,Batam Mapping Project,regular
+702332764,garmin_type,0x2c09,regular
+702332764,name,Balai Pertemuan Tg.Riau,regular
+702332764,source,Batam Mapping Project,regular
+702333052,amenity,place_of_worship,regular
+702333052,garmin_type,0x6404,regular
+702333052,name,Masjid Nurul Huda,regular
+702333052,religion,muslim,regular
+702333052,source,Batam Mapping Project,regular
+702341392,amenity,swimming_pool,regular
+702341392,garmin_type,0x2d09,regular
+702341392,name,Southlink Swimming P.,regular
+702341392,source,Batam Mapping Project,regular
+702350237,highway,bus_stop,regular
+702355075,garmin_type,0x2b04,regular
+702355075,name,KTM Resort,regular
+702355075,place,locality,regular
+702355075,source,Batam Mapping Project,regular
+702355090,garmin_type,0x3004,regular
+702355090,name,Kpu,regular
+702355090,source,Batam Mapping Project,regular
+702355119,amenity,parking,regular
+702355119,garmin_type,0x4d00,regular
+702355119,name,Sekupang Domistic Sea Port,regular
+702355119,source,Batam Mapping Project,regular
+702364808,building,yes,regular
+702364808,garmin_type,0x6401,regular
+702364808,name,Bridge (Jembatan 4 Barelang),regular
+702364808,source,Batam Mapping Project,regular
+702668483,highway,traffic_signals,regular
+702670734,amenity,fuel,regular
+702670734,garmin_type,0x2f01,regular
+702670734,name,Fuel Station (Spbu Sma Al Azhar),regular
+702670734,source,Batam Mapping Project,regular
+702672512,garmin_type,0x700,regular
+702672512,city,Batam,is_in
+702672512,country,Indonesia,is_in
+702672512,state,Kepulauan Riau,is_in
+702672512,name,Lubuk Baja,regular
+702672512,place,town,regular
+702672512,source,Batam Mapping Project,regular
+702672905,garmin_type,0x2f12,regular
+702672905,name,Indosat,regular
+702672905,shop,mobile_phone,regular
+702672905,source,Batam Mapping Project,regular
+702678899,garmin_type,0x6402,regular
+702678899,name,Batu Batam Permai,regular
+702678899,place,locality,regular
+702678899,source,Batam Mapping Project,regular
+702684977,amenity,fire_station,regular
+702684977,garmin_type,0x3008,regular
+702684977,name,Pemadam Kebakaran Sei.Panas,regular
+702684977,source,Batam Mapping Project,regular
+702689667,highway,traffic_signals,regular
+703792003,garmin_type,0x6411,regular
+703792003,man_made,tower,regular
+703792003,name,Batam Tv,regular
+703792003,source,Batam Mapping Project,regular
+703792589,amenity,school,regular
+703792589,garmin_type,0x2c05,regular
+703792589,name,SDN 05 Batu Ampar,regular
+703792589,source,Batam Mapping Project,regular
+703814122,garmin_type,0x6604,regular
+703814122,name,P Pantai Stres,regular
+703814122,natural,beach,regular
+703814122,source,Batam Mapping Project,regular
+703814989,amenity,fuel,regular
+703814989,garmin_type,0x2f01,regular
+703814989,name,Fuel Harbour Bay,regular
+703814989,source,Batam Mapping Project,regular
+703824277,highway,traffic_signals,regular
+703825127,garmin_type,0x2b01,regular
+703825127,name,Planet Holiday Hotel,regular
+703825127,source,Batam Mapping Project,regular
+703825127,tourism,hotel,regular
+703856231,garmin_type,0x5200,regular
+703856231,name,Ocarina,regular
+703856231,source,Batam Mapping Project,regular
+703856231,tourism,viewpoint,regular
+703857999,garmin_type,0x2c04,regular
+703857999,name,Ocarina,regular
+703857999,source,Batam Mapping Project,regular
+705065131,amenity,school,regular
+705065131,garmin_type,0x2c05,regular
+705065131,name,SDN 6,regular
+705065131,source,Batam Mapping Project,regular
+705066403,amenity,place_of_worship,regular
+705066403,garmin_type,0x6404,regular
+705066403,name,Masjid Al-Jihad,regular
+705066403,religion,muslim,regular
+705066403,source,Batam Mapping Project,regular
+705081083,amenity,bank,regular
+705081083,garmin_type,0x2f06,regular
+705081083,name,BNI,regular
+705081083,source,Batam Mapping Project,regular
+705081947,amenity,place_of_worship,regular
+705081947,garmin_type,0x6404,regular
+705081947,name,G Bethel Indo,regular
+705081947,religion,christian,regular
+705081947,source,Batam Mapping Project,regular
+707416006,garmin_type,0x6402,regular
+707416006,name,Baloi Raa,regular
+707416006,source,Batam Mapping Project,regular
+707545793,amenity,place_of_worship,regular
+707545793,garmin_type,0x6404,regular
+707545793,name,Mushallah Darussalam,regular
+707545793,religion,muslim,regular
+707545793,source,Batam Mapping Project,regular
+707578830,amenity,place_of_worship,regular
+707578830,garmin_type,0x6404,regular
+707578830,name,Mushallah,regular
+707578830,religion,muslim,regular
+707578830,source,Batam Mapping Project,regular
+707605434,garmin_type,0x6404,regular
+707605434,name,Mushallah Nabilah,regular
+707605434,source,Batam Mapping Project,regular
+707612385,amenity,place_of_worship,regular
+707612385,garmin_type,0x6404,regular
+707612385,name,Mushallah Al Falah,regular
+707612385,religion,muslim,regular
+707612385,source,Batam Mapping Project,regular
+707626330,garmin_type,0x5400,regular
+707626330,name,Sangrila Swiming Pool,regular
+707626330,source,Batam Mapping Project,regular
+707626330,sport,swimming,regular
+707690414,amenity,doctors,regular
+707690414,garmin_type,0x4b00,regular
+707690414,name,First Aid (Pustu Patam),regular
+707690414,source,Batam Mapping Project,regular
+707758965,amenity,drinking_water,regular
+707758965,garmin_type,0x6407,regular
+707758965,name,Dam Muka Kuning,regular
+707758965,source,Batam Mapping Project,regular
+707809881,garmin_type,0x2e01,regular
+707809881,name,Ramayna,regular
+707809881,source,Batam Mapping Project,regular
+718901053,garmin_type,0x5700,regular
+718901053,name,Panbil Power Plan,regular
+718901053,source,Batam Mapping Project,regular
+718926221,garmin_type,0x2e04,regular
+718926221,name,Batamindo Mall,regular
+718926221,source,Batam Mapping Project,regular
+718944175,building,yes,regular
+718944175,garmin_type,0x6402,regular
+718944175,name,"Mulia Realty Batindo,Pt",regular
+718944175,source,Batam Mapping Project,regular
+718947462,amenity,school,regular
+718947462,garmin_type,0x2c05,regular
+718947462,name,SMK Kartini,regular
+718947462,source,Batam Mapping Project,regular
+719039359,building,yes,regular
+719039359,garmin_type,0x6402,regular
+719039359,name,Prm Palm Beach,regular
+719039359,source,Batam Mapping Project,regular
+719041442,amenity,public_building,regular
+719041442,garmin_type,0x3007,regular
+719041442,name,Lurah T.Uma Office,regular
+719041442,source,Batam Mapping Project,regular
+719059161,amenity,townhall,regular
+719059161,garmin_type,0x3007,regular
+719059161,name,Lurah Baloi Indah Office,regular
+719059161,source,Batam Mapping Project,regular
+719066142,amenity,hospital,regular
+719066142,garmin_type,0x4b00,regular
+719066142,name,Rs Bersalin Mitra Bunda,regular
+719066142,source,Batam Mapping Project,regular
+736599302,amenity,school,regular
+736599302,garmin_type,0x2c05,regular
+736599302,name,SDN 007,regular
+736599302,source,Batam Mapping Project,regular
+736602177,amenity,pharmacy,regular
+736602177,garmin_type,0x2e05,regular
+736602177,name,Kimia Farma,regular
+736602177,source,Batam Mapping Project,regular
+736609365,building,yes,regular
+736609365,garmin_type,0x6402,regular
+736609365,name,P Blok 2,regular
+736609365,source,Batam Mapping Project,regular
+736609420,amenity,place_of_worship,regular
+736609420,building,yes,regular
+736609420,garmin_type,0x6404,regular
+736609420,name,Gereja Omg,regular
+736609420,source,Batam Mapping Project,regular
+736609518,amenity,place_of_worship,regular
+736609518,garmin_type,0x6404,regular
+736609518,name,Viara Raja Skt,regular
+736609518,source,Batam Mapping Project,regular
+736618297,garmin_type,0x2f10,regular
+736618297,name,Naga Photo,regular
+736618297,shop,photo,regular
+736618297,source,Batam Mapping Project,regular
+736618838,amenity,dentist,regular
+736618838,garmin_type,0x4b00,regular
+736618838,name,Dentist Suhermanto,regular
+736618838,source,Batam Mapping Project,regular
+736619041,amenity,place_of_worship,regular
+736619041,garmin_type,0x6404,regular
+736619041,name,Masjid Al Istiqomah,regular
+736619041,religion,muslim,regular
+736619041,source,Batam Mapping Project,regular
+736621174,amenity,marketplace,regular
+736621174,garmin_type,0x2e04,regular
+736621174,name,Pasar Jodoh (Wet Market),regular
+736621174,source,Batam Mapping Project,regular
+736622247,amenity,bank,regular
+736622247,garmin_type,0x2f06,regular
+736622247,name,Uob Buana Bank,regular
+736622247,source,Batam Mapping Project,regular
+736625766,amenity,post_office,regular
+736625766,garmin_type,0x2f05,regular
+736625766,name,Elteha,regular
+736625766,source,Batam Mapping Project,regular
+736630221,amenity,atm,regular
+736630221,garmin_type,0x2f06,regular
+736630221,name,Atm Ocbc Nisp,regular
+736630221,source,Batam Mapping Project,regular
+736630438,amenity,school,regular
+736630438,garmin_type,0x2c05,regular
+736630438,name,SDN 08 Lubuk Baja,regular
+736630438,source,Batam Mapping Project,regular
+736645638,amenity,place_of_worship,regular
+736645638,garmin_type,0x6404,regular
+736645638,name,Masjid Sengkuang,regular
+736645638,religion,muslim,regular
+736645638,source,Batam Mapping Project,regular
+760473194,garmin_type,0x700,regular
+760473194,city,Batam,is_in
+760473194,country,Indonesia,is_in
+760473194,state,Kepulauan Riau,is_in
+760473194,name,Batam Kota,regular
+760473194,place,town,regular
+760473194,source,Batam Mapping Project,regular
+760475143,amenity,atm,regular
+760475143,garmin_type,0x2f06,regular
+760475143,name,BCA,regular
+760475143,source,Batam Mapping Project,regular
+760485233,garmin_type,0x6404,regular
+760485233,name,Qiblatain Kapital Raya,regular
+760485233,source,Batam Mapping Project,regular
+760485250,garmin_type,0x3007,regular
+760485250,name,Kua Belian,regular
+760485250,source,Batam Mapping Project,regular
+760489501,amenity,school,regular
+760489501,garmin_type,0x2c05,regular
+760489501,name,SMPN 28,regular
+760489501,source,Batam Mapping Project,regular
+760494001,housename,Rezeki Seafood,addr
+760494001,street,Pantai Batu Besar,addr
+760494001,amenity,restaurant,regular
+760494001,garmin_type,0x2a0b,regular
+760494001,name,Rezeki Seafood,regular
+760494001,source,Batam Mapping Project,regular
+760494001,website,www.rezekiseafood.com,regular
+760502646,amenity,police,regular
+760502646,garmin_type,0x3001,regular
+760502646,name,Police Province Hq (Polda Kepri),regular
+760502646,source,Batam Mapping Project,regular
+760521936,amenity,place_of_worship,regular
+760521936,garmin_type,0x6404,regular
+760521936,name,Masjid Polda Kepri,regular
+760521936,religion,muslim,regular
+760521936,source,Batam Mapping Project,regular
+760544941,garmin_type,0x6402,regular
+760544941,name,Pos,regular
+760544941,source,Batam Mapping Project,regular
+760554291,amenity,place_of_worship,regular
+760554291,garmin_type,0x6404,regular
+760554291,name,Masjid Nurul Jihad,regular
+760554291,religion,muslim,regular
+760554291,source,Batam Mapping Project,regular
+760584411,garmin_type,0x6404,regular
+760584411,name,Nurul Hidayah,regular
+760584411,source,Batam Mapping Project,regular
+775915337,name,Cold Storage,regular
+775915337,shop,convenience,regular
+775915352,amenity,fast_food,regular
+775915352,name,McDonald's,regular
+851233934,garmin_type,0x1000,regular
+851233934,name,"Blok E, Legenda Bali",regular
+851233934,source,Batam Mapping Project,regular
+851239714,garmin_type,0x6402,regular
+851239714,name,Duta Mas,regular
+851239714,place,locality,regular
+851239714,source,Batam Mapping Project,regular
+851241911,garmin_type,0x2c05,regular
+851241911,name,Sekolah Kristen Kalam Kudus Btm Kota,regular
+851241911,source,Batam Mapping Project,regular
+856921504,amenity,place_of_worship,regular
+856921504,garmin_type,0x6404,regular
+856921504,name,Masjid Al Ikhlas,regular
+856921504,religion,muslim,regular
+856921504,source,Batam Mapping Project,regular
+856921929,amenity,place_of_worship,regular
+856921929,garmin_type,0x6404,regular
+856921929,name,Masjid Duta Mas,regular
+856921929,religion,muslim,regular
+856921929,source,Batam Mapping Project,regular
+856948125,garmin_type,0x6402,regular
+856948125,name,Executive Industrial Park,regular
+856948125,place,locality,regular
+856948125,source,Batam Mapping Project,regular
+857034654,garmin_type,0x2d0a,regular
+857034654,leisure,sports_centre,regular
+857034654,name,Futsal Family Arena,regular
+857034654,source,Batam Mapping Project,regular
+857035555,amenity,restaurant,regular
+857035555,garmin_type,0x2a12,regular
+857035555,name,Resto Kediri Restaurant,regular
+857035555,source,Batam Mapping Project,regular
+857918360,sport,Polo,regular
+889462948,highway,traffic_signals,regular
+890376931,highway,crossing,regular
+891923364,barrier,gate,regular
+891923364,school,entrance,regular
+898920249,garmin_type,0x6402,regular
+898920249,name,Taman Seruni Indah,regular
+898920249,place,locality,regular
+898920249,source,Batam Mapping Project,regular
+898921076,amenity,restaurant,regular
+898921076,garmin_type,0x2a12,regular
+898921076,name,Pondok Ikan Bakar,regular
+898921076,source,Batam Mapping Project,regular
+901204971,amenity,place_of_worship,regular
+901204971,garmin_type,0x6404,regular
+901204971,name,Masjid Nurul Jannah Eden Park,regular
+901204971,religion,muslim,regular
+901204971,source,Batam Mapping Project,regular
+901239698,garmin_type,0x6402,regular
+901239698,name,Dpd Pks Kota Batam,regular
+901239698,source,Batam Mapping Project,regular
+901244373,garmin_type,0x6402,regular
+901244373,name,DPW PKS,regular
+901244373,source,Batam Mapping Project,regular
+902923879,amenity,place_of_worship,regular
+902923879,garmin_type,0x6404,regular
+902923879,name,Temple Yuan Tian Sha,regular
+902923879,religion,buddhist,regular
+902923879,source,Batam Mapping Project,regular
+902944862,amenity,place_of_worship,regular
+902944862,garmin_type,0x6404,regular
+902944862,name,Masjid  Al Jamilun,regular
+902944862,religion,muslim,regular
+902944862,source,Batam Mapping Project,regular
+902957546,garmin_type,0x2a12,regular
+902957546,name,Holand Bakery Bengkong,regular
+902957546,source,Batam Mapping Project,regular
+902981762,garmin_type,0x2e04,regular
+902981762,name,Top 100 Minimarket Bengkong,regular
+902981762,shop,convenience,regular
+902981762,source,Batam Mapping Project,regular
+902982764,amenity,school,regular
+902982764,garmin_type,0x2c05,regular
+902982764,name,Sekolah Harmoni,regular
+902982764,source,Batam Mapping Project,regular
+902988700,amenity,place_of_worship,regular
+902988700,garmin_type,0x6404,regular
+902988700,name,Mushallah Baitul Ulya,regular
+902988700,religion,muslim,regular
+902988700,source,Batam Mapping Project,regular
+903027788,amenity,school,regular
+903027788,garmin_type,0x2c05,regular
+903027788,name,SMPN 04,regular
+903027788,source,Batam Mapping Project,regular
+903033519,amenity,restaurant,regular
+903033519,garmin_type,0x2a12,regular
+903033519,name,Salero Basamo,regular
+903033519,source,Batam Mapping Project,regular
+903034515,garmin_type,0x6402,regular
+903034515,name,Falun Dafa,regular
+903034515,source,Batam Mapping Project,regular
+903110564,garmin_type,0x2d0a,regular
+903110564,leisure,sports_centre,regular
+903110564,name,Lapangan Bola B.Laut,regular
+903110564,source,Batam Mapping Project,regular
+903115241,amenity,place_of_worship,regular
+903115241,garmin_type,0x6404,regular
+903115241,name,Masjid  Mutmainah,regular
+903115241,religion,muslim,regular
+903115241,source,Batam Mapping Project,regular
+903271326,amenity,restaurant,regular
+903271326,garmin_type,0x2a12,regular
+903271326,name,Restourant Ikan Daun,regular
+903271326,source,Batam Mapping Project,regular
+903285451,amenity,place_of_worship,regular
+903285451,garmin_type,0x6404,regular
+903285451,name,Masjid Al Ikhlas,regular
+903285451,religion,muslim,regular
+903285451,source,Batam Mapping Project,regular
+903285701,amenity,place_of_worship,regular
+903285701,garmin_type,0x6404,regular
+903285701,name,Masjid Bukratawaasila,regular
+903285701,religion,muslim,regular
+903285701,source,Batam Mapping Project,regular
+903285963,amenity,place_of_worship,regular
+903285963,garmin_type,0x6404,regular
+903285963,name,Masjid Al Hikmah,regular
+903285963,religion,muslim,regular
+903285963,source,Batam Mapping Project,regular
+903289059,amenity,place_of_worship,regular
+903289059,garmin_type,0x6404,regular
+903289059,name,Masjid Griyatama,regular
+903289059,religion,muslim,regular
+903289059,source,Batam Mapping Project,regular
+905099789,amenity,restaurant,regular
+908648590,amenity,parking,regular
+911553976,amenity,parking,regular
+911553976,name,CP-7,regular
+924281146,name,Tanjung Riau,regular
+924281146,place,village,regular
+931538808,dsg,ISL,gns
+931538808,country,Indonesia,is_in
+931538808,country_code,ID,is_in
+931538808,state,Province of Kepulauan Riau,is_in
+931538808,name,Terong,regular
+931538808,note,"GNS database update - Sept 20, 2010",regular
+931538808,place,island,regular
+931538808,source,NGA-GNS,regular
+931540281,dsg,ISL,gns
+931540281,country,Indonesia,is_in
+931540281,country_code,ID,is_in
+931540281,state,Province of Kepulauan Riau,is_in
+931540281,name,Sabuntah,regular
+931540281,note,"GNS database update - Sept 20, 2010",regular
+931540281,place,island,regular
+931540281,source,NGA-GNS,regular
+931540657,dsg,ISL,gns
+931540657,country,Indonesia,is_in
+931540657,country_code,ID,is_in
+931540657,state,Province of Kepulauan Riau,is_in
+931540657,name,Pulau Tanjungkubu,regular
+931540657,note,"GNS database update - Sept 20, 2010",regular
+931540657,place,island,regular
+931540657,source,NGA-GNS,regular
+931541166,dsg,ISL,gns
+931541166,country,Indonesia,is_in
+931541166,country_code,ID,is_in
+931541166,name,Pulau Parit,regular
+931541166,note,"GNS database update - Sept 20, 2010",regular
+931541166,place,island,regular
+931541166,source,NGA-GNS,regular
+931541677,dsg,ISL,gns
+931541677,country,Indonesia,is_in
+931541677,country_code,ID,is_in
+931541677,state,Province of Kepulauan Riau,is_in
+931541677,name,Pulau Sembakau Kecil,regular
+931541677,note,"GNS database update - Sept 20, 2010",regular
+931541677,place,island,regular
+931541677,source,NGA-GNS,regular
+931542151,dsg,ISL,gns
+931542151,country,Indonesia,is_in
+931542151,country_code,ID,is_in
+931542151,state,Province of Kepulauan Riau,is_in
+931542151,name,Pulau Karimun Besar,regular
+931542151,note,"GNS database update - Sept 20, 2010",regular
+931542151,place,island,regular
+931542151,source,NGA-GNS,regular
+931542737,dsg,ISL,gns
+931542737,country,Indonesia,is_in
+931542737,country_code,ID,is_in
+931542737,state,Province of Kepulauan Riau,is_in
+931542737,name,Pacet,regular
+931542737,note,"GNS database update - Sept 20, 2010",regular
+931542737,place,island,regular
+931542737,source,NGA-GNS,regular
+931543225,dsg,ISL,gns
+931543225,country,Indonesia,is_in
+931543225,country_code,ID,is_in
+931543225,name,Pulau Subangmas,regular
+931543225,note,"GNS database update - Sept 20, 2010",regular
+931543225,place,island,regular
+931543225,source,NGA-GNS,regular
+931543716,dsg,ISL,gns
+931543716,country,Indonesia,is_in
+931543716,country_code,ID,is_in
+931543716,state,Province of Kepulauan Riau,is_in
+931543716,name,Pulau Takong Besar,regular
+931543716,note,"GNS database update - Sept 20, 2010",regular
+931543716,place,island,regular
+931543716,source,NGA-GNS,regular
+931544357,dsg,ISL,gns
+931544357,country,Indonesia,is_in
+931544357,country_code,ID,is_in
+931544357,state,Province of Kepulauan Riau,is_in
+931544357,name,Tekkon,regular
+931544357,note,"GNS database update - Sept 20, 2010",regular
+931544357,place,island,regular
+931544357,source,NGA-GNS,regular
+931544891,dsg,ISL,gns
+931544891,country,Indonesia,is_in
+931544891,country_code,ID,is_in
+931544891,name,Pulau Tarkulai,regular
+931544891,note,"GNS database update - Sept 20, 2010",regular
+931544891,place,island,regular
+931544891,source,NGA-GNS,regular
+931545474,dsg,ISL,gns
+931545474,country,Indonesia,is_in
+931545474,country_code,ID,is_in
+931545474,state,Province of Kepulauan Riau,is_in
+931545474,name,Pulau Takong Kecil,regular
+931545474,note,"GNS database update - Sept 20, 2010",regular
+931545474,place,island,regular
+931545474,source,NGA-GNS,regular
+931546310,dsg,ISL,gns
+931546310,country,Indonesia,is_in
+931546310,country_code,ID,is_in
+931546310,state,Province of Kepulauan Riau,is_in
+931546310,name,Pulau Anion,regular
+931546310,note,"GNS database update - Sept 20, 2010",regular
+931546310,place,island,regular
+931546310,source,NGA-GNS,regular
+938580355,is_in,Bengkong,regular
+938580355,city,Batam,is_in
+938580355,name,Bengkong Laut,regular
+938580355,place,village,regular
+938635732,name,Puri Industrial Park,regular
+938635732,place,locality,regular
+947048350,aeroway,terminal,regular
+956519432,natural,tree,regular
+965599624,amenity,school,regular
+965599624,wheelchair,no,regular
+965873722,amenity,taxi,regular
+965873722,name,Arrival Station,regular
+972300606,highway,motorway_junction,regular
+972300606,ref,1713,regular
+972315898,highway,motorway_junction,regular
+972315898,ref,1704,regular
+972316009,highway,motorway_junction,regular
+972316009,ref,1710,regular
+981879052,barrier,lift_gate,regular
+981879052,motorcar,yes,regular
+981879052,motorcycle,yes,regular
+998800513,amenity,place_of_worship,regular
+998800513,religion,muslim,regular
+1042092834,aeroway,aerodrome,regular
+1042092834,iata,TJB,regular
+1042092834,icao,WIBT,regular
+1042092834,is_in,Tanjung Balai Karimun,regular
+1042092834,state,Kepulauan Riau,is_in
+1042092834,name,Sei Bati Airport,regular
+1042092834,id,Bandar Udara Sei Bati,name
+1070179543,dsg,MT,gns
+1070179543,country,Indonesia,is_in
+1070179543,country_code,ID,is_in
+1070179543,state,Kepulauan Riau,is_in
+1070179543,name,Telogah,regular
+1070179543,natural,peak,regular
+1070179543,note,Modify date: 2008-12-01,regular
+1070179543,source,NGA-GNS,regular
+1090465417,building,entrance,regular
+1107502639,historic,cannon,regular
+1109925710,waterway,lock_gate,regular
+1110010380,bench,no,regular
+1110010380,highway,bus_stop,regular
+1110010380,shelter,no,regular
+1110331722,highway,traffic_signals,regular
+1110929869,highway,traffic_signals,regular
+1111079656,highway,traffic_signals,regular
+1111079919,highway,traffic_signals,regular
+1119592876,highway,turning_circle,regular
+1126074401,name,Sheng Siong Supermarket,regular
+1126074401,shop,supermarket,regular
+1132138309,asset_ref,27421,regular
+1132138309,highway,bus_stop,regular
+1132138309,name,Blk 701,regular
+1133985683,name,Shop N Save,regular
+1133985683,shop,supermarket,regular
+1153299336,city,Singapore,addr
+1153299336,country,SG,addr
+1153299336,housenumber,24,addr
+1153299336,postcode,228512,addr
+1153299336,street,Mount Elizabeth,addr
+1153299336,name,The Elizabeth Hotel,regular
+1153299336,phone,+65 6738 1188,regular
+1153299336,source,website,regular
+1153299336,tourism,hotel,regular
+1153299336,website,http://www.theelizabeth.com.sg,regular
+1207252230,W1001,SP CARE,regular
+1207252230,W1011,Centre For Technology,regular
+1207252372,amenity,taxi,regular
+1207252372,name,Taxi Stand,regular
+1207256253,W1411,Machine Shop 1B,regular
+1207256253,W1412,Machine Shop 1A,regular
+1207256253,W1413,Aerospace Material & Biomaterial Lab,regular
+1207256253,W1414,Material II Lab,regular
+1207256253,W1414A,Instron Tensile Room,regular
+1207256253,W1421,Industrial Automation Lab,regular
+1207256253,W1424,Material I Lab,regular
+1218588052,exit_to,Toh Guan Road,regular
+1218588052,highway,motorway_junction,regular
+1218588052,name,Toh Guan,regular
+1218588052,ref,30,regular
+1221477115,exit_to,Bukit Timah Expressway,regular
+1221477115,highway,motorway_junction,regular
+1221477115,name,Chantek,regular
+1221477115,ref,24,regular
+1240497336,T301-2,QS e-Studio 1 & 2,regular
+1240497336,T304-5,CE e-Studio 1 & 2,regular
+1240497336,T331,Technical Support Centre,regular
+1240497336,T332/3,CAD/CAM Lab,regular
+1244431993,amenity,atm,regular
+1244431993,operator,OCBC,regular
+1266397356,amenity,post_office,regular
+1266397356,operator,SINGPOST,regular
+1275672876,leisure,marina,regular
+1285282554,amenity,restaurant,regular
+1285282554,name,Poison Ivy Bistro,regular
+1293082913,light,Fl,seamark
+1293082913,light,yellow,seamark
+1293082913,light,7,seamark
+1293082913,light,3,seamark
+1293082913,light,3,seamark
+1293082913,light,F 1734,seamark
+1293082913,type,light_minor,seamark
+1293082913,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083070,fixme,please_fix_position,seamark
+1293083070,landmark,23,seamark
+1293083070,light,Q,seamark
+1293083070,light,green,seamark
+1293083070,light,5,seamark
+1293083070,light,F 1770.62,seamark
+1293083070,longname,"SINGAPORE. Royal Malaysian Naval Base Jetty, head. Elbow.",seamark
+1293083070,name,Elbow.,seamark
+1293083070,type,light_minor,seamark
+1293083070,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083336,beacon_lateral,port,seamark
+1293083336,beacon_lateral,red,seamark
+1293083336,beacon_lateral,iala-a,seamark
+1293083336,light,Fl,seamark
+1293083336,light,red,seamark
+1293083336,light,7,seamark
+1293083336,light,2,seamark
+1293083336,light,3,seamark
+1293083336,light,F 1720.4,seamark
+1293083336,name,Sentosa,seamark
+1293083336,type,beacon_lateral,seamark
+1293083336,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083418,information,Radar reflector.,seamark
+1293083418,light,Iso,seamark
+1293083418,light,white,seamark
+1293083418,light,10,seamark
+1293083418,light,3,seamark
+1293083418,light,6,seamark
+1293083418,light,F 1697.9,seamark
+1293083418,name,"Jodoh Bay, Baruampal.",seamark
+1293083418,radar_reflector,yes,seamark
+1293083418,type,light_major,seamark
+1293083418,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083571,information,"R. 065°-136°, W.-065°.Radar reflector.",seamark
+1293083571,landmark,99,seamark
+1293083571,light,Fl,seamark
+1293083571,light,red,seamark
+1293083571,light,2,seamark
+1293083571,light,48,seamark
+1293083571,light,10,seamark
+1293083571,light,12,seamark
+1293083571,light,136,seamark
+1293083571,light,65,seamark
+1293083571,light,"1+(1),1+(7)",seamark
+1293083571,light,Fl,seamark
+1293083571,light,white,seamark
+1293083571,light,2,seamark
+1293083571,light,48,seamark
+1293083571,light,10,seamark
+1293083571,light,12,seamark
+1293083571,light,65,seamark
+1293083571,light,136,seamark
+1293083571,light,"1+(1),1+(7)",seamark
+1293083571,light,F 1694,seamark
+1293083571,name,Pulau Takong Kecil.,seamark
+1293083571,radar_reflector,yes,seamark
+1293083571,type,landmark,seamark
+1293083571,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083668,beacon_lateral,starboard,seamark
+1293083668,beacon_lateral,green,seamark
+1293083668,beacon_lateral,tower,seamark
+1293083668,beacon_lateral,iala-a,seamark
+1293083668,light,Fl,seamark
+1293083668,light,green,seamark
+1293083668,light,6,seamark
+1293083668,light,5,seamark
+1293083668,light,3,seamark
+1293083668,light,F 1690.6,seamark
+1293083668,name,Selat Pauh.,seamark
+1293083668,type,beacon_lateral,seamark
+1293083668,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083745,light,leading;lower,seamark
+1293083745,light,Fl,seamark
+1293083745,light,yellow,seamark
+1293083745,light,8,seamark
+1293083745,light,2,seamark
+1293083745,light,1,seamark
+1293083745,light,F 1701.8,seamark
+1293083745,name,"Seraya Chemical Pier Range, front.",seamark
+1293083745,type,light_minor,seamark
+1293083745,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083821,light,Fl,seamark
+1293083821,light,yellow,seamark
+1293083821,light,4,seamark
+1293083821,light,2.5,seamark
+1293083821,light,4,seamark
+1293083821,light,F 1701.22,seamark
+1293083821,name,"GATX terminal, W. head.",seamark
+1293083821,type,light_minor,seamark
+1293083821,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083896,light,Fl,seamark
+1293083896,light,yellow,seamark
+1293083896,light,2.5,seamark
+1293083896,light,F 1679.2,seamark
+1293083896,type,light_minor,seamark
+1293083896,source,US NGA Pub. 112. 2009-11-12.,regular
+1293083959,fixme,please_fix_position,seamark
+1293083959,light,Fl,seamark
+1293083959,light,white,seamark
+1293083959,light,10,seamark
+1293083959,light,USNGA 112-21698,seamark
+1293083959,light,4,seamark
+1293083959,light,8,seamark
+1293083959,name,Kuala Sg. Rengit.,seamark
+1293083959,type,light_minor,seamark
+1293083959,source,US NGA Pub. 112. 2009-11-12.,regular
+1293086091,landmark,132,seamark
+1293086091,light,Fl,seamark
+1293086091,light,white,seamark
+1293086091,light,3,seamark
+1293086091,light,41,seamark
+1293086091,light,20,seamark
+1293086091,light,18,seamark
+1293086091,light,F 1417.5,seamark
+1293086091,light,"0.5+(3),0.5+(3),0.5+(12.5)",seamark
+1293086091,name,Tanjung Rambut.,seamark
+1293086091,type,landmark,seamark
+1293086091,source,US NGA Pub. 112. 2009-11-12.,regular
+1293086283,fixme,please_fix_position,seamark
+1293086283,light,white,seamark
+1293086283,light,15,seamark
+1293086283,light,197,seamark
+1293086283,light,197,seamark
+1293086283,light,leading;upper,seamark
+1293086283,light,Oc,seamark
+1293086283,light,23,seamark
+1293086283,light,197,seamark
+1293086283,light,3,seamark
+1293086283,light,F 1772.41,seamark
+1293086283,light,2+(1),seamark
+1293086283,longname,"Teluk Sebong. South Range, front. Rear, 325 meters 197° 53′ from front.",seamark
+1293086283,name,"Rear, 325 meters 197° 53′ from front.",seamark
+1293086283,type,light_minor,seamark
+1293086283,source,US NGA Pub. 112. 2009-11-12.,regular
+1293086483,beacon_lateral,port,seamark
+1293086483,beacon_lateral,red,seamark
+1293086483,fixme,please_fix_position,seamark
+1293086483,landmark,49,seamark
+1293086483,light,Fl,seamark
+1293086483,light,red,seamark
+1293086483,light,10,seamark
+1293086483,light,Radar reflector.,seamark
+1293086483,light,5,seamark
+1293086483,light,12,seamark
+1293086483,light,F 1798,seamark
+1293086483,longname,SELAT RIAU-Tanjung Uban. Pulau Pangkil.,seamark
+1293086483,name,Pulau Pangkil.,seamark
+1293086483,radar_reflector,yes,seamark
+1293086483,type,beacon_lateral,seamark
+1293086483,source,US NGA Pub. 112. 2009-11-12.,regular
+1294328872,amenity,school,regular
+1294328872,name,Sekolah Bina Nusantara Batam,regular
+1294328872,source,Batam Mapping Project,regular
+1308294980,country,Indonesia,is_in
+1308294980,county,Teluk Sebung,is_in
+1308294980,region,Kepulauan Riau,is_in
+1308294980,state,Kepulauan Riau,is_in
+1308294980,name,Pengudang,regular
+1308294980,place,village,regular
+1308321059,country,Indonesia,is_in
+1308321059,county,Tanjung Pinang Timur,is_in
+1308321059,region,Kota Tanjung Pinang,is_in
+1308321059,state,Kepulauan Riau,is_in
+1308321059,name,Air Raja,regular
+1308321059,place,village,regular
+1308344417,country,Indonesia,is_in
+1308344417,county,Karimun,is_in
+1308344417,region,Karimun,is_in
+1308344417,state,Kepulauan Riau,is_in
+1308344417,name,Sungai Lakam,regular
+1308344417,place,village,regular
+1308365209,country,Indonesia,is_in
+1308365209,county,Teluk Bintan,is_in
+1308365209,region,Kepulauan Riau,is_in
+1308365209,state,Kepulauan Riau,is_in
+1308365209,name,Pangkil,regular
+1308365209,place,village,regular
+1308377968,country,Indonesia,is_in
+1308377968,county,Tanjung Pinang Timur,is_in
+1308377968,region,Kota Tanjung Pinang,is_in
+1308377968,state,Kepulauan Riau,is_in
+1308377968,name,Melayu Kota Piring,regular
+1308377968,place,village,regular
+1308393632,country,Indonesia,is_in
+1308393632,county,Tebing,is_in
+1308393632,region,Karimun,is_in
+1308393632,state,Kepulauan Riau,is_in
+1308393632,name,Pongkar,regular
+1308393632,place,village,regular
+1308405255,country,Indonesia,is_in
+1308405255,county,Bintan Utara,is_in
+1308405255,region,Kepulauan Riau,is_in
+1308405255,state,Kepulauan Riau,is_in
+1308405255,name,Tanjung Uban Kota,regular
+1308405255,place,village,regular
+1308465051,country,Indonesia,is_in
+1308465051,county,Kundur Utara,is_in
+1308465051,region,Karimun,is_in
+1308465051,state,Kepulauan Riau,is_in
+1308465051,name,Teluk Radang,regular
+1308465051,place,village,regular
+1308474309,country,Indonesia,is_in
+1308474309,county,Galang,is_in
+1308474309,region,Kota Batam,is_in
+1308474309,state,Kepulauan Riau,is_in
+1308474309,name,Sembulang,regular
+1308474309,place,village,regular
+1314763722,amenity,swimming_pool,regular
+1314891890,housenumber,3,addr
+1314891969,housenumber,8,addr
+1314892091,housenumber,15,addr
+1315774147,shop,supermarket,regular
+1315774176,shop,jewelry,regular
+1315968963,tourism,viewpoint,regular
+1315968963,wheelchair,yes,regular
+1316098766,asset_ref,S3,regular
+1316098766,name,Imbiah,regular
+1316098766,railway,station,regular
+1318459270,amenity,taxi,regular
+1318498382,building,yes,regular
+1318498382,name,Adelphi Peak Estate,regular
+1318513978,building,yes,regular
+1318513978,name,Island Gdns,regular
+1318605429,amenity,fast_food,regular
+1318605429,cuisine,burger,regular
+1318605429,name,McDonald's,regular
+1328497648,barrier,toll_booth,regular
+1328497648,name,Perling Toll Plaza,regular
+1328497648,operator,TTP,regular
+1346558832,asset_ref,17179,regular
+1346558832,highway,bus_stop,regular
+1346558832,location,Commonwealth Avenue West,regular
+1346558832,name,Clementi Station,regular
+1346558832,route_ref,52;105;106;154;183;184;185;189;NR5;NR8,regular
+1363224219,building,yes,regular
+1363224219,name,44B,regular
+1363229301,building,yes,regular
+1363229301,name,30,regular
+1363230915,name,Fragrance Hotel,regular
+1363230915,tourism,hotel,regular
+1363391426,barrier,lift_gate,regular
+1363391426,bicycle,yes,regular
+1363391426,foot,yes,regular
+1373486121,name,Prince of Wales Backpacker Pub & Hostel,regular
+1373486121,tourism,hostel,regular
+1373553352,housenumber,5,addr
+1373553371,housenumber,3,addr
+1375254908,barrier,border_control,regular
+1375254974,barrier,border_control,regular
+1375404393,housenumber,137,addr
+1375404406,housenumber,135,addr
+1375468025,housenumber,18,addr
+1375499048,housenumber,4B,addr
+1375669208,housenumber,148,addr
+1376407779,amenity,place_of_worship,regular
+1376407779,name,Soka Gakkai Indonesia - Batam,regular
+1376407779,religion,buddhist,regular
+1382538838,name,Kost Plamboyan 67,regular
+1394632352,leisure,playground,regular
+1394632352,name,Basket Ball courts,regular
+1394675759,housenumber,23,addr
+1394675759,name,23,regular
+1395507904,housenumber,14,addr
+1395507904,name,14,regular
+1395556693,housenumber,22,addr
+1395556752,housenumber,18,addr
+1395769149,housename,31,addr
+1395769149,housenumber,31,addr
+1395781304,housename,43,addr
+1395781304,housenumber,43,addr
+1396660420,amenity,parking,regular
+1396677523,highway,bus_stop,regular
+1399645063,shop,music,regular
+1433605953,barrier,gate,regular
+1435105074,housename,Ruko Bunga Raya,addr
+1435105074,housenumber,B-20,addr
+1435105074,name,Jongges Music Studio,regular
+1435105074,shop,music,regular
+1435105074,website,jongges.blogspot.com,regular
+1437194717,amenity,restaurant,regular
+1437194717,cuisine,regional,regular
+1437194717,name,Hornbill Restaurant,regular
+1471659508,name,Kolej Tun Ghafar Baba,regular
+1471659508,tourism,hostel,regular
+1483308709,highway,crossing,regular
+1483314931,barrier,border_control,regular
+1493399657,source,Bing,regular
+1493399672,source,Bing,regular
+1493399685,source,Bing,regular
+1500942580,barrier,gate,regular
+1500942580,bicycle,yes,regular
+1500942580,foot,yes,regular
+1500942580,motorcar,yes,regular
+1500942580,motorcycle,yes,regular
+1500942580,name,Gate 4,regular
+1522784671,amenity,school,regular
+1522784671,name,"Sekola Dasar Negri No 006
+Sei Beduk",regular
+1531005326,amenity,library,regular
+1531005326,name,Zhonghua Secondary School Library,regular
+1541140695,asset_ref,80039,regular
+1541140695,highway,bus_stop,regular
+1541140695,location,Geylang Road,regular
+1541140695,name,Opposite Lorong 1 Geylang Terminal,regular
+1541140695,route_ref,2;7;12;13;32;33;51;63;67;80;100;197;NR7,regular
+1548423293,highway,motorway_junction,regular
+1548423293,ref,255C,regular
+1558126659,name,NTUC Fairprice Finest,regular
+1558126659,shop,supermarket,regular
+1560588558,crossing,traffic_signals,regular
+1560588558,crossing_ref,pelican,regular
+1560588558,highway,traffic_signals,regular
+1560588558,sound,yes,traffic_signals
+1570710943,amenity,restaurant,regular
+1570710943,name,Komala's,regular
+1570710943,website,http://www.komalasweb.com/OutletList.aspx?otype=s,regular
+1570710943,wheelchair,no,regular
+1573744052,country,SG,addr
+1573744052,housenumber,99,addr
+1573744052,postcode,320099,addr
+1573744052,street,Whampoa Drive,addr
+1573744052,building,residential,regular
+1573744052,designation,Public housing,regular
+1573744052,name,Block 99,regular
+1575135075,highway,motorway_junction,regular
+1575135075,ref,1705,regular
+1579319304,amenity,shelter,regular
+1579319304,name,Varsity PArk Shelters,regular
+1599226662,highway,traffic_signals,regular
+1604658040,exit_to,Jalan Persisiran Perling 2,regular
+1604658040,highway,motorway_junction,regular
+1604658040,ref,6,regular
+1606046126,amenity,place_of_worship,regular
+1606046126,name,GKKD Panbil,regular
+1606046126,religion,christian,regular
+1615214606,shop,butcher,regular
+1628371723,amenity,shelter,regular
+1628371723,name,Chemperai Hut,regular
+1628816703,natural,tree,regular
+1629037183,crossing,uncontrolled,regular
+1629037183,crossing_ref,zebra,regular
+1629037183,highway,crossing,regular
+1639988483,business,Factronics,regular
+1645524103,housename,New Place Pub & Restaurant,addr
+1645524103,housenumber,New Place Pub & Restaurant,addr
+1645524103,street,Complex New Holiday Block A No. 9-10,addr
+1645524103,alt_name,New Place,regular
+1645524103,amenity,pub,regular
+1645524103,int_name,New Place Pub & Restaurant,regular
+1645524103,name,New Place Pub & Restaurant,regular
+1645524103,source,indolivesite.com,regular
+1645524103,website,www.newplacebatam.com,regular
+1651075533,amenity,toilets,regular
+1652897820,amenity,fuel,regular
+1655544775,amenity,restaurant,regular
+1655544775,name,Adams food court,regular
+1660428291,barrier,lift_gate,regular
+1663971260,amenity,atm,regular
+1667531110,amenity,library,regular
+1682551911,exit_to,Jalan Gelang Patah-Ulu Choh,regular
+1682551911,highway,motorway_junction,regular
+1682551911,ref,309A,regular
+1683121655,crossing,uncontrolled,regular
+1683121655,highway,crossing,regular
+1686891463,housename,Shell No.328 Pasir Panjang,addr
+1686891463,postcode,118654,addr
+1686891463,street,Pasir Panjang Road,addr
+1686891463,name,7-Eleven,regular
+1686891463,shop,convenience,regular
+1691530701,name,Taman Sri Skudai,regular
+1691530701,place,neighbourhood,regular
+1691550322,name,Bandar Baru Uda Utama,regular
+1691550322,place,neighbourhood,regular
+1691550366,name,Taman Siantan,regular
+1691550366,place,neighbourhood,regular
+1691581411,name,Taman Kempas Indah,regular
+1691581411,place,neighbourhood,regular
+1697895339,amenity,parking,regular
+1697895339,capacity,40,regular
+1697895339,fee,50c per 1/2hrs,regular
+1697895339,name,S.Hill.CP,regular
+1697895339,parking,surface,regular
+1697933552,name,Cold.Storage,regular
+1697933552,shop,supermarket,regular
+1699512719,name,Bishan (CCL),regular
+1699512719,railway,subway_entrance,regular
+1699512719,wheelchair,yes,regular
+1699512797,amenity,place_of_worship,regular
+1699512797,name,Temples,regular
+1699512797,religion,buddhist,regular
+1699579435,housename,AMK Hub,addr
+1699579435,amenity,fast_food,regular
+1699579435,cuisine,burger,regular
+1699579435,name,Burger King,regular
+1703819792,unit,01-19,addr
+1703819792,phone,+6564840535,contact
+1703819792,cuisine,Perankan confectionary,regular
+1703819792,name,Chinta Manis Peranakan Patisserie,regular
+1703819792,shop,confectionery,regular
+1703872738,unit,01-06,addr
+1703872738,amenity,cafe,regular
+1703872738,phone,68533608,contact
+1703872738,name,Toast Box,regular
+1703872738,opening_hours,Su-Th 07:30-22:00; Fr-Sa 07:30-22:30; PH 07:30-22:30,regular
+1704365467,amenity,restaurant,regular
+1704365467,name,Foodcourt,regular
+1706605954,amenity,restaurant,regular
+1706605954,cuisine,seafood,regular
+1706605954,name,Big.Prawn.Mee,regular
+1706605954,wheelchair,no,regular
+1708006167,amenity,restaurant,regular
+1709834478,highway,motorway_junction,regular
+1709834478,ref,311,regular
+1710916790,highway,stop,regular
+1710920635,amenity,parking,regular
+1711089852,highway,motorway_junction,regular
+1711089852,ref,4,regular
+1711387763,amenity,marketplace,regular
+1711387814,amenity,restaurant,regular
+1711496375,highway,stop,regular
+1711496406,traffic_calming,hump,regular
+1712151579,traffic_calming,bump,regular
+1712460937,amenity,bank,regular
+1712460937,name,May Bank,regular
+1712488960,amenity,hospital,regular
+1712488960,name,Pontian Hospital,regular
+1712703153,amenity,atm,regular
+1712703153,operator,OCBC,regular
+1712770603,amenity,atm,regular
+1712770603,operator,Posbank,regular
+1716298204,power,tower,regular
+1716298204,source,Bing,regular
+1717635320,highway,motorway_junction,regular
+1717635320,ref,1706,regular
+1717864359,barrier,lift_gate,regular
+1717874563,amenity,restaurant,regular
+1721848780,barrier,lift_gate,regular
+1721892273,amenity,vending_machine,regular
+1721919317,amenity,atm,regular
+1721919317,operator,OCBC,regular
+1722468402,amenity,toilets,regular
+1733883359,country,SG,addr
+1733883359,housenumber,71,addr
+1733883359,postcode,688692,addr
+1733883359,street,Verde View,addr
+1737080476,leisure,playground,regular
+1737553057,name,SPICE Travel,regular
+1737553057,note,Please move to correct place!,regular
+1737553057,shop,travel_agency,regular
+1738410360,asset_ref,18339,regular
+1738410360,highway,bus_stop,regular
+1738410360,location,Lower Kent Ridge Road,regular
+1738410360,name,Opposite Kent Ridge Station,regular
+1738410360,route_ref,95,regular
+1741913414,highway,crossing,regular
+1742816216,amenity,restaurant,regular
+1742816216,name,BB 289 Food House,regular
+1742912387,amenity,fuel,regular
+1742912387,brand,Shell,regular
+1742912387,name,Shell Bukit Batok Nature Park,regular
+1743821649,asset_ref,43389,regular
+1743821649,highway,bus_stop,regular
+1743821649,location,Bukit Batok Avenue 1,regular
+1743821649,name,Opposite Blk 102,regular
+1743821649,route_ref,173;187;189,regular
+1743935830,amenity,cafe,regular
+1743935830,cuisine,vegetarian,regular
+1743935830,name,Hozen Cafe Vegetarian,regular
+1767392066,amenity,restaurant,regular
+1767392066,cuisine,pizza;burger;indian;mexican,regular
+1767392066,internet_access,no,regular
+1767392066,fee,no,internet_access
+1767392066,name,Myra's Beach Club,regular
+1767392094,amenity,toilets,regular
+1770087343,housename,Xamthone Herbal,addr
+1770087343,housenumber,Xamthone Herbal,addr
+1770087343,postcode,29464,addr
+1770087343,street,Pesona Asri Blok A17 No.15,addr
+1770087343,building,house,regular
+1770087343,name,Xamthone Herbal,regular
+1770312798,highway,traffic_signals,regular
+1770366054,highway,motorway_junction,regular
+1770366054,ref,312D,regular
+1770366136,amenity,fuel,regular
+1770366136,brand,BHP,regular
+1770366149,amenity,fuel,regular
+1770366149,brand,Shell,regular
+1773750272,building,yes,regular
+1773750272,name,Kantor KDA,regular
+1775662724,amenity,theatre,regular
+1775662724,name,Goodman Arts Centre,regular
+1784442228,barrier,lift_gate,regular
+1786894920,exit_to,Johor Bahru Inner Ring Road,regular
+1786894920,highway,motorway_junction,regular
+1786894920,ref,102,regular
+1790099241,crossing,uncontrolled,regular
+1790099241,crossing_ref,zebra,regular
+1790099241,highway,crossing,regular
+1790336255,asset_ref,06169,regular
+1790336255,highway,bus_stop,regular
+1790336255,location,Havelock Road,regular
+1790336255,name,River Place Condominium,regular
+1790336255,route_ref,51;64;123;186,regular
+1792635381,barrier,bollard,regular
+1794017130,barrier,lift_gate,regular
+1796770809,amenity,parking,regular
+1796770809,parking,surface,regular
+1800144541,amenity,place_of_worship,regular
+1800144541,denomination,seventh_day_adventist,regular
+1800144541,name,Chuan Hoe Seventh-day Adventist Church,regular
+1800144541,religion,christian,regular
+1800153575,alt_name,SJI International,regular
+1800153575,amenity,school,regular
+1800153575,name,Saint Joseph's Institution International,regular
+1812117845,highway,motorway_junction,regular
+1813341160,amenity,grave_yard,regular
+1813341160,name,Makam Mahmoodiah,regular
+1813341160,source,wikimapia,regular
+1813344548,amenity,grave_yard,regular
+1813344548,name,Tanah Chinees Cemetry,regular
+1813344548,source,wikimapia,regular
+1818523255,barrier,toll_booth,regular
+1818800539,barrier,lift_gate,regular
+1819729771,barrier,gate,regular
+1819762990,barrier,lift_gate,regular
+1819801361,barrier,lift_gate,regular
+1819888844,barrier,toll_booth,regular
+1819888844,name,Penawar Toll Plaza,regular
+1819888844,operator,PWR,regular
+1820717607,beacon_special_purpose,black,seamark
+1820717607,light,front,seamark
+1820717607,light,Fl,seamark
+1820717607,light,white,seamark
+1820717607,light,5,seamark
+1820717607,light,2.5,seamark
+1820717607,light,4,seamark
+1820717607,name,Mobil Front,seamark
+1820717607,type,beacon_special_purpose,seamark
+1821860371,highway,motorway_junction,regular
+1821860371,ref,1715,regular
+1829431135,amenity,fast_food,regular
+1829431135,cuisine,burger,regular
+1829431135,name,McDonald's,regular
+1829431161,amenity,restaurant,regular
+1829431161,name,Tanjong Pagar Food Centre,regular
+1830142259,barrier,gate,regular
+1830363162,amenity,parking,regular
+1830377932,amenity,parking,regular
+1830473021,amenity,parking,regular
+1830761581,name,Sungei Kadut,regular
+1830761581,place,suburb,regular
+1830761683,name,Outram,regular
+1830761683,place,suburb,regular
+1831671847,amenity,parking,regular
+1831684325,amenity,parking,regular
+1831692835,amenity,parking,regular
+1831970409,amenity,taxi,regular
+1832823561,amenity,parking,regular
+1832823561,name,Marina Square,regular
+1832823561,parking,underground,regular
+1832907791,landuse,tree,regular
+1833707162,tourism,hotel,regular
+1833874985,amenity,parking,regular
+1833874985,parking,surface,regular
+1834026260,barrier,gate,regular
+1834282694,name,Newton Food Centre,regular
+1834282694,tourism,attraction,regular
+1834868785,amenity,parking,regular
+1834868785,name,Shaw Tower,regular
+1834868785,parking,multi-storey,regular
+1834868785,wheelchair,no,regular
+1837559499,crossing,traffic_signals,regular
+1837559499,crossing_ref,pelican,regular
+1837559499,highway,traffic_signals,regular
+1838417813,aeroway,gate,regular
+1838417813,ref,B4,regular
+1838456091,aeroway,gate,regular
+1838456091,ref,F54,regular
+1838456167,aeroway,gate,regular
+1838456167,ref,E8,regular
+1838456197,aeroway,gate,regular
+1838456197,ref,E28,regular
+1838456231,aeroway,gate,regular
+1838456231,ref,D44,regular
+1839603993,name,John Little,regular
+1839603993,shop,department_store,regular
+1839603993,wheelchair,yes,regular
+1839614169,name,Clarke Quay (NEL),regular
+1839614169,railway,subway_entrance,regular
+1839626475,name,Raffles Place (EWL/NSL),regular
+1839626475,railway,subway_entrance,regular
+1839626475,wheelchair,no,regular
+1839631104,name,Little India (NEL),regular
+1839631104,railway,subway_entrance,regular
+1839631104,wheelchair,no,regular
+1840076866,name,Toa Payoh (NSL),regular
+1840076866,railway,subway_entrance,regular
+1840121904,crossing,traffic_signals,regular
+1840121904,crossing_ref,pelican,regular
+1840121904,highway,crossing,regular
+1840706029,building,yes,regular
+1840706042,building,yes,regular
+1840720656,name,Marina South Pier,regular
+1840720656,zh,滨海南码头,name
+1840720656,railway,station,regular
+1840720656,ref,NS28,regular
+1840720656,state,proposed,regular
+1840733397,construction,station,regular
+1840733397,name,Beauty World,regular
+1840733397,railway,construction,regular
+1840733397,ref,DT5,regular
+1840733410,name,Fajar,regular
+1840733410,zh,法嘉,name
+1840733410,railway,station,regular
+1840733410,ref,BP10,regular
+1840733424,name,Labrador Park (CCL),regular
+1840733424,railway,subway_entrance,regular
+1840733424,wheelchair,yes,regular
+1840733437,name,Segar,regular
+1840733437,zh,实加,name
+1840733437,railway,station,regular
+1840733437,ref,BP11,regular
+1840733450,name,Telok Blangah (CCL),regular
+1840733450,railway,subway_entrance,regular
+1840733450,wheelchair,yes,regular
+1840734575,name,Compassvale,regular
+1840734575,railway,station,regular
+1840734575,ref,SE1,regular
+1840734607,name,Samudera,regular
+1840734607,railway,station,regular
+1840734607,ref,PW4,regular
+1842169210,name,Blk 32,regular
+1842169301,amenity,parking,regular
+1842169301,parking,surface,regular
+1842170041,amenity,parking,regular
+1842170041,parking,surface,regular
+1842170067,amenity,parking,regular
+1842170067,parking,surface,regular
+1842170340,amenity,parking,regular
+1842170340,parking,surface,regular
+1842696497,highway,bus_stop,regular
+1843452108,amenity,parking,regular
+1843452108,parking,surface,regular
+1843452564,amenity,parking,regular
+1843452564,parking,surface,regular
+1843452798,amenity,parking,regular
+1843452798,parking,surface,regular
+1843744045,name,Kg Makam,regular
+1843744045,place,village,regular
+1844016090,amenity,restaurant,regular
+1844016090,name,Food for Thought,regular
+1845246295,asset_ref,16109,regular
+1845246295,highway,bus_stop,regular
+1845246295,location,Science Park Road,regular
+1845246295,name,The Alpha,regular
+1845246295,route_ref,183,regular
+1845246348,asset_ref,22191,regular
+1845246348,highway,bus_stop,regular
+1845246348,location,Soon Lee Road,regular
+1845246348,name,Soon Lee Depot,regular
+1845246348,route_ref,185;502;502A,regular
+1846569481,asset_ref,52309,regular
+1846569481,highway,bus_stop,regular
+1846569481,location,Toa Payoh East,regular
+1846569481,name,Blk 30,regular
+1846569481,route_ref,235,regular
+1847031089,asset_ref,13121,regular
+1847031089,highway,bus_stop,regular
+1847031089,location,Zion Road,regular
+1847031089,name,Opposite Great World City,regular
+1847031089,route_ref,1N;2N;3N;4N;5;5N;6N;16;75;175;195;970;NR5,regular
+1847714000,asset_ref,61039,regular
+1847714000,highway,bus_stop,regular
+1847714000,location,Upper Serangoon Road,regular
+1847714000,name,Woodleigh Station,regular
+1847714000,route_ref,13;107;107M;133;147;853;853C;NR6,regular
+1847853701,asset_ref,72081,regular
+1847853701,highway,bus_stop,regular
+1847853701,location,Jalan Damai,regular
+1847853701,name,Opposite Blk 668,regular
+1847853701,route_ref,5;15;58;59;87;585,regular
+1847940083,asset_ref,62031,regular
+1847940083,highway,bus_stop,regular
+1847940083,location,Upper Paya Lebar Road,regular
+1847940083,name,How Sun Park,regular
+1847940083,route_ref,22;24;43;58;62;70;70M;76;80,regular
+1849631273,asset_ref,67629,regular
+1849631273,highway,bus_stop,regular
+1849631273,location,Buangkok Drive,regular
+1849631273,name,Blk 557,regular
+1849631273,route_ref,43,regular
+1849631328,amenity,taxi,regular
+1849631328,name,Singapore-Johore Taxi,regular
+1851139238,asset_ref,84589,regular
+1851139238,highway,bus_stop,regular
+1851139238,location,Chai Chee Drive,regular
+1851139238,name,Before New Upper Changi Road,regular
+1851139238,route_ref,222,regular
+1852391132,amenity,marketplace,regular
+1852391132,name,Teban Market & Food Centre,regular
+1852876992,highway,crossing,regular
+1853830420,amenity,fast_food,regular
+1853830420,name,Burger King,regular
+1854311883,asset_ref,67379,regular
+1854311883,highway,bus_stop,regular
+1854311883,location,Anchorvale Road,regular
+1854311883,name,Opposite Blk 313 Carpark,regular
+1854311883,route_ref,50;372,regular
+1855320983,asset_ref,11039,regular
+1855320983,highway,bus_stop,regular
+1855320983,location,Queensway,regular
+1855320983,name,Blk 19,regular
+1855320983,route_ref,51;61;93;100;123;147;153;196;198;855;961;961C,regular
+1856633933,asset_ref,68101,regular
+1856633933,highway,bus_stop,regular
+1856633933,location,Seletar Aerospace Drive,regular
+1856633933,name,Rolls Royce Private Limited,regular
+1856633933,route_ref,103,regular
+1857415968,crossing,uncontrolled,regular
+1857415968,crossing_ref,zebra,regular
+1857415968,highway,crossing,regular
+1858782498,amenity,car_wash,regular
+1858782498,name,Shell Car Wash,regular
+1858782498,self_service,no,regular
+1861192911,asset_ref,43779,regular
+1861192911,highway,bus_stop,regular
+1861192911,location,Bukit Batok Road,regular
+1861192911,name,After Bukit Batok West Avenue 2,regular
+1861192911,route_ref,160;180,regular
+1863072196,amenity,place_of_worship,regular
+1863072196,name,Sri Thendayuthapani Temple,regular
+1863993054,asset_ref,58331,regular
+1863993054,highway,bus_stop,regular
+1863993054,location,Canberra Link,regular
+1863993054,name,Blk 589D,regular
+1863993054,route_ref,167,regular
+1863993067,asset_ref,43821,regular
+1863993067,highway,bus_stop,regular
+1863993067,location,Hume Avenue,regular
+1863993067,name,Opposite Symphony Heights,regular
+1863993067,route_ref,173,regular
+1864054648,asset_ref,27479,regular
+1864054648,highway,bus_stop,regular
+1864054648,location,Jurong West Street 23,regular
+1864054648,name,Opposite Corporation Primary School,regular
+1864054648,route_ref,185,regular
+1865254870,asset_ref,84091,regular
+1865254870,highway,bus_stop,regular
+1865254870,location,Bedok North Interchange,regular
+1865254870,name,Blk 204,regular
+1865254870,route_ref,14;18;66;69;168;222;225;228,regular
+1865254883,asset_ref,78269,regular
+1865254883,highway,bus_stop,regular
+1865254883,location,Jln Loyang Besar,regular
+1865254883,name,Opp Loyang Townhouse,regular
+1865254883,route_ref,354,regular
+1867272065,asset_ref,58371,regular
+1867272065,highway,bus_stop,regular
+1867272065,location,Sembawang Cresent,regular
+1867272065,name,Between Blks 325/326,regular
+1867272065,route_ref,859;962,regular
+1867272096,asset_ref,58379,regular
+1867272096,highway,bus_stop,regular
+1867272096,location,Sembawang Cresent,regular
+1867272096,name,Opposite Blk 325,regular
+1867272096,route_ref,859;962,regular
+1867526370,asset_ref,14451,regular
+1867526370,highway,bus_stop,regular
+1867526370,location,Mt Faber Rd,regular
+1867526370,name,Aft Jewel Box,regular
+1867526370,route_ref,409,regular
+1867526551,asset_ref,43809,regular
+1867526551,highway,bus_stop,regular
+1867526551,location,Bukit Batok Street 52,regular
+1867526551,name,Blk 514,regular
+1867526551,route_ref,945,regular
+1867526727,asset_ref,45441,regular
+1867526727,highway,bus_stop,regular
+1867526727,location,Sungei Kadut Drive,regular
+1867526727,name,Opposite Eng Hua Furniture Manufacturing Private Limited,regular
+1867526727,route_ref,925,regular
+1868203022,highway,bus_stop,regular
+1868203022,location,Artillery Avenue,regular
+1868203022,name,Artillery Avenue,regular
+1868203022,route_ref,Blue;Yellow;Red,regular
+1868203038,highway,bus_stop,regular
+1868203038,name,Siloso Point,regular
+1868203038,route_ref,Blue;Red,regular
+1868203122,asset_ref,3,regular
+1868203122,fixme,Actual location of stops,regular
+1868203122,name,Opp Southernmost Point,regular
+1868203122,railway,tram_stop,regular
+1868431400,asset_ref,59601,regular
+1868431400,highway,bus_stop,regular
+1868431400,location,Yishun Avenue 6,regular
+1868431400,name,Between Blks 391/392,regular
+1868431400,route_ref,806;850E,regular
+1868431453,asset_ref,59579,regular
+1868431453,highway,bus_stop,regular
+1868431453,location,Yishun Ring Road,regular
+1868431453,name,Blk 456,regular
+1868431453,route_ref,804;850E;860,regular
+1868458315,asset_ref,58439,regular
+1868458315,highway,bus_stop,regular
+1868458315,location,Champions Way,regular
+1868458315,name,Innova Junior College,regular
+1868458315,route_ref,900A,regular
+1873233373,name,New York,regular
+1873233373,tourism,attraction,regular
+1873911799,amenity,food_court,regular
+1873911799,name,Malaysian Food Street,regular
+1879216363,ref,6,regular
+1879216363,source,"Limits in the Seas, No. 60, ""Territorial Sea Boundary: Indonesia-Singapore” 1974-11-11",regular
+1889319395,construction,station,regular
+1889319395,name,Springleaf,regular
+1889319395,railway,construction,regular
+1889319395,ref,TS4,regular
+1889319395,state,proposed,regular
+1897595263,amenity,restaurant,regular
+1897595263,name,Boon Tong Kee,regular
+1897595263,wheelchair,yes,regular
+1897670416,man_made,tower,regular
+1907014535,amenity,cafe,regular
+1907014535,name,Starbucks,regular
+1907922853,asset_ref,31191,regular
+1907922853,highway,bus_stop,regular
+1907922853,location,Old Choa Chu Kang Road,regular
+1907922853,name,B26 Old Choa Chu Kang Road,regular
+1907922853,route_ref,172;975,regular
+1907922874,asset_ref,N4411,regular
+1907922874,highway,bus_stop,regular
+1907922874,location,Choa Chu Kang Avenue 2,regular
+1907922874,name,Blk 296,regular
+1907922874,route_ref,NR3,regular
+1907922887,asset_ref,N4581,regular
+1907922887,highway,bus_stop,regular
+1907922887,location,Choa Chu Kang North 7,regular
+1907922887,name,Blk 657 (Lamp Post 11),regular
+1907922887,route_ref,NR3,regular
+1907922902,asset_ref,99171,regular
+1907922902,highway,bus_stop,regular
+1907922902,location,Nicoll Drive,regular
+1907922902,name,Changi Beach Carpark 2,regular
+1907922902,route_ref,9;19;89,regular
+1907922919,asset_ref,70381,regular
+1907922919,highway,bus_stop,regular
+1907922919,location,Circuit Road,regular
+1907922919,name,Kong Hwa School,regular
+1907922919,route_ref,40;155,regular
+1907922937,asset_ref,70081,regular
+1907922937,highway,bus_stop,regular
+1907922937,location,Ubi Avenue 3,regular
+1907922937,name,Opposite HDB Carpark,regular
+1907922937,route_ref,58,regular
+1907922952,asset_ref,47629,regular
+1907922952,highway,bus_stop,regular
+1907922952,location,Woodlands Avenue 7,regular
+1907922952,name,Seagate,regular
+1907922952,route_ref,858;962,regular
+1907944861,asset_ref,47639,regular
+1907944861,highway,bus_stop,regular
+1907944861,location,Woodlands Ave 1,regular
+1907944861,name,Blk 418,regular
+1907944861,route_ref,587,regular
+1907949594,asset_ref,17429,regular
+1907949594,highway,bus_stop,regular
+1907949594,location,Sunset Way,regular
+1907949594,name,Aft Sunset Vale,regular
+1907949594,route_ref,589,regular
+1907949636,asset_ref,91141,regular
+1907949636,highway,bus_stop,regular
+1907949636,location,Meyer Rd,regular
+1907949636,name,The Sovereign,regular
+1907949636,route_ref,566,regular
+1911007501,barrier,lift_gate,regular
+1911008981,crossing,traffic_signals,regular
+1911008981,crossing_ref,pelican,regular
+1911008981,highway,crossing,regular
+1919678198,amenity,shelter,regular
+1927032551,buoy_special_purpose,yellow,seamark
+1927032551,buoy_special_purpose,pillar,seamark
+1927032551,light,Fl,seamark
+1927032551,light,yellow,seamark
+1927032551,light,2,seamark
+1927032551,light,6,seamark
+1927032551,name,Helios 2,seamark
+1927032551,type,buoy_special_purpose,seamark
+1927032621,buoy_lateral,starboard,seamark
+1927032621,buoy_lateral,green,seamark
+1927032621,buoy_lateral,conical,seamark
+1927032621,buoy_lateral,iala-a,seamark
+1927032621,light,Fl,seamark
+1927032621,light,green,seamark
+1927032621,light,2,seamark
+1927032621,type,buoy_lateral,seamark
+1927032683,buoy_lateral,starboard,seamark
+1927032683,buoy_lateral,green,seamark
+1927032683,buoy_lateral,conical,seamark
+1927032683,buoy_lateral,iala-a,seamark
+1927032683,light,Fl,seamark
+1927032683,light,green,seamark
+1927032683,light,5,seamark
+1927032683,name,Triton,seamark
+1927032683,type,buoy_lateral,seamark
+1927032843,buoy_lateral,preferred_channel_starboard,seamark
+1927032843,buoy_lateral,red;green;red,seamark
+1927032843,buoy_lateral,horizontal,seamark
+1927032843,buoy_lateral,can,seamark
+1927032843,buoy_lateral,iala-a,seamark
+1927032843,light,Fl,seamark
+1927032843,light,red,seamark
+1927032843,light,2+1,seamark
+1927032843,light,15,seamark
+1927032843,name,Retan D,seamark
+1927032843,type,buoy_lateral,seamark
+1927032881,buoy_lateral,starboard,seamark
+1927032881,buoy_lateral,green,seamark
+1927032881,buoy_lateral,conical,seamark
+1927032881,buoy_lateral,iala-a,seamark
+1927032881,light,Fl,seamark
+1927032881,light,green,seamark
+1927032881,light,3,seamark
+1927032881,light,15,seamark
+1927032881,name,No. 5,seamark
+1927032881,type,buoy_lateral,seamark
+1927032933,beacon_cardinal,east,seamark
+1927032933,beacon_cardinal,black;yellow;black,seamark
+1927032933,beacon_cardinal,horizontal,seamark
+1927032933,light,Q,seamark
+1927032933,light,white,seamark
+1927032933,light,3,seamark
+1927032933,light,10,seamark
+1927032933,light,9,seamark
+1927032933,type,beacon_cardinal,seamark
+1927233710,buoy_lateral,starboard,seamark
+1927233710,buoy_lateral,green,seamark
+1927233710,buoy_lateral,conical,seamark
+1927233710,buoy_lateral,iala-a,seamark
+1927233710,light,Fl,seamark
+1927233710,light,green,seamark
+1927233710,light,2,seamark
+1927233710,light,10,seamark
+1927233710,name,Bujor,seamark
+1927233710,type,buoy_lateral,seamark
+1927233731,buoy_lateral,starboard,seamark
+1927233731,buoy_lateral,green,seamark
+1927233731,buoy_lateral,conical,seamark
+1927233731,buoy_lateral,iala-a,seamark
+1927233731,light,Fl,seamark
+1927233731,light,green,seamark
+1927233731,light,4,seamark
+1927233731,name,BB8,seamark
+1927233731,type,buoy_lateral,seamark
+1927233746,beacon_special_purpose,yellow,seamark
+1927233746,light,Fl,seamark
+1927233746,light,yellow,seamark
+1927233746,light,3,seamark
+1927233746,light,6,seamark
+1927233746,name,SSC North,seamark
+1927233746,type,beacon_special_purpose,seamark
+1927233759,buoy_special_purpose,yellow,seamark
+1927233759,buoy_special_purpose,barrel,seamark
+1927233759,type,buoy_special_purpose,seamark
+1927233772,buoy_special_purpose,yellow,seamark
+1927233772,buoy_special_purpose,barrel,seamark
+1927233772,type,buoy_special_purpose,seamark
+1930966349,buoy_special_purpose,yellow,seamark
+1930966349,buoy_special_purpose,pillar,seamark
+1930966349,light,Fl,seamark
+1930966349,light,yellow,seamark
+1930966349,light,4,seamark
+1930966349,name,No. 4,seamark
+1930966349,topmark,yellow,seamark
+1930966349,topmark,x-shape,seamark
+1930966349,type,buoy_special_purpose,seamark
+1932081011,name,Toys'R'Us,regular
+1932081011,shop,toys,regular
+1932114503,name,BHG,regular
+1932114503,shop,department_store,regular
+1932121782,name,NTUC Fairprice Xtra,regular
+1932121782,shop,supermarket,regular
+1932121782,wheelchair,yes,regular
+1932205655,name,NTUC Fairprice Finest,regular
+1932205655,shop,supermarket,regular
+1932258475,name,NTUC FairPrice Finest,regular
+1932258475,shop,supermarket,regular
+1932291021,name,NTUC FairPrice,regular
+1932291021,shop,supermarket,regular
+1932320707,name,Cold Storage Specialty,regular
+1932320707,shop,supermarket,regular
+1932320707,wheelchair,yes,regular
+1932320757,name,Grindelwald,regular
+1932320757,shop,supermarket,regular
+1943933728,barrier,bollard,regular
+1945806575,amenity,restaurant,regular
+1945806708,highway,bus_stop,regular
+1948666509,amenity,shelter,regular
+1948685825,barrier,bollard,regular
+1948721893,amenity,toilets,regular
+1951506220,barrier,toll_booth,regular
+1951506220,name,ERP,regular
+1951506282,barrier,toll_booth,regular
+1951506282,name,ERP,regular
+1951889125,housenumber,Bus Stop 27211,addr
+1951889125,street,Nanyang Drive,addr
+1952655517,tourism,hotel,regular
+1968459180,housenumber,1 & 2,addr
+1968459180,street,Jl. Raden Patah,addr
+1968459180,alt_name,BKS,regular
+1968459180,building,office,regular
+1968459180,designation,Construction Solutions,regular
+1968459180,int_name,Bina Kreatif Swakarsa,regular
+1968459180,name,PT. Bina Kreatif Swakarsa,regular
+1968459180,source,www.bks.co.id,regular
+1969329378,radio,yes,communication
+1969329378,man_made,tower,regular
+1969329378,type,communication,tower
+1969329566,radio,yes,communication
+1969329566,man_made,tower,regular
+1969329566,type,communication,tower
+1979649465,name,Wisma LHDN,regular
+1979649465,office,administrative,regular
+1985259581,amenity,shelter,regular
+1985259594,tourism,viewpoint,regular
+1987912302,housename,Block 7,addr
+1987912302,housenumber,03-02,addr
+1987912302,postcode,339153,addr
+1987912302,street,Kallang Place,addr
+1987912302,building,office,regular
+1987912302,int_name,A NüWerkz Web Solutions,regular
+1987912302,name,A NüWerkz International,regular
+1987969521,amenity,post_box,regular
+1987969521,operator,SingPost,regular
+1992228025,barrier,bollard,regular
+1992228025,foot,yes,regular
+1992265734,amenity,bench,regular
+1992265734,backrest,yes,regular
+1992265734,colour,brown,regular
+1992265734,material,wood,regular
+1992265734,seats,4,regular
+1992588656,leisure,playground,regular
+1992588656,name,Bedok Terrace Playground,regular
+1994822020,buoy_lateral,port,seamark
+1994822020,buoy_lateral,red,seamark
+1994822020,buoy_lateral,can,seamark
+1994822020,buoy_lateral,iala-a,seamark
+1994822020,name,Changi,seamark
+1994822020,topmark,red,seamark
+1994822020,topmark,cylinder,seamark
+1994822020,type,buoy_lateral,seamark
+2003564922,aeroway,gate,regular
+2003564922,ref,Gate 2,regular
+2004149508,amenity,restaurant,regular
+2004149508,cuisine,indian,regular
+2004149508,name,Restoran Arsad,regular
+2006121966,information,map,regular
+2006121966,map_size,site,regular
+2006121966,map_type,scheme,regular
+2006121966,name,Japanese Garden,regular
+2006121966,tourism,information,regular
+2006215290,highway,stop,regular
+2006215303,highway,traffic_signals,regular
+2006335399,beacon_special_purpose,warning,seamark
+2006335399,beacon_special_purpose,tower,seamark
+2006335399,name,PUB-TMWTP,seamark
+2006335399,type,beacon_special_purpose,seamark
+2011798243,highway,bus_stop,regular
+2011798243,name,opp Innovation Ctr,regular
+2011836053,highway,bus_stop,regular
+2011836053,name,opp Hall 12,regular
+2011843873,building,entrance,regular
+2012329702,buoy_lateral,port,seamark
+2012329702,buoy_lateral,red,seamark
+2012329702,buoy_lateral,pillar,seamark
+2012329702,buoy_lateral,iala-a,seamark
+2012329702,name,Simpang,seamark
+2012329702,topmark,red,seamark
+2012329702,topmark,cylinder,seamark
+2012329702,type,buoy_lateral,seamark
+2013665811,buoy_cardinal,south,seamark
+2013665811,buoy_cardinal,yellow;black,seamark
+2013665811,buoy_cardinal,horizontal,seamark
+2013665811,buoy_cardinal,pillar,seamark
+2013665811,name,South Nelayan,seamark
+2013665811,topmark,black,seamark
+2013665811,topmark,2 cones down,seamark
+2013665811,type,buoy_cardinal,seamark
+2015359264,name,Nicoll Highway (CCL),regular
+2015359264,railway,subway_entrance,regular
+2016463584,buoy_lateral,starboard,seamark
+2016463584,buoy_lateral,green,seamark
+2016463584,buoy_lateral,conical,seamark
+2016463584,buoy_lateral,iala-a,seamark
+2016463584,name,TJUT-5,seamark
+2016463584,topmark,green,seamark
+2016463584,topmark,"cone, point up",seamark
+2016463584,type,buoy_lateral,seamark
+2017597468,type,buoy_special_purpose,seamark
+2019165454,building,entrance,regular
+2020900496,barrier,lift_gate,regular
+2031222787,board_type,board,regular
+2031222787,information,map,regular
+2031222787,name,Legoland Maps,regular
+2031222865,amenity,toilets,regular
+2043147561,highway,bus_stop,regular
+2043147561,name,Educity@Iskandar,regular
+2043151898,amenity,parking,regular
+2043151898,capacity,50,regular
+2043151898,parking,surface,regular
+2045905762,building,yes,regular
+2048503506,buoy_special_purpose,cable,seamark
+2048503506,buoy_special_purpose,yellow,seamark
+2048503506,buoy_special_purpose,pillar,seamark
+2048503506,light,Fl,seamark
+2048503506,light,yellow,seamark
+2048503506,light,4,seamark
+2048503506,light,6,seamark
+2048503506,name,2,seamark
+2048503506,topmark,yellow,seamark
+2048503506,topmark,x-shape,seamark
+2048503506,type,buoy_special_purpose,seamark
+2048503602,buoy_lateral,preferred_channel_starboard,seamark
+2048503602,buoy_lateral,red;green;red,seamark
+2048503602,buoy_lateral,horizontal,seamark
+2048503602,buoy_lateral,can,seamark
+2048503602,buoy_lateral,iala-a,seamark
+2048503602,light,Fl,seamark
+2048503602,light,red,seamark
+2048503602,light,2+1,seamark
+2048503602,light,10,seamark
+2048503602,type,buoy_lateral,seamark
+2048548103,buoy_special_purpose,yellow,seamark
+2048548103,buoy_special_purpose,pillar,seamark
+2048548103,light,Fl,seamark
+2048548103,light,yellow,seamark
+2048548103,light,4,seamark
+2048548103,light,5,seamark
+2048548103,topmark,yellow,seamark
+2048548103,topmark,x-shape,seamark
+2048548103,type,buoy_special_purpose,seamark
+2048548140,light,Fl,seamark
+2048548140,light,white,seamark
+2048548140,light,3,seamark
+2048548140,light,13,seamark
+2048548140,light,15,seamark
+2048548140,light,15,seamark
+2048548140,light,84,seamark
+2048548140,light,154,seamark
+2048548140,name,Changi,seamark
+2048548140,type,light_major,seamark
+2054156155,buoy_special_purpose,anchorage,seamark
+2054156155,buoy_special_purpose,yellow,seamark
+2054156155,buoy_special_purpose,pillar,seamark
+2054156155,light,Fl,seamark
+2054156155,light,yellow,seamark
+2054156155,light,5,seamark
+2054156155,topmark,yellow,seamark
+2054156155,topmark,x-shape,seamark
+2054156155,type,buoy_special_purpose,seamark
+2085845884,asset_ref,65341,regular
+2085845884,highway,bus_stop,regular
+2085845884,location,Punggol Field,regular
+2085845884,name,Opposite Blk 272C,regular
+2085845884,route_ref,119,regular
+2086858748,amenity,school,regular
+2086858748,name,SMA Santa Maria,regular
+2099138257,amenity,cafe,regular
+2099138257,cuisine,coffee_shop,regular
+2099138257,name,Toby's Estate,regular
+2101668017,crossing,traffic_signals,regular
+2109196891,building,yes,regular
+2110621973,asset_ref,65801,regular
+2110621973,highway,bus_stop,regular
+2110621973,location,Anchorvale Road,regular
+2110621973,name,Blk 309D,regular
+2110621973,route_ref,50,regular
+2120302627,amenity,toilets,regular
+2132500350,name,Shop and Save,regular
+2132500350,shop,mall,regular
+2133850327,amenity,parking_entrance,regular
+2133850327,fee,yes,regular
+2133850327,name,EI3,regular
+2133850327,parking,surface,regular
+2133850327,surface,asphalt,regular
+2133850342,amenity,waste_disposal,regular
+2138851001,amenity,bicycle_rental,regular
+2138851001,name,PCN Pitstop,regular
+2138851001,shop,kiosk,regular
+2148685928,housenumber,137,addr
+2148685928,street,Elias Terrace,addr
+2148685928,building,terrace,regular
+2153940735,amenity,atm,regular
+2153940735,fee,no,regular
+2153940735,operator,CIMB Bank,regular
+2153940735,source,Bing,regular
+2158027230,amenity,parking_entrance,regular
+2158027230,parking,surface,regular
+2174682881,amenity,place_of_worship,regular
+2174682881,name,Surau KTDI,regular
+2174682881,religion,muslim,regular
+2174682881,source,Bing,regular
+2177178256,amenity,parking,regular
+2183395300,amenity,parking,regular
+2183395300,name,Parking,regular
+2183395300,parking,surface,regular
+2183395300,source,Bing,regular
+2185736966,amenity,parking,regular
+2185736966,name,J01 parking lot,regular
+2185736966,parking,surface,regular
+2185736966,source,Bing,regular
+2187146212,power,station,regular
+2187146212,source,Bing,regular
+2204148252,name,International Destination Resort,regular
+2204148252,place,neighbourhood,regular
+2204165521,name,Kota Iskandar,regular
+2204165521,place,locality,regular
+2206262692,exit_to,Taman Tasek,regular
+2206262692,highway,motorway_junction,regular
+2206262692,ref,106,regular
+2206262744,exit_to,Royal Johor Country Club,regular
+2206262744,highway,motorway_junction,regular
+2206262744,ref,105,regular
+2215598956,name,Kampung Wadi Hana,regular
+2215598956,place,neighbourhood,regular
+2215697558,name,Kampung Tanjong Kupang,regular
+2215697558,place,hamlet,regular
+2216136986,name,Desaru,regular
+2216136986,place,hamlet,regular
+2222493596,name,Taman Bukit Indah,regular
+2222493596,place,town,regular
+2222493596,website,http://www.bukitindahjohor.com.my/,regular
+2231988529,housenumber,1,addr
+2231988529,street,Fullerton Square,addr
+2231988529,amenity,nightclub,regular
+2231988529,name,The Butter Factory,regular
+2231988529,website,http://www.thebutterfactory.com/,regular
+2231988529,wheelchair,yes,regular
+2238848880,name,Shop and Save,regular
+2238848880,shop,supermarket,regular
+2244477074,amenity,marketplace,regular
+2244477074,name,Just Anthony Fine Chinese Antique Furniture,regular
+2292017613,amenity,cafe,regular
+2292017613,name,Eco Gourmet Cafe,regular
+2292017613,opening_hours,,regular
+2296644186,amenity,fuel,regular
+2296644186,brand,Esso,regular
+2296644186,diesel,yes,fuel
+2296644186,octane_91,yes,fuel
+2296644186,octane_95,yes,fuel
+2296644186,octane_98,yes,fuel
+2296644186,name,Esso Service Station,regular
+2296644186,operator,Esso,regular
+2299105274,amenity,townhall,regular
+2299105274,name,Holland-Bukit Panjang Town Council,regular
+2299144810,amenity,shelter,regular
+2299144810,fixme,Actual location,regular
+2299144810,ref,MA1,regular
+2299144810,shelter_type,weather_shelter,regular
+2308452478,name,Funan Center,regular
+2308452478,shop,mall,regular
+2308452478,wheelchair,yes,regular
+2308452478,description,"Have to go by the side of the building where the ramp passes smokers who hang around there, so be warned!",wheelchair
+2327785320,name,Lytech Industrial Park,regular
+2327785320,place,locality,regular
+2344613151,amenity,shelter,regular
+2383936399,name,NTUC Kembangan,regular
+2383936399,opening_hours,24/7,regular
+2383936399,shop,supermarket,regular
+2383936501,amenity,police,regular
+2385062148,amenity,restaurant,regular
+2386469358,amenity,post_box,regular
+2398963119,name,Kampung Bakar Batu,regular
+2398963119,place,neighbourhood,regular
+2398963132,name,Kampung Sri Amar,regular
+2398963132,place,neighbourhood,regular
+2398963145,name,Kawasan Industri Tebrau 2,regular
+2398963145,place,neighbourhood,regular
+2398963159,name,Taman Majidee,regular
+2398963159,place,neighbourhood,regular
+2398963172,name,Taman Tasek,regular
+2398963172,place,neighbourhood,regular
+2398963185,bus,yes,regular
+2398963185,fixme,Location Approximated,regular
+2398963185,highway,bus_stop,regular
+2398963185,public_transport,stop_position,regular
+2398963198,bus,yes,regular
+2398963198,highway,bus_stop,regular
+2398963198,Jalan Wong Ah Fook,http://kslresorts.com.my/,regular
+2398963198,public_transport,stop_position,regular
+2398963237,bus,yes,regular
+2398963237,fixme,Location Approximated,regular
+2398963237,highway,bus_stop,regular
+2398963237,public_transport,stop_position,regular
+2398963276,bus,yes,regular
+2398963276,fixme,Location Approximated,regular
+2398963276,highway,bus_stop,regular
+2398963276,public_transport,stop_position,regular
+2398963363,bus,yes,regular
+2398963363,fixme,Location Approximated,regular
+2398963363,highway,bus_stop,regular
+2398963363,public_transport,stop_position,regular
+2398963566,bus,yes,regular
+2398963566,fixme,Location Approximated,regular
+2398963566,highway,bus_stop,regular
+2398963566,public_transport,stop_position,regular
+2398963592,bus,yes,regular
+2398963592,fixme,Location Approximated,regular
+2398963592,highway,bus_stop,regular
+2398963592,public_transport,stop_position,regular
+2398964036,bus,yes,regular
+2398964036,fixme,Location Approximated,regular
+2398964036,highway,bus_stop,regular
+2398964036,public_transport,stop_position,regular
+2398964237,fixme,Location Approximated,regular
+2398964237,highway,bus_stop,regular
+2398964250,fixme,Location Approximated,regular
+2398964250,highway,bus_stop,regular
+2402426982,name,Dhoby Ghaut (NSL),regular
+2402426982,railway,subway_entrance,regular
+2402426995,name,Marymount (CCL),regular
+2402426995,railway,subway_entrance,regular
+2402426995,ref,CC16,regular
+2402426995,wheelchair,no,regular
+2402427017,name,Serangoon (NEL),regular
+2402427017,railway,subway_entrance,regular
+2402530866,amenity,restaurant,regular
+2402530866,name,McDonald's,regular
+2402539698,amenity,fast_food,regular
+2402539698,cuisine,chicken,regular
+2402539698,name,KFC,regular
+2402545431,name,Delifrance,regular
+2402545431,shop,bakery,regular
+2402546676,amenity,restaurant,regular
+2402546676,name,McDonald's,regular
+2402557624,amenity,food_court,regular
+2402557624,name,Kopitiam,regular
+2402557624,operator,Kopitiam,regular
+2402557665,amenity,food_court,regular
+2402557665,name,Kopitiam,regular
+2402557665,operator,Kopitiam,regular
+2402565628,amenity,food_court,regular
+2402565628,name,Food Republic,regular
+2402565628,operator,Food Republic,regular
+2402572723,amenity,cinema,regular
+2402572723,name,Shaw Theatres JCube,regular
+2402572723,operator,Shaw,regular
+2402706676,amenity,parking,regular
+2402974818,amenity,parking,regular
+2402974818,name,Parking,regular
+2406505819,city,Johor Bahru,addr
+2406505819,housenumber,1,addr
+2406505819,postcode,81300,addr
+2406505819,street,Jalan Impian Emas 5/6,addr
+2406505819,amenity,restaurant,regular
+2406505819,cuisine,chinese,regular
+2406505819,name,Restoran Bukit Impian Emas,regular
+2406505819,zh,旺角海鲜饭店,name
+2406505819,phone,+607-5564 204,regular
+2407022185,name,Taman Kasih,regular
+2407022185,place,neighbourhood,regular
+2407022987,bus,yes,regular
+2407022987,fixme,Location Approximated,regular
+2407022987,highway,bus_stop,regular
+2407022987,public_transport,stop_position,regular
+2407023189,highway,bus_stop,regular
+2407023414,highway,bus_stop,regular
+2409009367,name,Taman Masai,regular
+2409009367,place,neighbourhood,regular
+2409009504,bus,yes,regular
+2409009504,fixme,Location Approximated,regular
+2409009504,highway,bus_stop,regular
+2409009504,public_transport,stop_position,regular
+2409009530,bus,yes,regular
+2409009530,fixme,Location Approximated,regular
+2409009530,highway,bus_stop,regular
+2409009530,public_transport,stop_position,regular
+2409009760,bus,yes,regular
+2409009760,fixme,Location Approximated,regular
+2409009760,highway,bus_stop,regular
+2409009760,public_transport,stop_position,regular
+2409009823,bus,yes,regular
+2409009823,fixme,Location Approximated,regular
+2409009823,highway,bus_stop,regular
+2409009823,public_transport,stop_position,regular
+2409010236,bus,yes,regular
+2409010236,fixme,Location Approximated,regular
+2409010236,highway,bus_stop,regular
+2409010236,public_transport,stop_position,regular
+2410680002,name,Kampung Jawa,regular
+2410680002,place,neighbourhood,regular
+2410680015,name,Taman Ungku,regular
+2410680015,place,neighbourhood,regular
+2410680387,power,tower,regular
+2410681592,power,tower,regular
+2410681942,power,tower,regular
+2410682142,power,tower,regular
+2410682260,power,tower,regular
+2410682260,source,Bing,regular
+2410682332,power,tower,regular
+2410682696,power,tower,regular
+2410682696,source,Bing,regular
+2413651464,amenity,fire_station,regular
+2413651464,name,Bukit Panjang FP,regular
+2421007247,name,Minimart,regular
+2421007247,shop,yes,regular
+2421030320,name,Cold Storage,regular
+2421030320,shop,supermarket,regular
+2424074672,highway,bus_stop,regular
+2424074672,shelter,yes,regular
+2427873229,highway,crossing,regular
+2429951895,asset_ref,50279,regular
+2429951895,highway,bus_stop,regular
+2429951895,location,Gloucester Road,regular
+2429951895,name,After Blk 9,regular
+2429951895,route_ref,141,regular
+2429952017,asset_ref,47641,regular
+2429952017,highway,bus_stop,regular
+2429952017,location,Woodlands Drive 62,regular
+2429952017,name,Blk 681A,regular
+2429952017,route_ref,904,regular
+2429952078,asset_ref,47671,regular
+2429952078,highway,bus_stop,regular
+2429952078,location,Woodlands Cresent,regular
+2429952078,name,Opposite Admiralty Secondary School,regular
+2429952078,route_ref,904,regular
+2429952144,asset_ref,96331,regular
+2429952144,highway,bus_stop,regular
+2429952144,location,Changi South Avenue 2,regular
+2429952144,name,Premier,regular
+2429952144,route_ref,20,regular
+2434556585,power,tower,regular
+2434556585,source,Bing,regular
+2434556620,power,tower,regular
+2434556620,source,Bing,regular
+2434556672,power,tower,regular
+2434556672,source,Bing,regular
+2434556686,barrier,gate,regular
+2434556686,source,Bing,regular
+2434556701,barrier,gate,regular
+2434556701,source,Bing,regular
+2434556740,power,tower,regular
+2434556740,source,Bing,regular
+2434556759,power,tower,regular
+2434556759,source,Bing,regular
+2434556773,power,transformer,regular
+2434556773,source,Bing,regular
+2434556787,power,tower,regular
+2434556787,source,Bing,regular
+2434556802,power,tower,regular
+2434556802,source,Bing,regular
+2434556817,power,tower,regular
+2434556817,source,Bing,regular
+2434556883,power,tower,regular
+2434556883,source,Bing,regular
+2434556903,power,tower,regular
+2434556903,source,Bing,regular
+2434556945,power,tower,regular
+2434556945,source,Bing,regular
+2434567050,power,tower,regular
+2434567050,source,Bing,regular
+2434567063,power,tower,regular
+2434567063,source,Bing,regular
+2434567076,power,tower,regular
+2434567076,source,Bing,regular
+2434567102,power,tower,regular
+2434567102,source,Bing,regular
+2435376937,power,tower,regular
+2435376937,source,Bing,regular
+2435377040,power,tower,regular
+2435377040,source,Bing,regular
+2435377082,power,tower,regular
+2435377082,source,Bing,regular
+2435377107,power,tower,regular
+2435377107,source,Bing,regular
+2435377138,power,tower,regular
+2435377138,source,Bing,regular
+2435377171,power,tower,regular
+2435377171,source,Bing,regular
+2435377207,power,tower,regular
+2435377207,source,Bing,regular
+2435377245,power,tower,regular
+2435377245,source,Bing,regular
+2435537996,power,tower,regular
+2435537996,source,Bing,regular
+2435538023,power,tower,regular
+2435538023,source,Bing,regular
+2435538049,power,tower,regular
+2435538049,source,Bing,regular
+2435538123,power,tower,regular
+2435538123,source,Bing,regular
+2435538186,power,tower,regular
+2435538186,source,Bing,regular
+2435538216,power,tower,regular
+2435538216,source,Bing,regular
+2435538265,power,tower,regular
+2435538265,source,Bing,regular
+2435538294,power,tower,regular
+2435538294,source,Bing,regular
+2435538333,power,tower,regular
+2435538333,source,Bing,regular
+2435538370,power,tower,regular
+2435538370,source,Bing,regular
+2435538405,power,tower,regular
+2435538405,source,Bing,regular
+2435538434,power,tower,regular
+2435538434,source,Bing,regular
+2435538468,power,tower,regular
+2435538468,source,Bing,regular
+2435557350,power,tower,regular
+2435557350,source,Bing,regular
+2435557376,power,tower,regular
+2435557376,source,Bing,regular
+2435557390,power,tower,regular
+2435557390,source,Bing,regular
+2435557403,power,tower,regular
+2435557403,source,Bing,regular
+2435557416,power,tower,regular
+2435557416,source,Bing,regular
+2435557429,power,tower,regular
+2435557429,source,Bing,regular
+2435557442,power,tower,regular
+2435557442,source,Bing,regular
+2435557455,power,tower,regular
+2435557455,source,Bing,regular
+2435557468,power,tower,regular
+2435557468,source,Bing,regular
+2435557481,power,tower,regular
+2435557481,source,Bing,regular
+2435744839,power,tower,regular
+2435744853,power,tower,regular
+2435744853,source,Bing,regular
+2435744867,power,tower,regular
+2435747183,power,tower,regular
+2435773877,power,tower,regular
+2435773877,source,Bing,regular
+2435773890,power,tower,regular
+2435773890,source,Bing,regular
+2435773904,power,tower,regular
+2435773904,source,Bing,regular
+2435773919,power,tower,regular
+2435773919,source,Bing,regular
+2435776342,power,tower,regular
+2435776342,source,Bing,regular
+2435776366,power,tower,regular
+2435776366,source,Bing,regular
+2435788710,barrier,gate,regular
+2435788710,source,Bing,regular
+2435788732,power,tower,regular
+2435788732,source,Bing,regular
+2435792411,power,tower,regular
+2435792411,source,Bing,regular
+2435809916,power,tower,regular
+2435809916,source,Bing,regular
+2437677500,power,tower,regular
+2437677500,source,Bing,regular
+2437677513,power,tower,regular
+2437677513,source,Bing,regular
+2437677539,power,tower,regular
+2437677539,source,Bing,regular
+2437677552,power,tower,regular
+2437677552,source,Bing,regular
+2437679000,power,tower,regular
+2437679000,source,Bing,regular
+2437689803,power,tower,regular
+2437689803,source,Bing,regular
+2439225731,power,tower,regular
+2439225731,source,Bing,regular
+2439225744,power,tower,regular
+2439225744,source,Bing,regular
+2439225761,power,tower,regular
+2439225761,source,Bing,regular
+2439225795,power,tower,regular
+2439225795,source,Bing,regular
+2439225837,power,tower,regular
+2439225837,source,Bing,regular
+2439225878,power,tower,regular
+2439225878,source,Bing,regular
+2439225924,power,tower,regular
+2439225924,source,Bing,regular
+2439225966,power,tower,regular
+2439225966,source,Bing,regular
+2439226015,power,tower,regular
+2439226015,source,Bing,regular
+2439240912,power,tower,regular
+2439240912,source,Bing,regular
+2439240925,power,tower,regular
+2439240925,source,Bing,regular
+2439240951,power,tower,regular
+2439240951,source,Bing,regular
+2439240978,power,tower,regular
+2439240978,source,Bing,regular
+2439240996,power,tower,regular
+2439240996,source,Bing,regular
+2439241022,power,tower,regular
+2439241022,source,Bing,regular
+2439241035,power,tower,regular
+2439241035,source,Bing,regular
+2439246940,power,tower,regular
+2439246940,source,Bing,regular
+2439246977,power,tower,regular
+2439246977,source,Bing,regular
+2439247005,power,tower,regular
+2439247005,source,Bing,regular
+2439261679,power,tower,regular
+2439261679,source,Bing,regular
+2439261692,power,tower,regular
+2439261692,source,Bing,regular
+2439261705,power,tower,regular
+2439261705,source,Bing,regular
+2439268770,power,tower,regular
+2439268770,source,Bing,regular
+2439268797,power,tower,regular
+2439268797,source,Bing,regular
+2439268811,power,tower,regular
+2439268811,source,Bing,regular
+2439275328,power,tower,regular
+2439275328,source,Bing,regular
+2439607871,power,portal,regular
+2439607871,source,Bing,regular
+2439607884,power,portal,regular
+2439607884,source,Bing,regular
+2439608015,power,transformer,regular
+2439608015,source,Bing,regular
+2439692027,power,tower,regular
+2439692027,source,Bing,regular
+2439692043,power,tower,regular
+2439692043,source,Bing,regular
+2439692059,power,tower,regular
+2439692059,source,Bing,regular
+2439692084,power,tower,regular
+2439692084,source,Bing,regular
+2439692106,power,tower,regular
+2439692106,source,Bing,regular
+2439692130,power,tower,regular
+2439692130,source,Bing,regular
+2439692150,power,tower,regular
+2439692150,source,Bing,regular
+2439709095,power,tower,regular
+2439709095,source,Bing,regular
+2439709110,power,tower,regular
+2439709110,source,Bing,regular
+2439709123,power,tower,regular
+2439709123,source,Bing,regular
+2439709136,power,tower,regular
+2439709136,source,Bing,regular
+2439709149,power,tower,regular
+2439709149,source,Bing,regular
+2439714868,power,tower,regular
+2439714868,source,Bing,regular
+2439714881,power,tower,regular
+2439714881,source,Bing,regular
+2439714894,power,tower,regular
+2439714894,source,Bing,regular
+2439727639,power,tower,regular
+2439727639,source,Bing,regular
+2439727668,power,tower,regular
+2439727668,source,Bing,regular
+2439735518,power,transformer,regular
+2439735518,source,Bing,regular
+2439735556,power,portal,regular
+2439735556,source,Bing,regular
+2488194807,name,cheers,regular
+2488194807,shop,supermarket,regular
+2491205139,housename,#01-11,addr
+2491205139,street,Seng Poh Lane,addr
+2491205139,amenity,restaurant,regular
+2491205139,name,De Classic Golden Spoon Pte Ltd,regular
+2491329523,ele,1,regular
+2491329523,name,Forum,regular
+2491836241,amenity,hospital,regular
+2491836241,name,Casa Dental,regular
+2491858058,amenity,restaurant,regular
+2491858058,cuisine,indian,regular
+2491858058,name,Taj Authentic Indian Cuisine,regular
+2491858058,source,Site Visit,regular
+2491947860,tourism,hotel,regular
+2494609789,amenity,telephone,regular
+2497047979,name,Utterly Art,regular
+2497047979,source,www.chinatown.sg,regular
+2497047979,tourism,artwork,regular
+2502361898,landuse,commercial,regular
+2502361898,name,International Enterprise Singapore,regular
+2502368762,amenity,arts_centre,regular
+2502368762,name,Hsinghai Art Association,regular
+2505692120,amenity,bus_station,regular
+2507063851,amenity,parking,regular
+2511000560,name,Bukit Panjang,regular
+2511000560,place,suburb,regular
+2511021918,name,Changi Airport,regular
+2511021918,place,suburb,regular
+2511043965,name,Balestier,regular
+2511043965,place,suburb,regular
+2511052814,name,Marina Bay,regular
+2511052814,place,suburb,regular
+2514733141,city,Singapore,addr
+2514733141,housenumber,40,addr
+2514733141,postcode,098996,addr
+2514733141,street,Siloso Beach Walk,addr
+2514733141,amenity,bar,regular
+2517000869,amenity,restaurant,regular
+2517000869,name,Ayer Rajah Food Centre,regular
+2521058758,city,Singapore,addr
+2521058758,housenumber,28,addr
+2521058758,postcode,059667,addr
+2521058758,street,Hong Kong Street,addr
+2521058758,name,Ensof Event Photography,regular
+2521058758,bitcoin,yes,payment
+2521058758,phone,+65 8500 2760,regular
+2521058758,shop,photo,regular
+2521058758,website,http://ensof.sg,regular
+2529065772,city,Singapore,addr
+2529065772,housenumber,344B,addr
+2529065772,postcode,208576,addr
+2529065772,street,King George Avenue,addr
+2529065772,name,Hackerspace.SG,regular
+2529065772,type,hackerspace,regular
+2529065772,website,http://hackerspace.sg,regular
+2538105534,highway,traffic_signals,regular
+2558764657,County,Tebing,is_in
+2558764657,name,Pelambung,regular
+2558764657,place,village,regular
+2562721669,barrier,lift_gate,regular
+2563991988,amenity,pharmacy,regular
+2563992015,name,Popular Book Store,regular
+2563992015,shop,books,regular
+2564081470,highway,bus_stop,regular
+2564090744,amenity,school,regular
+2564090757,barrier,lift_gate,regular
+2567450216,building,commercial,regular
+2567450216,name,Nagore Dargah Indian Muslim Heritage Centre,regular
+2570950019,amenity,prison,regular
+2570950019,name,St. Joseph's Home,regular
+2577843536,highway,traffic_signals,regular
+2577843615,highway,traffic_signals,regular
+2577843641,highway,crossing,regular
+2577843798,highway,crossing,regular
+2577844036,highway,crossing,regular
+2577844088,highway,crossing,regular
+2579652983,natural,tree,regular
