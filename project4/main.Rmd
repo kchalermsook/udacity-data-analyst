@@ -1,0 +1,580 @@
+Red Wine Quality Exploration by Krissada Chalermsook 
+======================================================== 
+
+The report explore a dataset containing quality and attributes for 1599 red wines with 13 variables. The objective of me is to see which variables influence the quality of red wines
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+# Load all of the packages that you end up using
+# in your analysis in this code chunk.
+
+# Notice that the parameter "echo" was set to FALSE for this code chunk.
+# This prevents the code from displaying in the knitted HTML output.
+# You should set echo=FALSE for all code chunks in your file.
+options(warn=-1)
+library(ggplot2)
+library(reshape2)
+library(hash)
+library(dplyr)
+library(scales)
+library(gridExtra)
+library(hash)
+library(GGally)
+library(corrplot)
+label_map = hash( df_fixed_acidity= 'Fix Acidity', 
+                   df_volatile_acidity= 'Volatile Acidity', 
+                    df_citric_acid= 'Citric Acid', 
+                    df_residual_sugar = 'Residual Sugar', 
+                    df_chlorides= 'Chlorides', 
+                    df_free_sulfur_dioxide= 'Free Sulfur Dioxide', 
+                    df_total_sulfur_dioxide= 'Total Sulfur Dioxide', 
+                    df_density= 'Density', 
+                    df_pH= 'pH', 
+                    df_sulphates= 'Sulphates', 
+                    df_alcohol= 'Alcohol', 
+                    df_quality= 'Quality', 
+                    df_total_acid= 'Total Acid'
+                    )
+get_col_name <- function(v){
+   var_name <- v
+   var_name <- gsub("\\$", "_", var_name)
+   var_name <- gsub("\\.", "_", var_name)
+   return (var_name)
+}
+
+
+setwd("/Users/hideoaki/Dropbox/udacity_nanodegree/data_analyst/project4")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+# Load the Data
+
+df <- read.csv('wineQualityReds.csv', sep=',')
+```
+
+# Univariate Plots Section
+
+First, I run the basic function to see the overview of the data.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Summary}
+dim(df)
+names(df)
+summary(df)
+str(df)
+```
+
+Our dataset consists of 13 variables, with almost 1,599 observations.
+First, the most important variable that I would like to focus is quality. So, let's depict this quality using gplot.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Graph}
+qplot(x = as.factor(quality), data = df)
+table(df$quality)
+```
+
+Then, I would like to know the characteristic of other variables by drawing up multiple bin-size histograms to see a distribution.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Graph_All}
+
+make_3plot <- function(data, column, w2,w3) {
+  col_name <- deparse(substitute(column))
+  xLabel <- label_map[[get_col_name(col_name)]]
+  xLabel2 <- paste(xLabel, " Bin-Size ", w2 , sep=" ") 
+  xLabel3 <- paste(xLabel, " Bin-Size ", w3 , sep=" ") 
+  
+  g1<-ggplot(data, aes(column)) + geom_histogram()   +
+         xlab(xLabel)                                   
+  
+  g2<-ggplot(data, aes(column)) + geom_histogram(binwidth=w2)    +
+         xlab(xLabel2)                   
+  
+  g3<-ggplot(data, aes(column)) + geom_histogram(fill=NA, color="black",binwidth=w3) + theme_bw()  +
+         xlab(xLabel3)
+  
+  return (grid.arrange(g1,g2,g3,ncol = 3) )
+}
+
+make_logplot <- function(column) {
+  col_name <- deparse(substitute(column))
+  xLabel <- label_map[[get_col_name(col_name)]]
+  xLabel <- paste(xLabel, "log(10)", sep=" ") 
+  return(ggplot(data = df,
+       aes(x = column)) +
+         xlab(xLabel) +
+  geom_histogram() +
+  scale_x_log10()) 
+}
+
+make_3plot(df, df$fixed.acidity, 1, 0.1)
+```
+
+The left graph did not tell me so much detail about the variable. After changing the bin size to 1, I can see that the graph is right skewed and the most wine has the fix acidity ranged from 7 to 10. After that, I transform it using log 10.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+make_logplot(df$fixed.acidity)
+```
+
+Transforming the graph using log10 seems to make Fixed acidity looks like normal distribution. Then, I continue to work on volatile acidity.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+make_3plot(df, df$volatile.acidity, 0.1, 0.01)
+
+```
+
+For volatile acidity, there are some outliners that the value > 1.1 I try to plot again by triming these value which value less than 95 percentile.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+df_trim <- df[df$volatile.acidity < quantile(df$volatile.acidity, 0.95), ]
+make_3plot(df_trim, df_trim$volatile.acidity, 0.06, 0.01)
+
+```
+
+The graph in the center seems to be normal distribution now. Then, I continue to work on Citric Acid.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+make_3plot(df, df$citric.acid, 0.1, 0.01)
+
+```
+
+Citric Acid seems to be right-skewed. So, I tried to apply square root transformation as below.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_SQ_transform}
+
+ ggplot(data = df,
+       aes(x = citric.acid)) +
+         xlab("Citric Acid sqrt") +
+  geom_histogram() +
+  scale_x_sqrt()
+
+```
+
+Applying square root scale on X made citric acid graph looks like normal distribution. However, it is quite obvious that there are many zero data on citric acid. I would like to know how much on this. So I tried to count it.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Citric_count}
+length(subset(df, citric.acid == 0)$citric.acid)
+```
+
+There are 132 rows that have citric acid = 0. It is quite unsual on this. I tried to trimmed out this zero value data and tried to plot the graph ag 
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+df_trim_citric <- df[df$citric.acid > 0, ]
+ ggplot(data = df_trim_citric,
+       aes(x = citric.acid)) +
+         xlab("Citric Acid sqrt") +
+  geom_histogram() +
+  scale_x_sqrt()
+
+```
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+make_3plot(df, df$residual.sugar, 1, 0.1)
+```
+
+The bin size = 1 show that there are around 1,100 wines that have residual sugar in the range 1 to 2 and there are very little wine with the value of residual sugar in the range 8 to 16. I also applied the logplot to residual sugar and the graph looks more like bell-shaped.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+make_logplot(df$residual.sugar )
+```
+
+I have investigated every variable using this method and I saw that some graphs are not normal distributed. I tried to plot of variables that are not normal distribution with scale_x_log10 again to see the result.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Graph_All__Log}
+
+# Plot log for other variable 
+grid.arrange(
+  make_logplot(df$fixed.acidity),
+  make_logplot(df$volatile.acidity),
+  make_logplot(df$chlorides),
+  make_logplot(df$total.sulfur.dioxide),
+  ncol = 2
+)
+```
+
+It appear that Fixed acidity, Volatile acidity, Chlorides, Total Sulphur Dioxide, Sulphates turned to be normal distribution. 
+
+Next, In order to find the unsual distribution, I created Box plot of all variables.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_BoxPLot}
+make_boxplot <- function(column, ylab) {
+  col_name <- deparse(substitute(column))
+  return(qplot(data = df, x = 'X',
+               y = column, geom = 'boxplot',
+               xlab = '',
+               ylab = label_map[[get_col_name(col_name)]]))
+}
+grid.arrange(make_boxplot(df$fixed.acidity),
+             make_boxplot(df$volatile.acidity),
+             make_boxplot(df$citric.acid ),
+             make_boxplot(df$residual.sugar),
+             make_boxplot(df$chlorides),
+             make_boxplot(df$free.sulfur.dioxide),
+             make_boxplot(df$total.sulfur.dioxide),
+             make_boxplot(df$density),
+             make_boxplot(df$pH),
+             make_boxplot(df$sulphates),
+             make_boxplot(df$alcohol),
+             ncol = 4)
+```
+
+- Residual sugar and Chlorides have quite narrow value between Q1 and Q3. The data of these 2 variable are quite distributed between min and max value.
+- Citric acid and Alcohol seems to have many data resided between Q1 and Q3. The data is not so much spreaded between min and max.
+- Citric Acid, Chloride, Total Sulfur Dioxide and Alcohol seems to have outliners.
+
+
+Reading from the description of variables, I saw that some variables may be grouped because they have similar characteristic such as fixed.acidity and volatile.acidity So, I tried to see that if I created 1 new variable "Total Acid" by summing up fixed acidity, volatile acidity and citric acid, it will show any interesting data or not.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Univariate_Plots_Graph_Total_Acid}
+df$total.acid <- df$fixed.acidity + df$volatile.acidity + df$citric.acid
+qplot(df$total.acid)
+```
+
+# Univariate Analysis
+
+### What is the structure of your dataset?
+
+- There are 1599 red wines in the dataset with 13 variables. 
+- The variables are fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dixoxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality
+- The main focus is in quality variable which has value from 0 to 10
+
+#### Other observations: ####
+
+- Some variables have outliners such as "Residual Sugar", "Chlorides", "Free Sulfur Dioxide", "Total Sulfur Dioxide", "Sulphates", "Alcohol""
+- Some variables have normal distribution such as "pH", "Density"
+- I tried to plot using log scales for non-normal distribution and it is interesting that some variabiles were changed to normal distribution. The variables are Fix acidity, Volatile Acidity, Chloride, Total Sulfur Dioxide, Sulphates.
+- Using boxplot shows me the well-organized of the overview of the distribution of each variable.
+
+### What is/are the main feature(s) of interest in your dataset?
+
+- My main feature is quality. The interest of me is what are the variables that have the impact on quality of the red wines.
+
+### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
+
+- First, I tried to understand each meaning of variable by looking at this link https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityInfo.txt. 
+- Then, I plan to focus on the variables that have quite different in value (not Normal Distribution) which not include pH and density.
+- Some variables seem to be similar if we look from the description of them such as pH, fixed acidity, volatile acidity, citric acid.
+
+### Did you create any new variables from existing variables in the dataset?
+
+- I would like to know what will happen if I make "Total acid" by summing up Fixed Acidity, Volatile Acidity and Citric Acid. So, I created another variable total.acid and try to plot it.
+
+```R
+df$total.acid <- df$fixed.acidity + df$volatile.acidity + df$citric.acid
+qplot(df$total.acid)
+```
+
+
+### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
+
+- I tried to find the outliner and unsual distribution using boxplot as I plotted in the above section. 
+- After analysing the result I found that there are 132 rows that have citric acid = 0, which I am quite not sure that they are unknown or they have value = 0. 
+- I also found interesting fact such as the quality of the wine ranged between 3 to 8 and did not have 0,1,2,9,10 which mean the expert may have bias to not rank the wine to be very low and very high.
+
+
+
+# Bivariate Plots Section
+
+First, I want to see the correlationship between every variable in more detail. I use corrplot to do this (with method = number for exact number and square for better visualization).
+
+```{r echo=FALSE, Bivariate_Plots_2}
+dfNumber <- df
+dfNumber$quality <-  as.numeric(as.character(dfNumber$quality ))
+dfNumber$X <- NULL
+
+M <- cor(dfNumber)
+cex.before <- par("cex")
+par(cex = 0.7)
+corrplot(M, method="number")
+corrplot(M, method="square")
+
+```
+
+- Fixed Acidity has high correlation value with Citric Acid, density, pH and Total Acid. As we can see from the definition of these variable, it is quite clear that all of these should be related.
+- Total Acid had the same correlation value with other variables in the same way as Fixed Acidity had. It is also make sense because Total Acid is composed of Fixed Acidity.
+- Volatile Acidity, unlike other acid, appeared to have high correlation value with quality which is quite interesting for me to know that it is the only acid that may detemine the quality of the wine.
+- Total Suffer Dioxide had a high correlation value with Free Sulfur Dioxide. By the definition of these 2 variables, it is also make sense on this.
+- For quality, only alcohol and volatile acidity have the high correlation. Other variables have the value below 0.3 which mean they did not determine the quality quite well.
+
+After looking at the overview of correlation table, I created below graph using jitter plot and boxplot to see the overview of the corelation of each variable and quality.
+
+
+```{r echo=FALSE, Bivariate_Plots_1}
+
+df$quality <- factor(df$quality)
+get_2_boxplot <- function(y) {
+  x_name <- deparse(substitute(y))
+  return(qplot(data = df, x = df$quality, y = y, geom = 'boxplot', ylab = label_map[[get_col_name(x_name)]]))
+}
+
+combine_plot <- function(y){
+  y_name <- deparse(substitute(y))
+ return( ggplot(data = df, aes(x=factor(quality), y=y)) +
+    geom_jitter(alpha = 0.3) +
+    geom_boxplot(alpha = 0.5, color = "blue", outlier.color = NA) +
+    stat_summary(fun.y = "mean", geom = "point", color = "red", shape = 10, size = 4) +
+         ylab(label_map[[get_col_name(y_name)]]))
+}
+
+combine_plot( df$fixed.acidity)
+combine_plot( df$volatile.acidity)
+```
+
+- I cannot see any trend in Fixed acidity that can determine the quality of wine which is different from the graph of Volatile Acidity. The graph of Volatile Acidity showed clearly that lower volatile acidity appeared to have higher quality and show the same result as I saw from correlation table.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+combine_plot( df$citric.acid)
+combine_plot( df$total.acid)
+
+```
+
+- The Citric Acid graph showed that the data have only 1 outliners. And the higher median and mean value of each group showed higher quality.
+- Total Acidity seems to have the same trend as Fixed Acidity, the same as we can see from Correlation Graph.
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+combine_plot( df$residual.sugar)+
+         ylab("Residual Sugar ")
+
+combine_plot( df$residual.sugar) + scale_y_log10() +
+         ylab("Residual Sugar (log 10)")
+
+```
+
+- For residual sugar, the upper graph did not show so much difference between median of each plot. But after applying log10 into Y, it show much difference median value and made it easier to determine the outliners.
+
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+combine_plot( df$chlorides) 
+combine_plot( df$free.sulfur.dioxide)
+combine_plot( df$total.sulfur.dioxide)
+combine_plot( df$density)
+combine_plot( df$pH)
+
+```
+
+- Chlorides has most of data in the range 0.05 to 0.29. Only few outliners have the value more than 0.3.
+- Sulfur Dioxide, Total Sulfur Dioxide, Density and pH have high range of Q1 and Q3.
+- The mean and median of pH and density are very close to each other. 
+
+
+``` {r echo=FALSE, message=FALSE, warning=FALSE}
+
+combine_plot( df$sulphates) 
+combine_plot( df$alcohol)
+``` 
+
+- Most of the data of Sulphates have value < 1.5. Only few outliners have value more than 1.5
+- The graph of alcohol showed very clear that higher alcohol resulted in higher quality. 
+
+# Bivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
+
+From the boxplot and jitter plot, I saw that some variables can determine the quality of the wine such as 
+
+- lower volatile acidity
+- higher citric acid
+- higher sulphates
+- lower density
+- lower pH
+- higher alcohol
+
+Then, I tried to explore the correlation value of these above variables with quality of the wine using ggpair and it resulted in the following value.
+
+- alcohol = 0.476
+- volatile acidity  = -0.391
+- sulphates = 0.251
+- citric acid = 0.226
+- density = -0.175
+- pH = -0.0577
+
+It seems that density does not relate to quality so much.
+
+### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
+
+Using the same correlation plot, I try to figure out the features that have correlation more than 0.5 which are:
+
+- fixed acid with citric acid, density, pH
+- volatile acidity with citric acid 
+- citric acid with pH
+- total sulfur dioxide and free sulfur dioxide
+- total acid with ph,density, fixed acid and citric acid
+
+### What was the strongest relationship you found?
+
+- The strongest relationship that I found is total acid and fixed acid which seems reasonable because total acid is composed of fixed acid.
+
+
+
+# Multivariate Plots Section
+
+I tried to look into only features that have strong correlation with quality which are 
+
+- alcohol = 0.476
+- volatile acidity  = -0.391
+- sulphates = 0.251
+- citric acid = 0.226
+- density = -0.175
+and use them to plot below point and facet with quality 
+
+
+```{r echo=FALSE, Multivariate_Plots}
+ggplot(data = df,
+        aes(x = citric.acid, y = volatile.acidity,
+            color = quality)) +
+   geom_point() + scale_colour_brewer(palette = "Greens") + geom_smooth(method='lm', se = FALSE) +theme_dark()
+
+ggplot(data = df,
+        aes(x = alcohol, y = volatile.acidity,
+            color = quality)) +
+   geom_point() + scale_colour_brewer(palette = "Blues") + geom_smooth(method='lm', se = FALSE) +theme_dark()
+
+ggplot(data = df,
+        aes(x = citric.acid, y = sulphates,
+            color = quality)) +
+   geom_point()+ scale_colour_brewer(palette = "Reds") + geom_smooth(method='lm', se = FALSE) +theme_dark()
+
+ggplot(data = df,
+        aes(x = density, y = sulphates,
+            color = quality)) +
+   geom_point() + scale_colour_brewer(palette = "Purples")  + geom_smooth(method='lm', se = FALSE) +theme_dark()
+
+```
+
+Then I tried to analyse other variables that did not relate to the main feature to see some interesting relation of them. First I group the data by total acid and assign them into 3 classes (low, medium, high).
+
+
+```R
+df$acid.class <- ifelse(df$total.acid < 8, 'low', ifelse(
+  df$total.acid < 12, 'medium', 'high'))
+df$acid.class <- ordered(df$acid.class,
+                     levels = c('low', 'medium', 'high'))
+
+```
+And then, I plot acid class with ph, density, fixed acid and citric acid and got the graph below.
+
+```{r echo=FALSE, Multivariate_Plots_acid}
+df$acid.class <- ifelse(df$total.acid < 8, 'low', ifelse(
+  df$total.acid < 12, 'medium', 'high'))
+df$acid.class <- ordered(df$acid.class,
+                     levels = c('low', 'medium', 'high'))
+g1 <- ggplot(data = df,
+        aes(x = fixed.acidity, y = pH,
+            color = acid.class))  +
+  scale_colour_brewer(palette = "Greens") +
+   geom_point() +
+   facet_wrap(~acid.class)  + theme_dark()
+g2 <- ggplot(data = df,
+        aes(x = citric.acid, y = density,
+            color = acid.class)) +
+  scale_colour_brewer(palette = "Greens") +
+   geom_point() +
+   facet_wrap(~acid.class) + theme_dark()
+grid.arrange(g1,g2, ncol = 1)
+```
+
+# Multivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
+
+- The first graph show that citric acid and volatile acid do not seem to have impact on quality that much.
+- It is very clear in graph 2 that higher alcohol and lower volatile acidity make the wine have better quality.
+- Graph 3 and Graph 4 show that citric acid, sulphate and density do not have so much impact on the quality of wine also.
+
+
+
+### Were there any interesting or surprising interactions between features?
+
+- It is very surprising that the graph visualization show that only alcohol has a significant impact on the quality of the wine.
+- The graph of pH, fixed acidity, density, citric acid and acid class are very great example of the visualization of correlated variables. 
+
+
+### OPTIONAL: Did you create any models with your dataset? Discuss the strengths and limitations of your model.
+
+- no
+
+------
+
+# Final Plots and Summary
+
+### Plot One
+
+```{r echo=FALSE, Plot_One}
+
+ggplot(data = df, aes(x = quality, y = alcohol,
+                      color = quality)) +
+  scale_colour_brewer(palette = "Blues") +
+  geom_boxplot() +
+  ggtitle('Alcohol and quality') +
+  xlab('Quality') +
+  ylab('Alcohol %') + theme_dark()
+```
+
+### Description One
+
+This boxplot is very clear to show that alcohol has an impact to the quality of the wine. The higher alcohol leads to better quality of the wine. However, the outliners show that only alcohol may not produce a good wine quality.
+I also notice that the quality 3 and 4 have more alcohol that the quality 3 but has lower in quality, which make it a little bit harder to predict the quality using only alcohol.
+
+### Plot Two
+
+```{r echo=FALSE, Plot_Two}
+grid.arrange(
+ggplot(data = df,
+        aes(x = fixed.acidity, y = pH,
+            color = acid.class)) +
+  scale_colour_brewer(palette = "Greens") +
+   geom_point() + 
+   ylab("pH") + 
+   xlab("Fixed Acidity (g / dm^3)") + 
+   theme_dark()+
+   facet_wrap(~acid.class) + ggtitle('Acid class by Fixed Acidity and pH') 
+,
+ggplot(data = df,
+        aes(x = citric.acid, y = density,
+            color = acid.class)) +
+  scale_colour_brewer(palette = "Greens") +
+   geom_point() + ylab("Density (g / cm^3)") + xlab("Citric Acid (g / dm^3)")+      
+   theme_dark()+
+   facet_wrap(~acid.class) + ggtitle('Acid class by density and citric acid') 
+, ncol = 1
+) 
+```
+
+### Description Two
+
+This graph show that pH, density, fix acidity and citric acid are all related to the amount of acid in the wine. 
+- For pH, the higher pH the lower acid class.
+- For Fixed Acidity, the lower fixed acidity, the lower acid class.
+- For density, the lower density, the higher acid class.
+- For citric acid, the lower citric acid, the lower acid class.
+
+### Plot Three
+
+```{r echo=FALSE, Plot_Three}
+ggplot(data = df, aes(x = df$alcohol, y = df$volatile.acidity,color = quality)) + 
+  geom_point() + 
+    coord_cartesian(ylim = c( 0.15,1.2), xlim = c( 9,14)) +
+   scale_colour_brewer() + 
+  xlab("Alcohol Percentage") + ylab("Volatile Acidity (g / dm^3)") +
+  ggtitle("Volatile Acidity and Alcohol Percentage to determine quality")+theme_dark()
+
+```
+
+### Description Three
+
+This graph use the two variables that have the most corelation value with quality and plot together with quality with tramming outliners (limit alcohol 9-14 and limit volatile acidity to 0.15-1.2). It shows that the lower volatile acidity and the higher alcohol can lead to better wine quality.
+
+------
+
+# Reflection
+
+This project help me to be familiar with data analysis using scatterplot, histogram, boxplot, etc. And it is very interesting to find some interesting fact from the data.
+
+The hardest part when I worked with this project is how to extract the important information from the data I have. How can I start and made a right decision to continue in each step. To be more specific on this, I made a decision to choose quality and focus on that which leaded to finding the important correlation between quality and others. 
+
+I also think that each variable is quite focus on only chemical components. It may be better if we can use some more variables which are easier to understand such as country, year, color, processes and we may discover some more interesting result.
