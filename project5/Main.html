@@ -1,0 +1,77 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>enron.md</title><style></style></head><body id="preview">
+<h1><a id="Identify_Fraud_from_Enron_Email_0"></a>Identify Fraud from Enron Email</h1>
+<p>In 2000, Enron was one of the largest companies in the United States. By 2002, it had collapsed into bankruptcy due to widespread corporate fraud. In the resulting Federal investigation, a significant amount of typically confidential information entered into the public record, including tens of thousands of emails and detailed financial data for top executives. In this project, I tried to predict the suspects or Person of Interest (POI) using the dataset given. The dataset contains email  sent through their company accounts and financial data of all Enron executives and their POI status.</p>
+<p>I use machine learning technique with Python, SKLearn and NumPy to learn insider pays and emailing habits of the employees and see if I can find a pattern and use the model to predict each employee to see whether he/she is the POI or not.</p>
+<h1><a id="Data_Exploration_6"></a>Data Exploration</h1>
+<h3><a id="Summary_8"></a>Summary</h3>
+<ul>
+<li>Number of data points : 146</li>
+<li>Number of POI/ Non POI : 18/128</li>
+<li>Number of Finance Features : 14</li>
+<li>Number of Emai Features : 5</li>
+<li>Number of Added Features : 2</li>
+</ul>
+<p>All features can be categorized into 2 types - financial data and featured extracted from emails. To investigate more into the data, I set up the Python code to print the data_dict information including employee name and the data of that employee.</p>
+<pre><code>for employee in sorted(data_dict):
+    print employee
+    pprint.pprint(data_dict[employee])
+</code></pre>
+<p>Looking through all the names, it is quite clear that “THE TRAVEL AGENCY IN THE PARK” and “TOTAL” seems to be very not quite usual for this data set. By running the code below, I realized that the “THE TRAVEL AGENCY IN THE PARK” has a very weird data which I can trim it out and “TOTAL” seems to be the total of the features.</p>
+<pre><code>pprint.pprint(data_dict[&quot;THE TRAVEL AGENCY IN THE PARK&quot;])
+pprint.pprint(data_dict[&quot;TOTAL&quot;])
+</code></pre>
+<p>Then I tried to remove these two keys using below code.</p>
+<pre><code>data_dict.pop('THE TRAVEL AGENCY IN THE PARK', 0)
+data_dict.pop('TOTAL', 0)
+</code></pre>
+<h2><a id="Choosing_features_38"></a>Choosing features</h2>
+<p>In order to find the most relavant features, there are 2 questions to answers.</p>
+<ol>
+<li>How many features should I use?</li>
+<li>Which features should I use?</li>
+</ol>
+<p>To answer these question, I applied SKLearn’s SelectKBest Module and try to change number of features from 2 to 21, and applied the machine learning technique and use the number of features that can generate the best result which give me the maximum recall+precision value with precision &gt; 0.3 and recall &gt; 0.3</p>
+<h1><a id="New_Features_46"></a>New Features</h1>
+<p>After looking through the definition of each feature. I think it is quite interested to know the ratio of email to and from POI from all the email that each person interact with by using below code</p>
+<pre><code> record['to_ratio'] = float(record['from_poi_to_this_person'] ) / record['to_messages']
+ record['from_ratio'] = float(record['from_this_person_to_poi'] ) / record['from_messages']
+</code></pre>
+<ul>
+<li>Ratio of email received from POI = Number of email received from POI / Total number of emails received</li>
+<li>Ratio of email sent to POI = Number of email sent to POI / Total number of emails sent</li>
+</ul>
+<h1><a id="Evaluation_Metrics_59"></a>Evaluation Metrics</h1>
+<p>In this project, I used precision and recall. Precision is also referred to as positive predictive value. The formular of precision is True Positive/(True Positive + False Positive), which is the correct prediction of all the people who are predicted to be poi.</p>
+<p>Recall is also referred to as the true positive rate or sensitivity. The formular of recall is True Positive/(True Positive + False Negative), which is the proportion of the poi the model can detect of all the poi. For fraud prediction models, it is often biased towards high recall, even though some accuracy is sacrificed.</p>
+<p>Then, I used the code from <a href="http://tester.py">tester.py</a> to generate precision and recall and find the maximum result that can product the best precision + recall value and still retain the precision more and recall more than 0.3.</p>
+<h1><a id="Algorithms_selection_and_tuning_67"></a>Algorithms selection and tuning</h1>
+<ul>
+<li>Together with iterating to every possible number of features, I selected 5 algorithms which are GaussianNB, DecisionTreeClassifier, Kmeans, RandomForestClassifier and SGDClassifier and run the code to get the result of these algolithm.
+<img src="http://www.startupcto.net/rp2.png" alt="alt result" title="Result"></li>
+<li>After got the first result, I select the first and second results that yield the most accuracy which are GuassianNB and RandomForestClassifier for continuing in optmization process.</li>
+</ul>
+<h1><a id="Optimization_73"></a>Optimization</h1>
+<ul>
+<li>Unfortunately, GuassianNB seems to support only 1 parameter which is “priors” which we may not be able to tune up this model.</li>
+<li>I tried to apply GridSearchCV and RandomizedSearchCV on RandomForestClassifier on parameters n_estimators and max_features. It turned out that the most promising result for the parameters is</li>
+</ul>
+<pre><code> RandomForestClassifier(n_jobs=-1,max_features= 'auto' ,n_estimators=200, oob_score = True)
+</code></pre>
+<h1><a id="Validation_and_Performance_81"></a>Validation and Performance</h1>
+<p>I use the same validation as <a href="http://tester.py">tester.py</a> which is StratifiedShuffleSplit. The process of StratifiedShuffleSplit is to provides train/test indices to split data in train/test sets. It returns stratified randomized folds. The folds are made by preserving the percentage of samples for each class which mean it will still maintain the proportion of POI/ non-POI in each data.</p>
+<h2><a id="Evaluation_Result_85"></a>Evaluation Result</h2>
+<p>Algorithm : RandomForestClassifier</p>
+<p>Parameters :  RandomForestClassifier(n_jobs=-1,max_features= ‘auto’ ,n_estimators=200, oob_score = True)</p>
+<p>Precision : 0.64017</p>
+<p>Recall : 0.37450</p>
+<p>Accuracy : 0.87138</p>
+<h1><a id="Discussion_and_Conclusions_97"></a>Discussion and Conclusions</h1>
+<p>This project is the basic starting point of how we can apply each model, change features, tune up parameters or transform. We can try to apply more advance machine learning technique in the future such as Neural Networks or we can choose to build up more complex pipeline for the data. We can also apply the same technique to some other challenge data set such as fraud detection of bank transactions, telephone companies or insurance companies. The given dataset is also quite limited with only 18 POI. We may try to apply the same concept to the bigger dataset in the future.</p>
+<h2><a id="Reference_101"></a>Reference</h2>
+<ul>
+<li><a href="http://scikit-learn.org/stable/documentation.html">http://scikit-learn.org/stable/documentation.html</a></li>
+<li><a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a></li>
+<li><a href="http://prog3.com/article/2015-07-13/2825188">http://prog3.com/article/2015-07-13/2825188</a></li>
+</ul>
+
+</body></html>
