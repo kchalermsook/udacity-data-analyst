@@ -8,8 +8,9 @@
 <li>Number of data points : 146</li>
 <li>Number of POI/ Non POI : 18/128</li>
 <li>Number of Finance Features : 14</li>
-<li>Number of Emai Features : 5</li>
+<li>Number of Email Features : 5</li>
 <li>Number of Added Features : 2</li>
+<li>Number of NaN data for each feature :  [(‘total_stock_value’, 20), (‘total_payments’, 21), (‘restricted_stock’, 36), (‘exercised_stock_options’, 44), (‘salary’, 51), (‘expenses’, 51), (‘other’, 53), (‘to_messages’, 60), (‘from_poi_to_this_person’, 60), (‘from_messages’, 60), (‘from_this_person_to_poi’, 60), (‘shared_receipt_with_poi’, 60), (‘bonus’, 64), (‘long_term_incentive’, 80), (‘deferred_income’, 97), (‘deferral_payments’, 107), (‘restricted_stock_deferred’, 128), (‘director_fees’, 129), (‘loan_advances’, 142)]</li>
 </ul>
 <p>All features can be categorized into 2 types - financial data and featured extracted from emails. To investigate more into the data, I set up the Python code to print the data_dict information including employee name and the data of that employee.</p>
 <pre><code>for employee in sorted(data_dict):
@@ -20,18 +21,42 @@
 <pre><code>pprint.pprint(data_dict[&quot;THE TRAVEL AGENCY IN THE PARK&quot;])
 pprint.pprint(data_dict[&quot;TOTAL&quot;])
 </code></pre>
-<p>Then I tried to remove these two keys using below code.</p>
+<p>Furthermore, I tried to scan through to the file enron61702insiderpay.pdf and saw that there are some employee with incomplete data. I wrote the code to summarize the number of missing features by employee and found that “LOCKHART EUGENE E” is also an outliner.</p>
+<p>Then I tried to remove these three keys using below code.</p>
 <pre><code>data_dict.pop('THE TRAVEL AGENCY IN THE PARK', 0)
 data_dict.pop('TOTAL', 0)
+data_dict.pop('LOCKHART EUGENE E', 0)
 </code></pre>
-<h2><a id="Choosing_features_38"></a>Choosing features</h2>
+<p>I can summarize the dataset as below.</p>
+<ul>
+<li>14% of the dataset is POI. It means that the dataset is unbalanced dataset. Therefore, accuracy should not be a good validation for this dataset compared to recall or precision.</li>
+<li>The number of data is quite small. Stratified Shuffle Split combined with Grid Search CV is a good method to use here with a reasonable processing time. If the dataset is bigger, we may apply RandomizedSearchCV.</li>
+</ul>
+<h2><a id="Choosing_features_47"></a>Choosing features</h2>
 <p>In order to find the most relavant features, there are 2 questions to answers.</p>
 <ol>
 <li>How many features should I use?</li>
 <li>Which features should I use?</li>
 </ol>
-<p>To answer these question, I applied SKLearn’s SelectKBest Module and try to change number of features from 2 to 21, and applied the machine learning technique and use the number of features that can generate the best result which give me the maximum recall+precision value with precision &gt; 0.3 and recall &gt; 0.3</p>
-<h1><a id="New_Features_46"></a>New Features</h1>
+<p>To answer these question, I applied SKLearn’s SelectKBest Module and try to change number of features from 2 to 21, and applied the machine learning technique and use the number of features that can generate the best result which give me the maximum recall+precision value with precision &gt; 0.3 and recall &gt; 0.3.<br>
+The result of the number of best features together with the valuation after iterating through all of the possible features can be shown below</p>
+<p><img src="http://www.topwork.asia/rp3.png" alt="alt result" title="Result"></p>
+<p>However, after printing out the F-Scores in descending order I got the result as below.</p>
+<pre><code>[('exercised_stock_options', 24.815079733218194), ('total_stock_value', 24.182898678566879), ('bonus', 20.792252047181535), ('salary', 18.289684043404513), ('from_ratio', 16.409712548035792), ('deferred_income', 11.458476579280369), ('long_term_incentive', 9.9221860131898225), ('restricted_stock', 9.2128106219771002), ('total_payments', 8.7727777300916756), ('shared_receipt_with_poi', 8.589420731682381), ('loan_advances', 7.1840556582887247), ('expenses', 6.0941733106389453), ('from_poi_to_this_person', 5.2434497133749582), ('other', 4.1874775069953749), ('to_ratio', 3.1280917481567192), ('from_this_person_to_poi', 2.3826121082276739), ('director_fees', 2.1263278020077054), ('to_messages', 1.6463411294420076), ('deferral_payments', 0.22461127473600989), ('from_messages', 0.16970094762175533), ('restricted_stock_deferred', 0.065499652909942141)]
+
+
+</code></pre>
+<p>I decided to set up the cut off point and select the features which have F-Scores more than 18. So I chose only</p>
+<ul>
+<li>exercised_stock_options</li>
+<li>total_stock_value</li>
+<li>bonus</li>
+</ul>
+<p>After runing the code to find the F-Score again by filtering only 3 features, I got the result like this</p>
+<pre><code>[('exercised_stock_options', 21.153646538437151), ('total_stock_value', 20.492888346982209), ('bonus', 17.326074648455403)]
+
+</code></pre>
+<h1><a id="New_Features_78"></a>New Features</h1>
 <p>After looking through the definition of each feature. I think it is quite interested to know the ratio of email to and from POI from all the email that each person interact with by using below code</p>
 <pre><code> record['to_ratio'] = float(record['from_poi_to_this_person'] ) / record['to_messages']
  record['from_ratio'] = float(record['from_this_person_to_poi'] ) / record['from_messages']
@@ -40,38 +65,67 @@ data_dict.pop('TOTAL', 0)
 <li>Ratio of email received from POI = Number of email received from POI / Total number of emails received</li>
 <li>Ratio of email sent to POI = Number of email sent to POI / Total number of emails sent</li>
 </ul>
-<h1><a id="Evaluation_Metrics_59"></a>Evaluation Metrics</h1>
-<p>In this project, I used precision and recall. Precision is also referred to as positive predictive value. The formular of precision is True Positive/(True Positive + False Positive), which is the correct prediction of all the people who are predicted to be poi.</p>
-<p>Recall is also referred to as the true positive rate or sensitivity. The formular of recall is True Positive/(True Positive + False Negative), which is the proportion of the poi the model can detect of all the poi. For fraud prediction models, it is often biased towards high recall, even though some accuracy is sacrificed.</p>
-<p>Then, I used the code from <a href="http://tester.py">tester.py</a> to generate precision and recall and find the maximum result that can product the best precision + recall value and still retain the precision more and recall more than 0.3.</p>
-<h1><a id="Algorithms_selection_and_tuning_67"></a>Algorithms selection and tuning</h1>
+<p>I validate the quality of new features together with the 3 selected features by using F-Scores and got the response below</p>
+<pre><code>[('exercised_stock_options', 23.968332134035151), ('total_stock_value', 23.329343706233661), ('bonus', 19.989875526651559),  ('from_ratio', 15.714789421485827), ('to_ratio', 2.8825849798843919)]
+
+</code></pre>
+<p>It seems that to_ratio did not have so much value. So, I choose only from_ratio and continue to work with the old 3 features with 1 new feature (from_ratio). However, after tuning up until I got final result, I decided to remove from_ratio because it will give me the better result without from_ratio.</p>
+<h1><a id="Feature_Scaling_100"></a>Feature Scaling</h1>
+<p>Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.<br>
+I chose StandardScaler() function to standardized the features in the dataset and applied it to RandomForestClassifier and LogisticRegression. However the result of RandomforestClassifier was worse than not applying the transforming.</p>
+<pre><code>r_clf = Pipeline(steps=[
+    ('scaler', StandardScaler()),
+    ('classifier', RandomForestClassifier(n_jobs=-1, max_features='auto', n_estimators=200, oob_score=True))])
+
+</code></pre>
 <ul>
-<li>Together with iterating to every possible number of features, I selected 5 algorithms which are GaussianNB, DecisionTreeClassifier, Kmeans, RandomForestClassifier and SGDClassifier and run the code to get the result of these algolithm.
-<img src="http://www.startupcto.net/rp2.png" alt="alt result" title="Result"></li>
+<li>The result</li>
+</ul>
+<h1><a id="Evaluation_Metrics_114"></a>Evaluation Metrics</h1>
+<p>In this project, I used precision and recall. The formular of precision in this project is</p>
+<p>(number of people who are predicted to be poi and they are actually poi)/((number of people who are predicted to be poi and they are actually poi) + (number of people who are predicted to be poi but they are actually non-poi)).</p>
+<p>Recall is also referred to as the true positive rate or sensitivity. The formular of recall is</p>
+<p>(number of people who are predicted to be poi and they are actually poi)/((number of people who are predicted to be poi and they are actually poi) + (number of people who are predicted to be non-poi but they are actually poi)).</p>
+<p>For fraud prediction models, it is often biased towards high recall, even though some accuracy is sacrificed.</p>
+<p>Then, I used the code from <a href="http://tester.py">tester.py</a> to generate precision and recall and find the maximum result that can product the best precision + recall value and still retain the precision more and recall more than 0.3.</p>
+<h1><a id="Algorithms_selection_and_tuning_128"></a>Algorithms selection and tuning</h1>
+<ul>
+<li>Together with iterating to every possible number of features, I selected 4 algorithms which are GaussianNB, DecisionTreeClassifier, RandomForestClassifier and SGDClassifier and run the code to get the result of these algolithm.<br>
+<img src="http://www.topwork.asia/rp3.png" alt="alt result" title="Result"></li>
 <li>After got the first result, I select the first and second results that yield the most accuracy which are GuassianNB and RandomForestClassifier for continuing in optmization process.</li>
 </ul>
-<h1><a id="Optimization_73"></a>Optimization</h1>
+<h1><a id="Optimization_134"></a>Optimization</h1>
 <ul>
+<li>As we knew that one of the difficulties in building machine learning algorithms is that it requires us to set parameters before we use the models. Changing the value of parameters will have a greater effect to the performance for each model. Our goal is to find the optimal parameters that can results in the best precision and recall.</li>
 <li>Unfortunately, GuassianNB seems to support only 1 parameter which is “priors” which we may not be able to tune up this model.</li>
 <li>I tried to apply GridSearchCV and RandomizedSearchCV on RandomForestClassifier on parameters n_estimators and max_features. It turned out that the most promising result for the parameters is</li>
 </ul>
 <pre><code> RandomForestClassifier(n_jobs=-1,max_features= 'auto' ,n_estimators=200, oob_score = True)
 </code></pre>
-<h1><a id="Validation_and_Performance_81"></a>Validation and Performance</h1>
+<h1><a id="Validation_and_Performance_144"></a>Validation and Performance</h1>
+<ul>
+<li>
+<p>Validation is mainly used in settings where the goal is prediction, and one wants to estimate how accurately a predictive model will perform in practice. It is also meant to prevent overfiting. Overfiting is happened when the algorithm perform very well on the training data, but failed to perform on the testing data.</p>
+</li>
+<li>
 <p>I use the same validation as <a href="http://tester.py">tester.py</a> which is StratifiedShuffleSplit. The process of StratifiedShuffleSplit is to provides train/test indices to split data in train/test sets. It returns stratified randomized folds. The folds are made by preserving the percentage of samples for each class which mean it will still maintain the proportion of POI/ non-POI in each data.</p>
-<h2><a id="Evaluation_Result_85"></a>Evaluation Result</h2>
+</li>
+</ul>
+<h2><a id="Evaluation_Result_150"></a>Evaluation Result</h2>
 <p>Algorithm : RandomForestClassifier</p>
+<p>Features: [‘poi’, ‘bonus’, ‘exercised_stock_options’, ‘total_stock_value’]</p>
 <p>Parameters :  RandomForestClassifier(n_jobs=-1,max_features= ‘auto’ ,n_estimators=200, oob_score = True)</p>
 <p>Precision : 0.64017</p>
 <p>Recall : 0.37450</p>
 <p>Accuracy : 0.87138</p>
-<h1><a id="Discussion_and_Conclusions_97"></a>Discussion and Conclusions</h1>
+<h1><a id="Discussion_and_Conclusions_164"></a>Discussion and Conclusions</h1>
 <p>This project is the basic starting point of how we can apply each model, change features, tune up parameters or transform. We can try to apply more advance machine learning technique in the future such as Neural Networks or we can choose to build up more complex pipeline for the data. We can also apply the same technique to some other challenge data set such as fraud detection of bank transactions, telephone companies or insurance companies. The given dataset is also quite limited with only 18 POI. We may try to apply the same concept to the bigger dataset in the future.</p>
-<h2><a id="Reference_101"></a>Reference</h2>
+<h2><a id="Reference_168"></a>Reference</h2>
 <ul>
 <li><a href="http://scikit-learn.org/stable/documentation.html">http://scikit-learn.org/stable/documentation.html</a></li>
 <li><a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a></li>
 <li><a href="http://prog3.com/article/2015-07-13/2825188">http://prog3.com/article/2015-07-13/2825188</a></li>
+<li><a href="https://www.quora.com/What-kind-of-statistical-methods-are-used-in-credit-card-fraud-detection-and-anti-money-laundering">https://www.quora.com/What-kind-of-statistical-methods-are-used-in-credit-card-fraud-detection-and-anti-money-laundering</a></li>
 </ul>
 
 </body></html>
