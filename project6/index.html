@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+        <style>
+            h2 {
+                text-align: left;
+                color: black;
+
+            }
+            h3 {
+                text-align: center;
+                color: black;
+            }
+            div.btn_filter {
+                position: fixed;
+                top: 145px;
+                left: 730px;
+            }
+            div.btn_filter div {
+                background-color: #E3F2FD;
+                color : black;
+                padding: 3px;
+                margin: 7px;
+            }
+            div.btn_mode {
+                position: fixed;
+                top: 300px;
+                left: 730px;
+            }
+            div.btn_mode div {
+                background-color: #E0F2F1;
+                color : black;
+                padding: 3px;
+                margin: 7px;
+            }
+        </style>
+        <script type="text/javascript">
+            function transformData(data) {
+                // Filter out data that Age is empty
+                data = data.filter(function (d) {
+                    return  d.Age !== '';
+                });
+                data = data.filter(function (d) {
+                    return  d.Pclass !== '';
+                });
+                data.forEach(function (d, i) {
+                    if (d.Age <= 12 ) {
+                        d.AgeType = 'Child';
+                    }  else if (d.Sex === 'male') {
+                        d.AgeType = 'Men';
+                    } else {
+                        d.AgeType = 'Women';
+                    }
+                    //
+                    if (d.Survived === "0") {
+                        d.SurvivedText = "Died";
+                    } else {
+                        d.SurvivedText = "Survived";
+                    }
+                    //
+                    if (d.Pclass === "1") {
+                        d.Class = "1st class";
+                    } else if (d.Pclass === "2") {
+                        d.Class = "2nd class";
+                    } else {
+                        d.Class = "3rd class";
+                    }
+                    d.Count = 1;
+                    return d;
+                });
+            }
+
+            function prepareData(data) {
+                transformData(data);
+                draw(data);
+            }
+            function updateFilter(wg, ct, svg, data) {
+                createChart(wg, ct, svg, data)
+                return wg;
+            }
+            function updateMode(ct, wg, svg, data) {
+                createChart(wg, ct, svg, data)
+                return ct;
+            }
+
+            function createChart(targetGroup, plot_type, svg, data) {
+                var chart1 = svg.selectAll('*').remove();
+                // filter the data base on different categories
+                if (targetGroup === "All Passengers") {
+                    d3.select("h3")
+                            .text("All Passengers"); // update the titles
+                    data2 = dimple.filterData(data, "AgeType", ['Child', 'Men', 'Women']);
+                } else {
+                    d3.select("h3")
+                            .text("Children");
+                    data2 = dimple.filterData(data, "AgeType", targetGroup);
+                }
+                chart1 = updateChart("Class", plot_type, data2, svg);
+                chart1.assignColor('Died', "#EF5350", "white", 0.7);
+                chart1.draw();
+            }
+
+            function updateChart(x_var, s_var, data2, svg) {
+                var myChart1 = new dimple.chart(svg, data2);
+                var x = myChart1.addCategoryAxis("x", x_var);
+                x.addOrderRule(["1st class", "2nd class", "3rd class"])
+                myChart1.addLegend(200, 10, 280, 20, "right");
+                // add y axile as absolution value         
+                if (s_var === 'Absolute Value') {
+                    myChart1.addMeasureAxis("y", "Count");
+                    var mySeries = myChart1.addSeries("SurvivedText", dimple.plot.bar);
+                    mySeries.addOrderRule(["Died", "Survived"])
+                } else if (s_var === 'Percentage') {
+                    myChart1.addPctAxis("y", "Count");
+                    var mySeries = myChart1.addSeries("SurvivedText", dimple.plot.bar);
+                    mySeries.addOrderRule(["Died", "Survived"])
+                }
+                return myChart1;
+            }
+            var currentMode = 'Absolute Value';
+            var currentGroup = 'All Passengers';
+            function draw(data) {
+                "use strict";
+                var margin = 50,
+                        width = 800 - margin,
+                        height = 500 - margin;
+                // header
+                d3.select("body")
+                        .append("h2")
+                        .text("Survival Chance on the Titanic");
+                d3.select("body")
+                        .append("h3")
+                        .text("All Passengers");
+
+                var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", width + margin)
+                        .attr("height", height + margin)
+                        .append('g')
+                        .attr('class', 'chart');
+                var filterLabels = ['All Passengers', 'Child', 'Men', 'Women'];
+                var modeLabels = ['Absolute Value', 'Percentage'];
+
+
+                d3.select("h3")
+                        .text("All Passengers");
+                // create inicial chart
+                createChart('All Passengers', 'Absolute Value', svg, data)
+                //create Button Filter 
+                var btnFilter = d3.select("body")
+                        .append("div")
+                        .attr("class", "btn_filter")
+                        .selectAll("div")
+                        .data(filterLabels)
+                        .enter()
+                        .append("div")
+                        .text(function (d) {
+                            return d;
+                        });
+                btnFilter.on("click", function (d) {
+                    d3.select(".btn_filter")
+                            .selectAll("div")
+                            .transition()
+                            .duration(500)
+                            .style("color", "white")
+                            .style("background", "#E3F2FD");
+                    d3.select(this)
+                            .transition()
+                            .duration(500)
+                            .style("background", "#2196F3")
+                            .style("color", "white");
+                    currentGroup = updateFilter(d, currentMode, svg, data);
+                });
+                //create Button Change Mode
+                var btnMode = d3.select("body")
+                        .append("div")
+                        .attr("class", "btn_mode")
+                        .selectAll("div")
+                        .data(modeLabels)
+                        .enter()
+                        .append("div")
+                        .text(function (d) {
+                            return d;
+                        });
+                btnMode.on("click", function (d) {
+                    d3.select(".btn_mode")
+                            .selectAll("div")
+                            .transition()
+                            .duration(500)
+                            .style("color", "white")
+                            .style("background", "#E0F2F1");
+                    d3.select(this)
+                            .transition()
+                            .duration(500)
+                            .style("background", "#009688")
+                            .style("color", "white");
+                    currentMode = updateMode(d, currentGroup, svg, data);
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+//            d3.csv("train.csv", prepareData); // load data
+            d3.csv("titanic_data.csv", prepareData); // load data
+        </script>
+    </body>
+</html>
