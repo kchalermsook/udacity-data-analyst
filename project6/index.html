@@ -47,9 +47,9 @@
                     return  d.Pclass !== '';
                 });
                 data.forEach(function (d, i) {
-                    if (d.Age <= 12 ) {
+                    if (d.Age <= 12) {
                         d.AgeType = 'Child';
-                    }  else if (d.Sex === 'male') {
+                    } else if (d.Sex === 'male') {
                         d.AgeType = 'Men';
                     } else {
                         d.AgeType = 'Women';
@@ -185,6 +185,7 @@
                         .text(function (d) {
                             return d;
                         });
+                
                 btnMode.on("click", function (d) {
                     d3.select(".btn_mode")
                             .selectAll("div")
